@@ -14,8 +14,6 @@ class Solution:
             if visited[i] != True:
                 subset.append(nums[i])
                 visited[i] = True
-
                 self.dfs(nums, visited, subset, res)
-
                 subset.pop()
                 visited[i] = False
