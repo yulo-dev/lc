@@ -7,15 +7,14 @@ class Solution:
         self.dfs(candidates, target, 0, [], res)
         return res
 
-    def dfs(self, candidates, target, k, subset, res):
-
+    def dfs(self, candidates, target, start, subset, res):
         if target == 0:
-            res.append(subset[:])
-            return
+            return res.append(subset[:])
+
         if target < 0:
             return
 
-        for i in range(k, len(candidates)):
+        for i in range(start, len(candidates)):
             subset.append(candidates[i])
             self.dfs(candidates, target - candidates[i], i, subset, res)
             subset.pop()
