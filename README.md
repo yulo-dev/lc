@@ -7,12 +7,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/yulo-dev/lc/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/yulo-dev/lc/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/yulo-dev/lc/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/yulo-dev/lc/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/yulo-dev/lc/tree/master/0200-number-of-islands) |
 | [0419-battleships-in-a-board](https://github.com/yulo-dev/lc/tree/master/0419-battleships-in-a-board) |
 | [1036-rotting-oranges](https://github.com/yulo-dev/lc/tree/master/1036-rotting-oranges) |
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/yulo-dev/lc/tree/master/0079-word-search) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/yulo-dev/lc/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/yulo-dev/lc/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0200-number-of-islands](https://github.com/yulo-dev/lc/tree/master/0200-number-of-islands) |
@@ -33,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0079-word-search](https://github.com/yulo-dev/lc/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/yulo-dev/lc/tree/master/0200-number-of-islands) |
 | [0419-battleships-in-a-board](https://github.com/yulo-dev/lc/tree/master/0419-battleships-in-a-board) |
 | [1036-rotting-oranges](https://github.com/yulo-dev/lc/tree/master/1036-rotting-oranges) |
@@ -43,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0079-word-search](https://github.com/yulo-dev/lc/tree/master/0079-word-search) |
 | [0127-word-ladder](https://github.com/yulo-dev/lc/tree/master/0127-word-ladder) |
 ## Linked List
 |  |
@@ -67,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/yulo-dev/lc/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/yulo-dev/lc/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/yulo-dev/lc/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/yulo-dev/lc/tree/master/0079-word-search) |
 ## Bit Manipulation
 |  |
 | ------- |
