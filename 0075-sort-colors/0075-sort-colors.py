@@ -14,5 +14,3 @@ class Solution:
             else:
                 nums[right], nums[mid] = nums[mid], nums[right]
                 right -= 1
-
-        return nums
