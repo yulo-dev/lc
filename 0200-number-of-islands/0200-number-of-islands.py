@@ -16,19 +16,18 @@ class Solution:
         return islands
 
     def bfs(self, grid, x, y, visited):
+        DIRECTIONS = [(1,0), (-1,0), (0,1), (0,-1)]
         queue = deque([(x, y)])
-        visited.add((x, y))
-        DIRECTIONS = [(1, 0), (-1, 0), (0, 1), (0, -1)]
+        visited.add((x, y)) 
 
         while queue:
             x, y = queue.popleft()
             for dir_x, dir_y in DIRECTIONS:
                 new_x = x + dir_x
                 new_y = y + dir_y
-
                 if not self.is_valid(grid, new_x, new_y, visited):
                     continue
-                queue.append((new_x, new_y))
+                queue.append([new_x, new_y])
                 visited.add((new_x, new_y))
     
     def is_valid(self, grid, x, y, visited):
