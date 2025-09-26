@@ -1,15 +1,12 @@
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
-
-        m, n = len(board), len(board[0])
-        for i in range(m):
-            for j in range(n):
-                if self.check(board, i, j, 0, word, set()):
+        for i in range(len(board)):
+            for j in range(len(board[0])):
+                if self.check(board, i, j, word, 0, set()):
                     return True
-        
-        return False
+        return False  
 
-    def check(self, board, x, y, k, word, visited):
+    def check(self, board, x, y, word, k, visited):
 
         directions = [(0, 1), (0, -1), (1, 0), (-1, 0)]
 
@@ -28,7 +25,7 @@ class Solution:
             new_y = y + dir_y
             if 0 <= new_x < len(board) and 0 <= new_y < len(board[0]):
                 if (new_x, new_y) not in visited:
-                    if self.check(board, new_x, new_y, k + 1, word, visited):
+                    if self.check(board, new_x, new_y, word, k + 1, visited):
                         result = True
                         break
             
