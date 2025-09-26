@@ -15,7 +15,7 @@ class Solution:
             return True
 
         visited.add((x, y))
-        result = False
+        result = False # result 只是為了 中途存「有沒有找到成功路徑」 預設這條路會失敗
 
         for dir_x, dir_y in DIRECTIONS:
             new_x = x + dir_x
@@ -24,7 +24,7 @@ class Solution:
             if (0 <= new_x < len(board)) and (0 <= new_y < len(board[0])):
                 if (new_x, new_y) not in visited:
                     if self.check(board, new_x, new_y, word, k + 1, visited):
-                        result = True
+                        result = True # 如果某個方向成功 → 把 result 改成 True，並 break 提前結束 把他往上傳
                         break
 
         visited.remove((x, y))
