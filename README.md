@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0079-word-search](https://github.com/yulo-dev/lc/tree/master/0079-word-search) |
+| [0125-valid-palindrome](https://github.com/yulo-dev/lc/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/yulo-dev/lc/tree/master/0127-word-ladder) |
 ## Linked List
 |  |
@@ -88,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/yulo-dev/lc/tree/master/0075-sort-colors) |
+| [0125-valid-palindrome](https://github.com/yulo-dev/lc/tree/master/0125-valid-palindrome) |
 ## Sorting
 |  |
 | ------- |
