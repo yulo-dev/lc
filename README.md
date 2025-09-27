@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/yulo-dev/lc/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/yulo-dev/lc/tree/master/0079-word-search) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/yulo-dev/lc/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0169-majority-element](https://github.com/yulo-dev/lc/tree/master/0169-majority-element) |
 | [0200-number-of-islands](https://github.com/yulo-dev/lc/tree/master/0200-number-of-islands) |
 | [0217-contains-duplicate](https://github.com/yulo-dev/lc/tree/master/0217-contains-duplicate) |
 | [0419-battleships-in-a-board](https://github.com/yulo-dev/lc/tree/master/0419-battleships-in-a-board) |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/yulo-dev/lc/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0036-valid-sudoku](https://github.com/yulo-dev/lc/tree/master/0036-valid-sudoku) |
 | [0127-word-ladder](https://github.com/yulo-dev/lc/tree/master/0127-word-ladder) |
+| [0169-majority-element](https://github.com/yulo-dev/lc/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/yulo-dev/lc/tree/master/0217-contains-duplicate) |
 ## String
 |  |
@@ -97,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/yulo-dev/lc/tree/master/0075-sort-colors) |
+| [0169-majority-element](https://github.com/yulo-dev/lc/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/yulo-dev/lc/tree/master/0217-contains-duplicate) |
 ## Sliding Window
 |  |
@@ -106,4 +109,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/yulo-dev/lc/tree/master/0121-best-time-to-buy-and-sell-stock) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/yulo-dev/lc/tree/master/0169-majority-element) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/yulo-dev/lc/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
