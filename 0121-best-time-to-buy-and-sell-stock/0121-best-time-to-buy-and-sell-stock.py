@@ -4,9 +4,7 @@ class Solution:
         buy = prices[0]
 
         for i in range(1, len(prices)):
-            
             profit = max(profit, prices[i] - buy)
-
             if prices[i] < buy:
                 buy = prices[i]
 
