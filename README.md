@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/yulo-dev/lc/tree/master/0002-add-two-numbers) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/yulo-dev/lc/tree/master/0116-populating-next-right-pointers-in-each-node) |
 ## Tree
 |  |
@@ -124,4 +125,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/yulo-dev/lc/tree/master/0169-majority-element) |
+## Math
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/yulo-dev/lc/tree/master/0002-add-two-numbers) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/yulo-dev/lc/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
