@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/yulo-dev/lc/tree/master/0127-word-ladder) |
 | [0169-majority-element](https://github.com/yulo-dev/lc/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/yulo-dev/lc/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/yulo-dev/lc/tree/master/0242-valid-anagram) |
 ## String
 |  |
 | ------- |
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/yulo-dev/lc/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/yulo-dev/lc/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/yulo-dev/lc/tree/master/0127-word-ladder) |
+| [0242-valid-anagram](https://github.com/yulo-dev/lc/tree/master/0242-valid-anagram) |
 ## Linked List
 |  |
 | ------- |
@@ -101,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/yulo-dev/lc/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/yulo-dev/lc/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/yulo-dev/lc/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/yulo-dev/lc/tree/master/0242-valid-anagram) |
 ## Sliding Window
 |  |
 | ------- |
