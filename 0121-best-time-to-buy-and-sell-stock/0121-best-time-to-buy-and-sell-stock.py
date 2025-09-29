@@ -3,9 +3,8 @@ class Solution:
         profit = 0
         buy = prices[0]
 
-        for i in range(1, len(prices)):
-            profit = max(profit, prices[i] - buy)
-            if prices[i] < buy:
-                buy = prices[i]
-
+        for sell in prices:
+            profit = max(profit, sell - buy)
+            if sell < buy:
+                buy = sell
         return profit
