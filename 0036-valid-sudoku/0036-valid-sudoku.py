@@ -6,18 +6,17 @@ class Solution:
 
         for i in range(len(board)):
             for j in range(len(board[0])):
-                val = board[i][j]
+                vals = board[i][j]
 
-                if val == ".":
-                    continue 
+                if vals == ".":
+                    continue
 
-                box = (i // 3) * 3 + j // 3
+                b = (i // 3) * 3 + j // 3
 
-                if val in rows[i] or val in cols[j] or val in boxes[box]:
+                if vals in rows[i] or vals in cols[j] or vals in boxes[b]:
                     return False
-                
-                rows[i].add(val)
-                cols[j].add(val)
-                boxes[box].add(val)
-                
+
+                rows[i].add(vals)
+                cols[j].add(vals)
+                boxes[b].add(vals)
         return True
