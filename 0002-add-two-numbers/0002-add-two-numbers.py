@@ -10,9 +10,10 @@ class Solution:
         carry = 0
 
         while l1 or l2 or carry:
-            val_1 = l1.val if l1 else 0
-            val_2 = l2.val if l2 else 0
-            tot = val_1 + val_2 + carry
+            l1_val = l1.val if l1 else 0
+            l2_val = l2.val if l2 else 0
+
+            tot = l1_val + l2_val + carry
 
             carry, digit = divmod(tot, 10)
 
@@ -23,4 +24,3 @@ class Solution:
             curr = curr.next
 
         return dummy.next
-
