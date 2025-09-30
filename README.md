@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/yulo-dev/lc/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/yulo-dev/lc/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0013-roman-to-integer](https://github.com/yulo-dev/lc/tree/master/0013-roman-to-integer) |
 | [0036-valid-sudoku](https://github.com/yulo-dev/lc/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/yulo-dev/lc/tree/master/0049-group-anagrams) |
 | [0127-word-ladder](https://github.com/yulo-dev/lc/tree/master/0127-word-ladder) |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/yulo-dev/lc/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0013-roman-to-integer](https://github.com/yulo-dev/lc/tree/master/0013-roman-to-integer) |
 | [0020-valid-parentheses](https://github.com/yulo-dev/lc/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/yulo-dev/lc/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/yulo-dev/lc/tree/master/0079-word-search) |
@@ -148,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/yulo-dev/lc/tree/master/0002-add-two-numbers) |
+| [0013-roman-to-integer](https://github.com/yulo-dev/lc/tree/master/0013-roman-to-integer) |
 ## Recursion
 |  |
 | ------- |
