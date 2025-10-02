@@ -7,7 +7,5 @@ class Solution:
             while stack and temperatures[stack[-1]] < temp:
                 cooler = stack.pop()
                 res[cooler] = i - cooler
-
             stack.append(i)
-         
         return res
