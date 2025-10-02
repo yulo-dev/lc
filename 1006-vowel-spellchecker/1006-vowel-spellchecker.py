@@ -1,54 +1,47 @@
 class Solution:
     def spellchecker(self, wordlist: List[str], queries: List[str]) -> List[str]:
 
-        # Define the helper that collapses vowels to a single placeholder.
-        def devowel(s: str) -> str:
+        def vowel_replace(s):
             vowels = set("aeiou")
-            out = []
+            output = []
             for ch in s:
-                # If the character is a vowel, I map it to '*', else keep it.
-                out.append('*' if ch in vowels else ch)
-            return ''.join(out)
+                if ch in vowels:
+                    output.append('*')
+                else:
+                    output.append(ch)
+            return ''.join(output)
 
-        # 1) Exact set for O(1) exact-match checks.
-        exact = set(wordlist) 
-        # 2) Case-insensitive map: lowercased word -> first original word.
-        case_map = {}  
+        exact_check = set(wordlist)
+        lower_check = {}
+        vowel_check = {}
 
-        # 3) Vowel-error map: devoweled(lowercased word) -> first original word.
-        vowel_map = {}  
+        for ch in wordlist:
+            lower_ch = ch.lower()
 
-        for w in wordlist:
-            lw = w.lower()
-            if lw not in case_map:
-                case_map[lw] = w
+            if lower_ch not in lower_check:
+                lower_check[lower_ch] = ch
+
+            vowel_ch = vowel_replace(lower_ch)
+            if vowel_ch not in vowel_check:
+                vowel_check[vowel_ch] = ch
+
+        res = []
+        for ch in queries:
+            lower_ch = ch.lower()
+
+            if ch in exact_check:
+                res.append(ch)
+                continue
+            if lower_ch in lower_check:
+                res.append(lower_check[lower_ch])
+                continue
+
+            vowel_ch = vowel_replace(lower_ch)
+            if vowel_ch in vowel_check:
+                res.append(vowel_check[vowel_ch])
+                continue
+
+            res.append("")
+        
+        return res
             
-            vw = devowel(lw)
-            if vw not in vowel_map:
-                vowel_map[vw] = w
-
-        # Now I resolve each query using the defined priority.
-        ans = []  
-        for q in queries:
-            # First priority: exact match — return the query itself.
-            if q in exact:
-                ans.append(q)  
-                continue      
-
-            # Second priority: case-insensitive match.
-            lq = q.lower() 
-            if lq in case_map:
-                ans.append(case_map[lq]) 
-                continue                 
-
-            # Third priority: vowel-error match using the devoweled version.
-            vq = devowel(lq) 
-            if vq in vowel_map:
-                ans.append(vowel_map[vq])  
-                continue                   
-
-            # If no rule matches, I return an empty string.
-            ans.append("") 
-
-        # Finally, I return the answers in the same order as the queries.
-        return ans
