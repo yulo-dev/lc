@@ -17,10 +17,10 @@ class Solution:
 
         for ch in wordlist:
             lower_ch = ch.lower()
-
+            # A lowercase map from lowercase word to its first occurrence in the wordlist
             if lower_ch not in lower_check:
                 lower_check[lower_ch] = ch
-
+            # A vowel-masked map, where every vowel is replaced by *, again mapping to the first occurrence.
             vowel_ch = vowel_replace(lower_ch)
             if vowel_ch not in vowel_check:
                 vowel_check[vowel_ch] = ch
