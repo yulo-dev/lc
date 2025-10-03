@@ -3,15 +3,18 @@ class Solution:
         nums.sort()
         res = []
 
-        for i in range(len(nums) - 2):
+        for i in range(len(nums) -2):
             left = i + 1
             right = len(nums) - 1
-            if i > 0 and nums[i] == nums[i-1]: continue
+
+            if i > 0 and nums[i] == nums[i -1]:
+                continue
+
             while left < right:
-                vals = nums[i] + nums[left] + nums[right]
-                if vals < 0:
+                val = nums[i] + nums[left] + nums[right]
+                if val < 0:
                     left += 1
-                elif vals > 0:
+                elif val > 0:
                     right -= 1
                 else:
                     res.append([nums[i], nums[left], nums[right]])
@@ -19,7 +22,7 @@ class Solution:
                         left += 1
                     while left < right and nums[right] == nums[right - 1]:
                         right -= 1
-                    left +=1
+
+                    left += 1
                     right -= 1
         return res
-                    
