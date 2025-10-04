@@ -2,14 +2,11 @@ from collections import defaultdict
 
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        if not strs:
-            return []
-        
-        freq = defaultdict(list)
+       
+        mapping = defaultdict(list)
 
-        for ch in strs:
-            key = ''.join(sorted(ch))
-            freq[key].append(ch)
+        for s in strs:
+            keys = ''.join(sorted(s))
+            mapping[keys].append(s)
         
-        return list(freq.values())
-        
+        return list(mapping.values())
