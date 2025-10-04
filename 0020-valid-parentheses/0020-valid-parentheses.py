@@ -3,9 +3,8 @@ class Solution:
         mapping = {")":"(", "]":"[", "}":"{"}
         stack = []
         for ch in s:
-            if ch in mapping and stack:
-                top = stack.pop()
-                if mapping[ch] != top:
+            if ch in mapping:
+                if not stack or mapping[ch] != stack.pop():
                     return False
             else:
                 stack.append(ch)
