@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/yulo-dev/lc/tree/master/0242-valid-anagram) |
 | [0387-first-unique-character-in-a-string](https://github.com/yulo-dev/lc/tree/master/0387-first-unique-character-in-a-string) |
 | [1006-vowel-spellchecker](https://github.com/yulo-dev/lc/tree/master/1006-vowel-spellchecker) |
+| [1561-rearrange-words-in-a-sentence](https://github.com/yulo-dev/lc/tree/master/1561-rearrange-words-in-a-sentence) |
 ## Linked List
 |  |
 | ------- |
@@ -138,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/yulo-dev/lc/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/yulo-dev/lc/tree/master/0242-valid-anagram) |
 | [0349-intersection-of-two-arrays](https://github.com/yulo-dev/lc/tree/master/0349-intersection-of-two-arrays) |
+| [1561-rearrange-words-in-a-sentence](https://github.com/yulo-dev/lc/tree/master/1561-rearrange-words-in-a-sentence) |
 ## Sliding Window
 |  |
 | ------- |
