@@ -3,16 +3,14 @@ class Solution:
         
         left = 0
         res = 0
-        visited = defaultdict(int)
+        visited = set()
 
         for right in range(len(s)):
             while s[right] in visited:
-                visited[s[left]] -= 1
-                if visited[s[left]] == 0:
-                    del visited[s[left]]
+                visited.remove(s[left])
                 left += 1
 
-            visited[s[right]] += 1
+            visited.add(s[right])
 
             res = max(res, right - left + 1)
 
