@@ -5,3 +5,4 @@ class Solution:
         sort_text = sorted(split_text, key = len)
         res = ' '.join(sort_text)
         return res.capitalize()
+        
