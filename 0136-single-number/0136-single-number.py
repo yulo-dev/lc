@@ -1,8 +1,8 @@
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
-        
-        cnt = Counter(nums)
-        
-        for num in cnt:
-            if cnt[num] == 1:
-                return num
+        #if I XOR all numbers together, all the duplicates cancel out, 
+        #and only the unique number remains.
+        res = 0
+        for num in nums:
+            res ^= num
+        return res
