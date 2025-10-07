@@ -1,7 +1,7 @@
 class Solution:
     def arrangeWords(self, text: str) -> str:
         lower_text = text.lower()
-        word_spilt = lower_text.split() #default is split by space
-        word_sort = sorted(word_spilt, key = len)
-        res = ' '.join(word_sort)
+        split_text = lower_text.split()
+        sort_text = sorted(split_text, key = len)
+        res = ' '.join(sort_text)
         return res.capitalize()
