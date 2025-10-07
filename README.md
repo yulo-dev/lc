@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/yulo-dev/lc/tree/master/0349-intersection-of-two-arrays) |
 | [0419-battleships-in-a-board](https://github.com/yulo-dev/lc/tree/master/0419-battleships-in-a-board) |
 | [0739-daily-temperatures](https://github.com/yulo-dev/lc/tree/master/0739-daily-temperatures) |
+| [0792-binary-search](https://github.com/yulo-dev/lc/tree/master/0792-binary-search) |
 | [1006-vowel-spellchecker](https://github.com/yulo-dev/lc/tree/master/1006-vowel-spellchecker) |
 | [1036-rotting-oranges](https://github.com/yulo-dev/lc/tree/master/1036-rotting-oranges) |
 | [1514-minimum-value-to-get-positive-step-by-step-sum](https://github.com/yulo-dev/lc/tree/master/1514-minimum-value-to-get-positive-step-by-step-sum) |
@@ -193,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0349-intersection-of-two-arrays](https://github.com/yulo-dev/lc/tree/master/0349-intersection-of-two-arrays) |
+| [0792-binary-search](https://github.com/yulo-dev/lc/tree/master/0792-binary-search) |
 ## Prefix Sum
 |  |
 | ------- |
