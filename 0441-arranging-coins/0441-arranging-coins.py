@@ -1,15 +1,19 @@
 class Solution:
     def arrangeCoins(self, n: int) -> int:
-        left = 1
-        right = n
+        left = 0 
+        right = n 
 
         while left + 1 < right:
             mid = left + (right - left) // 2
-            tot = mid * (mid + 1) // 2
+            val = mid * (mid + 1) // 2
 
-            if tot <= n:
+            if val <= n:
                 left = mid
-            elif tot > n:
+            else:
                 right = mid
-            
-        return left
+        
+        if right * (right + 1) // 2 <= n:
+            return right
+
+        if left * (left + 1) // 2 <= n:
+            return left
