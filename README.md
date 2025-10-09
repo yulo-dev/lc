@@ -173,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/yulo-dev/lc/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/yulo-dev/lc/tree/master/0013-roman-to-integer) |
+| [0441-arranging-coins](https://github.com/yulo-dev/lc/tree/master/0441-arranging-coins) |
 ## Recursion
 |  |
 | ------- |
@@ -198,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/yulo-dev/lc/tree/master/0033-search-in-rotated-sorted-array) |
 | [0349-intersection-of-two-arrays](https://github.com/yulo-dev/lc/tree/master/0349-intersection-of-two-arrays) |
+| [0441-arranging-coins](https://github.com/yulo-dev/lc/tree/master/0441-arranging-coins) |
 | [0792-binary-search](https://github.com/yulo-dev/lc/tree/master/0792-binary-search) |
 ## Prefix Sum
 |  |
