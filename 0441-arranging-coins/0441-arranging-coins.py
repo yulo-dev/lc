@@ -9,7 +9,7 @@ class Solution:
 
             if tot <= n:
                 left = mid
-            else:
+            elif tot > n:
                 right = mid
-        
+            
         return left
