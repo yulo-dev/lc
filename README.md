@@ -101,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/yulo-dev/lc/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0141-linked-list-cycle](https://github.com/yulo-dev/lc/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/yulo-dev/lc/tree/master/0142-linked-list-cycle-ii) |
+| [0206-reverse-linked-list](https://github.com/yulo-dev/lc/tree/master/0206-reverse-linked-list) |
 ## Tree
 |  |
 | ------- |
@@ -182,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/yulo-dev/lc/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/yulo-dev/lc/tree/master/0021-merge-two-sorted-lists) |
+| [0206-reverse-linked-list](https://github.com/yulo-dev/lc/tree/master/0206-reverse-linked-list) |
 ## Stack
 |  |
 | ------- |
