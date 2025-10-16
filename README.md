@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/yulo-dev/lc/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/yulo-dev/lc/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/yulo-dev/lc/tree/master/0049-group-anagrams) |
+| [0056-merge-intervals](https://github.com/yulo-dev/lc/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/yulo-dev/lc/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/yulo-dev/lc/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/yulo-dev/lc/tree/master/0079-word-search) |
@@ -157,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/yulo-dev/lc/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/yulo-dev/lc/tree/master/0049-group-anagrams) |
+| [0056-merge-intervals](https://github.com/yulo-dev/lc/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/yulo-dev/lc/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/yulo-dev/lc/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/yulo-dev/lc/tree/master/0217-contains-duplicate) |
