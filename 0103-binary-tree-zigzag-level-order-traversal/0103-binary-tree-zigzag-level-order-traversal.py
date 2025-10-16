@@ -12,8 +12,8 @@ class Solution:
         if not root:
             return []
 
-        queue = deque([root])
         res = []
+        queue = deque([root])
         left_to_right = True
 
         while queue:
@@ -21,18 +21,16 @@ class Solution:
             for _ in range(len(queue)):
                 node = queue.popleft()
                 level.append(node.val)
+
                 if node.left:
                     queue.append(node.left)
                 if node.right:
                     queue.append(node.right)
-            
+
             if not left_to_right:
                 level.reverse()
-
+            
             res.append(level)
             left_to_right = not left_to_right
-        
-        return res
 
-# time: O(n), since each node is processed once and reversing levels in total still costs O(n).
-# space: O(n), due to the queue in BFS and the result list storing all node values.
+        return res  
