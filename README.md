@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/yulo-dev/lc/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/yulo-dev/lc/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/yulo-dev/lc/tree/master/0046-permutations) |
+| [0048-rotate-image](https://github.com/yulo-dev/lc/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/yulo-dev/lc/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/yulo-dev/lc/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/yulo-dev/lc/tree/master/0078-subsets) |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/yulo-dev/lc/tree/master/0036-valid-sudoku) |
+| [0048-rotate-image](https://github.com/yulo-dev/lc/tree/master/0048-rotate-image) |
 | [0079-word-search](https://github.com/yulo-dev/lc/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/yulo-dev/lc/tree/master/0200-number-of-islands) |
 | [0419-battleships-in-a-board](https://github.com/yulo-dev/lc/tree/master/0419-battleships-in-a-board) |
@@ -185,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/yulo-dev/lc/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/yulo-dev/lc/tree/master/0013-roman-to-integer) |
+| [0048-rotate-image](https://github.com/yulo-dev/lc/tree/master/0048-rotate-image) |
 | [0441-arranging-coins](https://github.com/yulo-dev/lc/tree/master/0441-arranging-coins) |
 ## Recursion
 |  |
