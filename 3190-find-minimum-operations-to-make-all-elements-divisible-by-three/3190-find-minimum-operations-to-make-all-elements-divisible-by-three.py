@@ -4,7 +4,7 @@ class Solution:
         cnt = 0
 
         for val in nums:
-            if (val + 1) % 3 == 0 or (val - 1) % 3 == 0:
+            if val % 3 != 0: #simplify this line bc we only have 3 condition for n % 3
                 cnt += 1
         return cnt 
         
