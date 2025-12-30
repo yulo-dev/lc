@@ -1,7 +1,5 @@
 class Solution:
     def canMakeArithmeticProgression(self, arr: List[int]) -> bool:
-        if not arr:
-            return False
 
         arr.sort()
 
@@ -9,7 +7,7 @@ class Solution:
         right = 1
         gap = arr[right] - arr[left]
         
-        while left < right and right < len(arr):
+        while right < len(arr):
             if arr[right] - arr[left] != gap:
                 return False
             left += 1
