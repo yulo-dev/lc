@@ -5,7 +5,7 @@ class Solution:
 
         for i, val in enumerate(nums):
             comp = target - val
-            if val in mapping:
-                return [mapping[val], i]
+            if comp in mapping:
+                return [mapping[comp], i]
             
-            mapping[comp] = i
+            mapping[val] = i
