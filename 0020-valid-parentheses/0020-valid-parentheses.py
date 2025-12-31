@@ -1,14 +1,14 @@
 class Solution:
     def isValid(self, s: str) -> bool:
-        collection = {"]":"[", ")":"(", "}":"{"}
+        mapping = {"}":"{", "]":"[", ")":"("}
         stack = []
 
         for ch in s:
-            if ch in collection:
-                if not stack or stack[-1] != collection[ch]:
+            if ch in mapping:
+                if not stack or stack[-1] != mapping[ch]:
                     return False
                 stack.pop()
             else:
                 stack.append(ch)
-
+                
         return not stack
