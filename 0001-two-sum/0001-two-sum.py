@@ -7,5 +7,5 @@ class Solution:
             comp = target - val
             if val in mapping:
                 return [mapping[val], i]
-            else:
-                mapping[comp] = i
+            
+            mapping[comp] = i
