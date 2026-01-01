@@ -3,7 +3,8 @@ class Solution:
         if not intervals:
             return []
 
-        intervals.sort(key = lambda x:x[0])
+        intervals.sort(key = lambda x: x[0])
+
         merged = []
 
         for start, end in intervals:
@@ -11,4 +12,5 @@ class Solution:
                 merged.append([start, end])
             else:
                 merged[-1][1] = max(merged[-1][1], end)
+                
         return merged
