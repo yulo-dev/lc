@@ -5,10 +5,10 @@ class Solution:
 
         for ch in s:
             if ch in mapping:
-                if not stack or mapping[ch] != stack[-1]:
+                if not stack or stack[-1] != mapping[ch]:
                     return False
                 stack.pop()
             else:
                 stack.append(ch)
-
+        
         return not stack
