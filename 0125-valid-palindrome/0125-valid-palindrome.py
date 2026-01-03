@@ -1,6 +1,5 @@
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-
         if not s:
             return True
 
@@ -17,5 +16,5 @@ class Solution:
 
             left += 1
             right -= 1
-        
+
         return True
