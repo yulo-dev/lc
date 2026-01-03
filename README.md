@@ -108,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/yulo-dev/lc/tree/master/0242-valid-anagram) |
 | [0387-first-unique-character-in-a-string](https://github.com/yulo-dev/lc/tree/master/0387-first-unique-character-in-a-string) |
 | [0389-find-the-difference](https://github.com/yulo-dev/lc/tree/master/0389-find-the-difference) |
+| [0394-decode-string](https://github.com/yulo-dev/lc/tree/master/0394-decode-string) |
 | [1006-vowel-spellchecker](https://github.com/yulo-dev/lc/tree/master/1006-vowel-spellchecker) |
 | [1561-rearrange-words-in-a-sentence](https://github.com/yulo-dev/lc/tree/master/1561-rearrange-words-in-a-sentence) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/yulo-dev/lc/tree/master/1960-check-if-the-sentence-is-pangram) |
@@ -215,11 +216,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/yulo-dev/lc/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/yulo-dev/lc/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/yulo-dev/lc/tree/master/0206-reverse-linked-list) |
+| [0394-decode-string](https://github.com/yulo-dev/lc/tree/master/0394-decode-string) |
 ## Stack
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/yulo-dev/lc/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/yulo-dev/lc/tree/master/0042-trapping-rain-water) |
+| [0394-decode-string](https://github.com/yulo-dev/lc/tree/master/0394-decode-string) |
 | [0739-daily-temperatures](https://github.com/yulo-dev/lc/tree/master/0739-daily-temperatures) |
 ## Monotonic Stack
 |  |
