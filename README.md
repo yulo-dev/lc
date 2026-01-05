@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1514-minimum-value-to-get-positive-step-by-step-sum](https://github.com/yulo-dev/lc/tree/master/1514-minimum-value-to-get-positive-step-by-step-sum) |
 | [1929-concatenation-of-array](https://github.com/yulo-dev/lc/tree/master/1929-concatenation-of-array) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/yulo-dev/lc/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/yulo-dev/lc/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -49,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/yulo-dev/lc/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0200-number-of-islands](https://github.com/yulo-dev/lc/tree/master/0200-number-of-islands) |
 | [0419-battleships-in-a-board](https://github.com/yulo-dev/lc/tree/master/0419-battleships-in-a-board) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/yulo-dev/lc/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -61,10 +63,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/yulo-dev/lc/tree/master/0200-number-of-islands) |
 | [0994-rotting-oranges](https://github.com/yulo-dev/lc/tree/master/0994-rotting-oranges) |
 | [1036-rotting-oranges](https://github.com/yulo-dev/lc/tree/master/1036-rotting-oranges) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/yulo-dev/lc/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Union Find
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/yulo-dev/lc/tree/master/0200-number-of-islands) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/yulo-dev/lc/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Matrix
 |  |
 | ------- |
@@ -75,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0419-battleships-in-a-board](https://github.com/yulo-dev/lc/tree/master/0419-battleships-in-a-board) |
 | [0994-rotting-oranges](https://github.com/yulo-dev/lc/tree/master/0994-rotting-oranges) |
 | [1036-rotting-oranges](https://github.com/yulo-dev/lc/tree/master/1036-rotting-oranges) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/yulo-dev/lc/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Hash Table
 |  |
 | ------- |
