@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/yulo-dev/lc/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/yulo-dev/lc/tree/master/0079-word-search) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/yulo-dev/lc/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0128-longest-consecutive-sequence](https://github.com/yulo-dev/lc/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/yulo-dev/lc/tree/master/0136-single-number) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/yulo-dev/lc/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0169-majority-element](https://github.com/yulo-dev/lc/tree/master/0169-majority-element) |
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/yulo-dev/lc/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/yulo-dev/lc/tree/master/0200-number-of-islands) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/yulo-dev/lc/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Matrix
@@ -89,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/yulo-dev/lc/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/yulo-dev/lc/tree/master/0049-group-anagrams) |
 | [0127-word-ladder](https://github.com/yulo-dev/lc/tree/master/0127-word-ladder) |
+| [0128-longest-consecutive-sequence](https://github.com/yulo-dev/lc/tree/master/0128-longest-consecutive-sequence) |
 | [0141-linked-list-cycle](https://github.com/yulo-dev/lc/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/yulo-dev/lc/tree/master/0142-linked-list-cycle-ii) |
 | [0169-majority-element](https://github.com/yulo-dev/lc/tree/master/0169-majority-element) |
