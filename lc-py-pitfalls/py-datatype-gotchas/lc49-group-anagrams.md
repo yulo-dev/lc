@@ -7,7 +7,7 @@
 
 3. dictionary 要用defaultdict先建立 不然這段會出：KeyError（第一次 mapping[key] 還不存在就 .append）; 前面先做出key沒錯 但他只是一個變數, 在dictionary裡面還沒有這個entry 所以dict裡面的key並不存在
 
-![img](../assets/lc49-1.png)
+![img](../images/lc49-1.png)
 
 
 
