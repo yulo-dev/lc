@@ -5,8 +5,9 @@
 
 2.注意sorted vs sort: sorted適用於任何iterable物件（str, list, tuple, set…）且不會改到原本的資料;sort只能用在list 且會原地排序 直接改動原本那個list
 
+3. dictionary 要用defaultdict先建立 不然這段會出：KeyError（第一次 mapping[key] 還不存在就 .append）; 前面先做出key沒錯 但他只是一個變數, 在dictionary裡面還沒有這個entry 所以dict裡面的key並不存在
 
-
+![img](../assets/lc49-1.png)
 
 
 
@@ -18,7 +19,6 @@ https://www.geeksforgeeks.org/python/python-difference-between-sorted-and-sort/
 - `sorted(x)`：任何 **iterable** （str, list, tuple, set…）都能用，回傳 **新的 list** (不會改到原本的資料) 注意！sorted() 的設計就是：不管你丟進去是什麼 iterable，它一律回傳「新的 list」
 - `list.sort()`：只能用在 **list**，**原地改動**，回傳 `None`
 - **LC49**：`s` 是 `str` → 用 `sorted(s)`，再轉成可當 key 的型別（`str` 或 `tuple`）
-
 
 
 
