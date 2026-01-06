@@ -20,7 +20,10 @@ https://www.geeksforgeeks.org/python/python-difference-between-sorted-and-sort/
 - `list.sort()`：只能用在 **list**，**原地改動**，回傳 `None`
 - **LC49**：`s` 是 `str` → 用 `sorted(s)`，再轉成可當 key 的型別（`str` 或 `tuple`）
 
+- 舉例：
+  
 ![img](images/lc49-2.png)
+
 
 ## iterable vs non-iterable
 
