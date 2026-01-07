@@ -8,4 +8,4 @@ class Solution:
                 candidate = n
             count += 1 if n == candidate else -1
 
-        return candidate 
+        return candidate
