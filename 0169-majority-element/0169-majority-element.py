@@ -1,8 +1,11 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
-        cnt = defaultdict(int)
+        candidate = None
+        count = 0
 
         for n in nums:
-            cnt[n] += 1
+            if count == 0:
+                candidate = n
+            count += 1 if n == candidate else -1
 
-        return max(cnt, key=cnt.get) 
+        return candidate 
