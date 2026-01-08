@@ -8,4 +8,5 @@ class Solution:
                 cursum = 0
             cursum += n
             maxsub = max(maxsub, cursum)
+        
         return maxsub
