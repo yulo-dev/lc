@@ -5,9 +5,7 @@ class Solution:
         cnt = 0
 
         for n in nums:
-            if cnt < 0:
-                cnt = 0
-            cnt += n
+            cnt = max(n, cnt + n) # 要嘛重開，要嘛接上去
             res = max(res, cnt)
         
         return res
