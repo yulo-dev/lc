@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/yulo-dev/lc/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/yulo-dev/lc/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/yulo-dev/lc/tree/master/0049-group-anagrams) |
+| [0053-maximum-subarray](https://github.com/yulo-dev/lc/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/yulo-dev/lc/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/yulo-dev/lc/tree/master/0057-insert-interval) |
 | [0066-plus-one](https://github.com/yulo-dev/lc/tree/master/0066-plus-one) |
@@ -205,10 +206,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/yulo-dev/lc/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/yulo-dev/lc/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/yulo-dev/lc/tree/master/0042-trapping-rain-water) |
+| [0053-maximum-subarray](https://github.com/yulo-dev/lc/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/yulo-dev/lc/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/yulo-dev/lc/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/yulo-dev/lc/tree/master/0169-majority-element) |
 ## Counting
 |  |
