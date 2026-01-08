@@ -3,13 +3,13 @@ class Solution:
         
         res = 0
         left = 0
-        last = {}
+        seen = {}
 
         for right, val in enumerate(s):
-            if val in last and last[val] >= left:
-                left = last[val] + 1
-
-            last[val] = right
+            if val in seen and seen[val] >= left:
+                left = seen[val] + 1
+            
+            seen[val] = right
             res = max(res, right - left + 1)
-        
+            
         return res
