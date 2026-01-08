@@ -1,8 +1,9 @@
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
+        
         left = 0
-        right = len(nums) -1
         mid = 0
+        right = len(nums) - 1
 
         while mid <= right:
             if nums[mid] == 0:
@@ -13,4 +14,5 @@ class Solution:
                 mid += 1
             else:
                 nums[right], nums[mid] = nums[mid], nums[right]
-                right -= 1 
+                right -= 1
+            
