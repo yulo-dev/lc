@@ -2,8 +2,8 @@ class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
         count = defaultdict(int)
         left = 0
-        maxfreq = 0
         res = 0
+        maxfreq = 0
 
         for right, val in enumerate(s):
             count[val] += 1
@@ -15,4 +15,4 @@ class Solution:
 
             res = max(res, right - left + 1)
 
-        return res                
+        return res
