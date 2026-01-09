@@ -8,9 +8,9 @@ class Solution:
             total += (freq // 2) * 2
 
             if (freq % 2) == 1:
-                 odd = True
+                odd = True
         
         if odd:
             total += 1
-        
+
         return total
