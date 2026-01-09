@@ -107,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0409-longest-palindrome](https://github.com/yulo-dev/lc/tree/master/0409-longest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/yulo-dev/lc/tree/master/0424-longest-repeating-character-replacement) |
 | [0560-subarray-sum-equals-k](https://github.com/yulo-dev/lc/tree/master/0560-subarray-sum-equals-k) |
+| [0567-permutation-in-string](https://github.com/yulo-dev/lc/tree/master/0567-permutation-in-string) |
 | [1006-vowel-spellchecker](https://github.com/yulo-dev/lc/tree/master/1006-vowel-spellchecker) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/yulo-dev/lc/tree/master/1960-check-if-the-sentence-is-pangram) |
 ## String
@@ -128,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0394-decode-string](https://github.com/yulo-dev/lc/tree/master/0394-decode-string) |
 | [0409-longest-palindrome](https://github.com/yulo-dev/lc/tree/master/0409-longest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/yulo-dev/lc/tree/master/0424-longest-repeating-character-replacement) |
+| [0567-permutation-in-string](https://github.com/yulo-dev/lc/tree/master/0567-permutation-in-string) |
 | [1006-vowel-spellchecker](https://github.com/yulo-dev/lc/tree/master/1006-vowel-spellchecker) |
 | [1561-rearrange-words-in-a-sentence](https://github.com/yulo-dev/lc/tree/master/1561-rearrange-words-in-a-sentence) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/yulo-dev/lc/tree/master/1960-check-if-the-sentence-is-pangram) |
@@ -186,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/yulo-dev/lc/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/yulo-dev/lc/tree/master/0142-linked-list-cycle-ii) |
 | [0349-intersection-of-two-arrays](https://github.com/yulo-dev/lc/tree/master/0349-intersection-of-two-arrays) |
+| [0567-permutation-in-string](https://github.com/yulo-dev/lc/tree/master/0567-permutation-in-string) |
 ## Sorting
 |  |
 | ------- |
@@ -205,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/yulo-dev/lc/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/yulo-dev/lc/tree/master/0424-longest-repeating-character-replacement) |
+| [0567-permutation-in-string](https://github.com/yulo-dev/lc/tree/master/0567-permutation-in-string) |
 ## Dynamic Programming
 |  |
 | ------- |
