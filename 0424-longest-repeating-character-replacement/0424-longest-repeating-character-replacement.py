@@ -10,10 +10,9 @@ class Solution:
             maxfreq = max(maxfreq, s_cnt[val])
 
             while (right - left + 1) - maxfreq > k:
-                s_cnt[s[left]] -= 1
-                left += 1
+                 s_cnt[s[left]] -= 1
+                 left += 1
 
-            res = max(res, right - left + 1)
-
+            res = max(res, right- left + 1)
+        
         return res
-                
