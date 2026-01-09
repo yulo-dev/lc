@@ -3,9 +3,9 @@ class Solution:
         if len(p) > len(s):
             return []
 
-        p_cnt = Counter(p)
-        left = 0
+        t_cnt = Counter(p)
         window = Counter()
+        left = 0
         res = []
 
         for right, val in enumerate(s):
@@ -13,11 +13,11 @@ class Solution:
 
             if (right - left + 1) > len(p):
                 window[s[left]] -= 1
-                if window[s[left]] == 0:
-                    del window[s[left]]
+                if not window[s[left]]:
+                    del window[s[left]] 
                 left += 1
             
-            if (right - left + 1) == len(p) and window == p_cnt:
+            if (right - left + 1) == len(p) and t_cnt == window:
                 res.append(left)
-            
+
         return res
