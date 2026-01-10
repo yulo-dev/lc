@@ -6,7 +6,7 @@ class Solution:
         prefix = 1
         for i, num in enumerate(nums):
             res[i] = prefix
-            prefix *= nums[i]
+            prefix *= num
 
         postfix = 1
         for i in range(len(nums) - 1, -1, -1):
