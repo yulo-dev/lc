@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/yulo-dev/lc/tree/master/0349-intersection-of-two-arrays) |
 | [0419-battleships-in-a-board](https://github.com/yulo-dev/lc/tree/master/0419-battleships-in-a-board) |
 | [0560-subarray-sum-equals-k](https://github.com/yulo-dev/lc/tree/master/0560-subarray-sum-equals-k) |
+| [0704-binary-search](https://github.com/yulo-dev/lc/tree/master/0704-binary-search) |
 | [0739-daily-temperatures](https://github.com/yulo-dev/lc/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/yulo-dev/lc/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/yulo-dev/lc/tree/master/0907-koko-eating-bananas) |
@@ -272,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/yulo-dev/lc/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0349-intersection-of-two-arrays](https://github.com/yulo-dev/lc/tree/master/0349-intersection-of-two-arrays) |
 | [0441-arranging-coins](https://github.com/yulo-dev/lc/tree/master/0441-arranging-coins) |
+| [0704-binary-search](https://github.com/yulo-dev/lc/tree/master/0704-binary-search) |
 | [0792-binary-search](https://github.com/yulo-dev/lc/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/yulo-dev/lc/tree/master/0907-koko-eating-bananas) |
 ## Prefix Sum
