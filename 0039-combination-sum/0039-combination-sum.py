@@ -15,4 +15,5 @@ class Solution:
             dfs(i + 1, cur, total)
 
         dfs(0, [], 0)
+
         return res
