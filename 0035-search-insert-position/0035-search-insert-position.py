@@ -12,4 +12,4 @@ class Solution:
             else:
                 return mid
         
-        return left
+        return right
