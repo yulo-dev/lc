@@ -3,7 +3,7 @@ class Solution:
         if len(p) > len(s):
             return []
 
-        t_cnt = Counter(p)
+        p_cnt = Counter(p)
         window = Counter()
         left = 0
         res = []
@@ -13,11 +13,11 @@ class Solution:
 
             if (right - left + 1) > len(p):
                 window[s[left]] -= 1
-                if not window[s[left]]:
+                if window[s[left]] == 0:
                     del window[s[left]] 
                 left += 1
-            
-            if (right - left + 1) == len(p) and t_cnt == window:
+
+            if (right - left + 1) == len(p) and window == p_cnt:
                 res.append(left)
 
         return res
