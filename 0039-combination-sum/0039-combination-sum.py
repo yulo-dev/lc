@@ -13,7 +13,6 @@ class Solution:
             dfs(i, cur, total + candidates[i])
             cur.pop()
             dfs(i + 1, cur, total)
-
+        
         dfs(0, [], 0)
-
         return res
