@@ -4,8 +4,9 @@ class Solution:
         max_sum = nums[0]
 
         for n in nums:
-            cur_sum = max(cur_sum, 0)
-            cur_sum += n
+            if cur_sum < 0:
+                cur_sum = 0  #清空cur_sum, 重頭來過
+            cur_sum += n 
             max_sum = max(max_sum, cur_sum)
 
         return max_sum
