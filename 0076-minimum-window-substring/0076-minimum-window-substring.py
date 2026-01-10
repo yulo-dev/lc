@@ -11,7 +11,6 @@ class Solution:
         left = 0 
         best_len = float("inf")
         best_l = 0
-
         for right, val in enumerate(s):
             window[val] += 1
             if val in t_cnt and window[val] == t_cnt[val]:
