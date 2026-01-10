@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/yulo-dev/lc/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/yulo-dev/lc/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0033-search-in-rotated-sorted-array](https://github.com/yulo-dev/lc/tree/master/0033-search-in-rotated-sorted-array) |
+| [0035-search-insert-position](https://github.com/yulo-dev/lc/tree/master/0035-search-insert-position) |
 | [0036-valid-sudoku](https://github.com/yulo-dev/lc/tree/master/0036-valid-sudoku) |
 | [0039-combination-sum](https://github.com/yulo-dev/lc/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/yulo-dev/lc/tree/master/0042-trapping-rain-water) |
@@ -270,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/yulo-dev/lc/tree/master/0033-search-in-rotated-sorted-array) |
+| [0035-search-insert-position](https://github.com/yulo-dev/lc/tree/master/0035-search-insert-position) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/yulo-dev/lc/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0278-first-bad-version](https://github.com/yulo-dev/lc/tree/master/0278-first-bad-version) |
 | [0349-intersection-of-two-arrays](https://github.com/yulo-dev/lc/tree/master/0349-intersection-of-two-arrays) |
