@@ -10,18 +10,17 @@ class Solution:
             elif nums[left] < nums[mid]:
                 if nums[left] <= target < nums[mid]:
                     right = mid
-                else: 
+                else:
                     left = mid
             else:
                 if nums[mid] < target <= nums[right]:
                     left = mid
                 else:
                     right = mid
-        
+
         if nums[left] == target:
             return left
         elif nums[right] == target:
             return right
 
         return -1
-                    
