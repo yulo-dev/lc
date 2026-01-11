@@ -5,11 +5,9 @@ class Solution:
 
         while left < right:
             mid = left + (right - left) // 2
-            if nums[mid] > target:
+            if nums[mid] >= target:
                 right = mid
-            elif nums[mid] < target:
-                left = mid + 1
             else:
-                return mid
+                left = mid + 1  # left 是 第一個 >= target 的 index 
         
-        return right
+        return left
