@@ -6,6 +6,7 @@
 
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
+        
         dummy = ListNode()
         curr = dummy
 
@@ -16,8 +17,14 @@ class Solution:
             else:
                 curr.next = list2
                 list2 = list2.next
+
             curr = curr.next
 
-        curr.next = list1 if list1 else list2
-    
+        if list1:
+            curr.next = list1
+        if list2:
+            curr.next = list2
+
         return dummy.next
+
+            
