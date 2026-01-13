@@ -5,8 +5,9 @@ class Solution:
 
         for i, temp in enumerate(temperatures):
             while stack and temp > temperatures[stack[-1]]:
-                cooler = stack.pop()
-                res[cooler] = i - cooler
+                cooler_date = stack.pop()
+                res[cooler_date] = i - cooler_date
+
             stack.append(i)
 
         return res
