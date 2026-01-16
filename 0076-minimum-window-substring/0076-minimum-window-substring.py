@@ -24,13 +24,13 @@ class Solution:
                     best_len = right - left + 1
                     best_left = left
 
-                window[s[left]] -= 1 #1)移掉它
+                window[s[left]] -= 1
 
                 if s[left] in t_cnt and window[s[left]] < t_cnt[s[left]]:
-                    formed -= 1  #2)如果跌破才 formed--
+                    formed -= 1
 
-                left += 1   #3)left 一定要前進
-
+                left += 1
+        
         if best_len == float("inf"):
             return ""
         else:
