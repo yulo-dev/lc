@@ -279,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0071-simplify-path](https://github.com/yulo-dev/lc/tree/master/0071-simplify-path) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/yulo-dev/lc/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/yulo-dev/lc/tree/master/0155-min-stack) |
+| [0232-implement-queue-using-stacks](https://github.com/yulo-dev/lc/tree/master/0232-implement-queue-using-stacks) |
 | [0394-decode-string](https://github.com/yulo-dev/lc/tree/master/0394-decode-string) |
 | [0739-daily-temperatures](https://github.com/yulo-dev/lc/tree/master/0739-daily-temperatures) |
 ## Monotonic Stack
@@ -289,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Queue
 |  |
 | ------- |
+| [0232-implement-queue-using-stacks](https://github.com/yulo-dev/lc/tree/master/0232-implement-queue-using-stacks) |
 | [0387-first-unique-character-in-a-string](https://github.com/yulo-dev/lc/tree/master/0387-first-unique-character-in-a-string) |
 ## Binary Search
 |  |
@@ -338,6 +340,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/yulo-dev/lc/tree/master/0155-min-stack) |
 | [0208-implement-trie-prefix-tree](https://github.com/yulo-dev/lc/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/yulo-dev/lc/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0232-implement-queue-using-stacks](https://github.com/yulo-dev/lc/tree/master/0232-implement-queue-using-stacks) |
 | [0303-range-sum-query-immutable](https://github.com/yulo-dev/lc/tree/master/0303-range-sum-query-immutable) |
 ## Interactive
 |  |
