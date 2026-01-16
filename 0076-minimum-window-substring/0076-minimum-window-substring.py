@@ -1,6 +1,5 @@
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
-
         if not s or not t:
             return ""
 
@@ -14,7 +13,6 @@ class Solution:
         best_left = 0
 
         for right, val in enumerate(s):
-            
             window[val] += 1
 
             if val in t_cnt and window[val] == t_cnt[val]:
@@ -30,10 +28,10 @@ class Solution:
 
                 if s[left] in t_cnt and window[s[left]] < t_cnt[s[left]]:
                     formed -= 1
-                
+
                 left += 1
-            
+
         if best_len == float("inf"):
             return ""
         else:
-            return s[best_left:best_left + best_len]
+            return s[best_left:best_left+best_len]
