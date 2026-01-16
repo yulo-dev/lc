@@ -276,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/yulo-dev/lc/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/yulo-dev/lc/tree/master/0042-trapping-rain-water) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/yulo-dev/lc/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0155-min-stack](https://github.com/yulo-dev/lc/tree/master/0155-min-stack) |
 | [0394-decode-string](https://github.com/yulo-dev/lc/tree/master/0394-decode-string) |
 | [0739-daily-temperatures](https://github.com/yulo-dev/lc/tree/master/0739-daily-temperatures) |
 ## Monotonic Stack
@@ -332,6 +333,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0155-min-stack](https://github.com/yulo-dev/lc/tree/master/0155-min-stack) |
 | [0208-implement-trie-prefix-tree](https://github.com/yulo-dev/lc/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/yulo-dev/lc/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0303-range-sum-query-immutable](https://github.com/yulo-dev/lc/tree/master/0303-range-sum-query-immutable) |
