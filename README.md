@@ -139,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/yulo-dev/lc/tree/master/0242-valid-anagram) |
 | [0387-first-unique-character-in-a-string](https://github.com/yulo-dev/lc/tree/master/0387-first-unique-character-in-a-string) |
 | [0389-find-the-difference](https://github.com/yulo-dev/lc/tree/master/0389-find-the-difference) |
+| [0392-is-subsequence](https://github.com/yulo-dev/lc/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/yulo-dev/lc/tree/master/0394-decode-string) |
 | [0409-longest-palindrome](https://github.com/yulo-dev/lc/tree/master/0409-longest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/yulo-dev/lc/tree/master/0424-longest-repeating-character-replacement) |
@@ -204,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/yulo-dev/lc/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/yulo-dev/lc/tree/master/0142-linked-list-cycle-ii) |
 | [0349-intersection-of-two-arrays](https://github.com/yulo-dev/lc/tree/master/0349-intersection-of-two-arrays) |
+| [0392-is-subsequence](https://github.com/yulo-dev/lc/tree/master/0392-is-subsequence) |
 | [0567-permutation-in-string](https://github.com/yulo-dev/lc/tree/master/0567-permutation-in-string) |
 ## Sorting
 |  |
@@ -235,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/yulo-dev/lc/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/yulo-dev/lc/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/yulo-dev/lc/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0392-is-subsequence](https://github.com/yulo-dev/lc/tree/master/0392-is-subsequence) |
 ## Divide and Conquer
 |  |
 | ------- |
