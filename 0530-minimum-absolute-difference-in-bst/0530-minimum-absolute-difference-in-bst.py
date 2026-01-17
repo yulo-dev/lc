@@ -13,6 +13,7 @@ class Solution:
         def inorder(node):
             if not node:
                 return
+
             inorder(node.left)
 
             if self.prev != None:
@@ -20,8 +21,7 @@ class Solution:
             self.prev = node.val
 
             inorder(node.right)
-
+        
         inorder(root)
 
         return self.ans
-            
