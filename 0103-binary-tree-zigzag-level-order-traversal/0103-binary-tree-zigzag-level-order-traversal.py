@@ -12,25 +12,25 @@ class Solution:
         if not root:
             return []
 
-        res = []
         queue = deque([root])
-        left_to_right = True
+        res = []
+        REVERSE = False
 
         while queue:
             level = []
             for _ in range(len(queue)):
                 node = queue.popleft()
                 level.append(node.val)
-
                 if node.left:
                     queue.append(node.left)
                 if node.right:
                     queue.append(node.right)
 
-            if not left_to_right:
-                level.reverse()
+            if REVERSE:
+                level.reverse() #他需要先寫出來再append是因爲reverse()是in-place 所以如果寫 res.append(level.reverse()) 等同於 res.append(None)
             
             res.append(level)
-            left_to_right = not left_to_right
+        
+            REVERSE = not REVERSE
 
-        return res  
+        return res
