@@ -16,10 +16,10 @@ class Solution:
         queue = deque([root])
         res = []
         while queue:
-            level_len = len(queue)
+            level_len = len(queue) #這邊要先存出一個邊數
             for i in range(len(queue)):
                 node = queue.popleft()
-                if i == level_len - 1:
+                if i == level_len - 1: #給這邊使用, 不能直接 i == len(queue) 因為queue會一直變動
                     res.append(node.val)
                 if node.left:
                     queue.append(node.left)
