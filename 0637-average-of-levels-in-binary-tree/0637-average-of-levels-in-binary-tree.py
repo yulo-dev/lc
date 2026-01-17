@@ -15,19 +15,17 @@ class Solution:
 
         while queue:
             level_len = len(queue)
-            sum = 0
+            level_sum = 0
             tot = 0
             for i in range(level_len):
                 node = queue.popleft()
-                sum += node.val
-                if i == (level_len - 1):
-                    tot = (sum / level_len)
-                    
+                level_sum += node.val
+                
                 if node.left:
                     queue.append(node.left)
                 if node.right:
                     queue.append(node.right)
 
-            res.append(tot)
+            res.append(level_sum / level_len)
 
         return res
