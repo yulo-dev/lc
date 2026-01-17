@@ -6,22 +6,22 @@ class MyQueue:
 
     def push(self, x: int) -> None:
         self.in_stack.append(x)
-
+    
     def _move(self):
         if not self.out_stack:
             while self.in_stack:
                 self.out_stack.append(self.in_stack.pop())
-    
+
     #拿出「隊首元素」，而且會移除
     def pop(self) -> int:
         self._move()
         return self.out_stack.pop()
-
+       
     #看「隊首元素」是誰，但不移除
     def peek(self) -> int:
         self._move()
         return self.out_stack[-1]
-
+       
     def empty(self) -> bool:
         return not self.in_stack and not self.out_stack
 
