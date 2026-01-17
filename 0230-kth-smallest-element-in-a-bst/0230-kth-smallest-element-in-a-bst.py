@@ -10,20 +10,18 @@ class Solution:
 
         def inorder(node):
             if not node:
-                return
+                return 
 
             left = inorder(node.left)
-
-            if left is not None:
-                return left # 1) 左邊有答案就直接回傳
-
-            # 2) 左邊沒答案，才處理自己
-            self.cnt += 1
+            if left != None:
+                return left
             
+            self.cnt += 1
+
             if self.cnt == k:
                 return node.val
 
-            # 3) 自己也不是答案，才去右邊
             return inorder(node.right)
 
         return inorder(root)
+            
