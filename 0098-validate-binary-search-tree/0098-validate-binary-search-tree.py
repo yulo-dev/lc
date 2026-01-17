@@ -11,9 +11,10 @@ class Solution:
             if not node:
                 return True
 
-            if not (node.val > left and node.val < right):
+            if not (left < node.val < right): # 這個節點違規，整棵樹直接不合法
                 return False
 
+            # 檢查是不是「整棵樹」都通過
             return (validate(node.left, left, node.val) and validate(node.right, node.val, right))
 
         return validate(root, float("-inf"), float("inf"))
