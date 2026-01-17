@@ -16,7 +16,7 @@ class Solution:
                     stack.append(a - b)
                 elif t == "*":
                     stack.append(a * b)
-                elif t == "/":
+                else:
                     stack.append(int(a / b))
-            
-        return stack[-1]
+
+        return stack[0]
