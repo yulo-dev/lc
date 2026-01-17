@@ -10,7 +10,7 @@ class Solution:
         def validate(node, left, right):
             if not node:
                 return True
-            
+
             if not (node.val > left and node.val < right):
                 return False
 
