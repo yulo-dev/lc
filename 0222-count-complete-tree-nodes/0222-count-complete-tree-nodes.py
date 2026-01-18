@@ -6,20 +6,28 @@
 #         self.right = right
 class Solution:
     def countNodes(self, root: Optional[TreeNode]) -> int:
+        
+        def left_height(node):
+            h = 0
+            while node:
+                h += 1
+                node = node.left
+            return h
+        
+        def right_height(node):
+            h = 0
+            while node:
+                h += 1
+                node = node.right
+            return h
 
         if not root:
             return 0
         
-        queue = deque([root])
-        cnt = 0
+        left_h = left_height(root)
+        right_h = right_height(root)
 
-        while queue:
-            node = queue.popleft()
-            cnt += 1
-            if node.left:
-                queue.append(node.left)
-            if node.right:
-                queue.append(node.right)
+        if left_h == right_h:
+            return (1 << left_h) - 1
 
-
-        return cnt
+        return 1 + self.countNodes(root.left) + self.countNodes(root.right)
