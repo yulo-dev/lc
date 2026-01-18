@@ -1,6 +1,6 @@
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
-        left = 0
+        left = 0 
         right = len(nums) - 1
 
         while left + 1 < right:
@@ -17,10 +17,10 @@ class Solution:
                     left = mid
                 else:
                     right = mid
-
+        
         if nums[left] == target:
             return left
         elif nums[right] == target:
             return right
-
-        return -1
+        else:
+            return -1
