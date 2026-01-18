@@ -9,25 +9,21 @@ from collections import deque
 
 class Solution:
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
-        
         if not root:
             return True
 
         queue = deque([(root.left, root.right)])
 
         while queue:
-
-            node_left, node_right = queue.popleft()
-
-            if not node_left and not node_right:
+            a, b = queue.popleft()
+            if not a and not b:
                 continue
-            if not node_left or not node_right:
+            if not a or not b:
                 return False
-            if node_left.val != node_right.val:
+            if a.val != b.val:
                 return False
 
-            queue.append((node_left.left, node_right.right))
-            queue.append((node_left.right, node_right.left))
+            queue.append((a.left, b.right))
+            queue.append((a.right, b.left))
 
         return True
-            
