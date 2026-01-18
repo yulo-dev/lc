@@ -13,14 +13,16 @@ class Solution:
             return 0
 
         queue = deque([root])
-        level = 0
+        ans = 0
 
         while queue:
-            level += 1
+            level_len = len(queue)
             for i in range(len(queue)):
                 node = queue.popleft()
+                if i == level_len - 1:
+                    ans += 1
                 if node.left:
                     queue.append(node.left)
                 if node.right:
                     queue.append(node.right)
-        return level
+        return ans
