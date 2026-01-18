@@ -14,4 +14,4 @@ class Solution:
 
         new_target = targetSum - root.val
 
-        return (self.hasPathSum(root.left, new_target) or self.hasPathSum(root.right, new_target))
+        return self.hasPathSum(root.left, new_target) or self.hasPathSum(root.right, new_target)
