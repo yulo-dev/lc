@@ -1,16 +1,15 @@
 class Solution:
     def simplifyPath(self, path: str) -> str:
         stack = []
+        component = path.split("/")
 
-        componenet = path.split("/")
-
-        for ch in componenet:
-            if ch == "" or ch == ".":
+        for c in component:
+            if c == "" or c == ".":
                 continue
-            elif ch == "..":
+            elif c == "..":
                 if stack:
                     stack.pop()
             else:
-                stack.append(ch)
+                stack.append(c)
 
         return "/" + "/".join(stack)
