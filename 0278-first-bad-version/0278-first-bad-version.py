@@ -5,16 +5,13 @@ class Solution:
     def firstBadVersion(self, n: int) -> int:
         
         left = 1
-        right = n
+        right = n 
 
-        while left + 1 < right:
+        while left < right:
             mid = left + (right - left) // 2
-            if isBadVersion(mid) == True:
-                right = mid
+            if isBadVersion(mid):
+                right = mid # mid 可能是第一個 bad，往左收
             else:
-                left = mid
+                left = mid + 1 # mid 不是 bad，第一個 bad 一定在右邊
 
-        if isBadVersion(left):
-            return left
-        if isBadVersion(right):
-            return right
+        return left
