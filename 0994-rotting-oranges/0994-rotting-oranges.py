@@ -17,28 +17,26 @@ class Solution:
                 elif grid[x][y] == 1:
                     fresh += 1
 
-        minutes, fresh = self.bfs(grid, queue, fresh, visited)
+        fresh, minutes = self.bfs(grid, queue, fresh, visited)
         return minutes if fresh == 0 else -1
 
     def bfs(self, grid, queue, fresh, visited):
-        DIRECTOINS = [(1,0), (-1,0), (0,1), (0,-1)]
+        DIRECTIONS = [(1,0),(-1,0),(0,1),(0,-1)]
         minutes = 0
 
         while queue:
-            x,y,minute = queue.popleft()
+            x, y, minute = queue.popleft()
             minutes = max(minute, minutes)
-            for dir_x, dir_y in DIRECTOINS:
-                new_x = x + dir_x
-                new_y = y + dir_y
-
+            for dir_x, dir_y in DIRECTIONS:
+                new_x = dir_x + x
+                new_y = dir_y + y
                 if not self.is_valid(grid, new_x, new_y, visited):
                     continue
-
                 fresh -= 1
                 queue.append((new_x, new_y, minute + 1))
                 visited.add((new_x, new_y))
-
-        return minutes, fresh
+        return fresh, minutes
+        
 
     def is_valid(self, grid, x, y, visited):
         m = len(grid)
