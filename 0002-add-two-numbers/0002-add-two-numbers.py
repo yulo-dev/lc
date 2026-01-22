@@ -7,7 +7,7 @@ class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
         
         dummy = ListNode()
-        curr = dummy
+        curr = dummy 
         carry = 0
 
         while l1 or l2 or carry:
@@ -16,14 +16,14 @@ class Solution:
 
             tot = l1_val + l2_val + carry
 
-            #carry, digit = divmod(tot, 10)
-
             carry = tot // 10
             digit = tot % 10
 
-            curr.next = ListNode(digit) #append 新節點
-            curr = curr.next   #更新尾巴
+            curr.next = ListNode(digit)
+            curr = curr.next
 
+            #剩下的每一個節點都可能因為 carry 而改變，不能直接把 l1 原節點接過去
+            #可以跟lc21比較
             if l1:
                 l1 = l1.next
             if l2:
