@@ -25,8 +25,6 @@ class Solution:
             curr = curr.next
 
         ge.next = None
-        less.next = ge_dummy.next # 因為ge_dummy是假頭 要接ge_dummy 的第一個真正的節點
+        less.next = ge_dummy.next
 
         return less_dummy.next
-
-        
