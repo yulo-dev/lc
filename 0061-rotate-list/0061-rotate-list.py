@@ -8,35 +8,30 @@ class Solution:
 
         if not head or not head.next or k == 0:
             return head
-        
-        # (1) find length n and tail
+
+        #length + move to tail:
         length = 1
         curr = head
-
-        while curr.next:
+        while curr.next:  #為了避免curr走到None 這樣之後沒辦法直接接說 curr.next = head 去做cycle
             curr = curr.next
             length += 1
-        
-        # (2) 計算需要rotate幾次, 因為如果rotate n次會回到原狀
+
+        #count rotate
         k = k % length
         if k == 0:
             return head
 
-        # (3) make it a cycle
-        # Set the last node to point to head node
-        # The list is now a circular linked list with last node pointing to first node
+        #make a cycle
         curr.next = head
 
-        # (4) Find new tail: (n - k) steps from head to reach new head,
-        # so new tail is (n - k - 1) steps from head
-        steps_to_new_tail = length - k - 1
+        #new tail & new head
         new_tail = head
-        for _ in range(steps_to_new_tail):
+        for _ in range(length - k - 1):
             new_tail = new_tail.next
 
         new_head = new_tail.next
 
-        # 5) Break the cycle
+        #break cycle
         new_tail.next = None
 
         return new_head
