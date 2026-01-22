@@ -8,6 +8,7 @@ class Solution:
         
         dummy = ListNode()
         dummy.next = head
+
         slow = fast = dummy
 
         for _ in range(n):
