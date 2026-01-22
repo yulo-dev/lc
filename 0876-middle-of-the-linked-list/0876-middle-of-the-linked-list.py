@@ -12,3 +12,7 @@ class Solution:
             fast = fast.next.next
 
         return slow
+
+        # When fast reaches the end, slow will be at the middle. 
+        # If the list has an even number of nodes, this approach returns the second middle, 
+        # which matches the problem requirement.
