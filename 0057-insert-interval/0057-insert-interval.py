@@ -1,5 +1,6 @@
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
+        
         new_start, new_end = newInterval
         res = []
         insert = False
@@ -18,5 +19,5 @@ class Solution:
 
         if not insert:
             res.append([new_start, new_end])
-        
+
         return res
