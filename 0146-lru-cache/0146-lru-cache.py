@@ -1,6 +1,6 @@
 class Node:
     def __init__(self, key, val):
-        self.key = key # 建立就一定要有 → 放參數
+        self.key = key # 建立就一定要有 → 放參數 #node 存 key，是為了在淘汰時能用 lru.key 立刻從 dict 刪掉那筆資料，保持 O(1)
         self.val = val # 建立就一定要有 → 放參數
         self.prev = None # 一開始不一定知道 → 先給合法初值
         self.next = None # 一開始不一定知道 → 先給合法初值
@@ -45,9 +45,9 @@ class LRUCache:
     def get(self, key: int) -> int:
         if key not in self.map:
             return -1
-        node = self.map[key]
+        node = self.map[key] #前面的設計就是這邊dictionary 是key對應node
         self._move_to_front(node)
-        return node.val
+        return node.val #然後node裡面才存value, 以及key, prev, next
 
     def put(self, key: int, value: int) -> None:
         if key in self.map:
