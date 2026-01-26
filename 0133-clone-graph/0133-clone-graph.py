@@ -23,5 +23,5 @@ class Solution:
                     oldtonew[nei] = Node(nei.val)
                     queue.append(nei)
                 oldtonew[curr].neighbors.append(oldtonew[nei])
-
+                
         return oldtonew[node]
