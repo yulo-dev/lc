@@ -1,10 +1,10 @@
 class Node:
-
     def __init__(self, key, val):
         self.key = key
         self.val = val
         self.prev = None
         self.next = None
+
 
 class LRUCache:
 
@@ -25,16 +25,16 @@ class LRUCache:
 
     def _add_to_front(self, node):
         first = self.head.next
-        node.prev = self.head
         node.next = first
+        node.prev = self.head
         self.head.next = node
         first.prev = node
 
     def _move_to_front(self, node):
         self._remove(node)
         self._add_to_front(node)
-        
-    def _pop_lru(self):
+
+    def _lru_remove(self):
         lru = self.tail.prev
         self._remove(lru)
         return lru
@@ -58,12 +58,19 @@ class LRUCache:
         self._add_to_front(node)
 
         if len(self.map) > self.cap:
-            lru = self._pop_lru()
-            del self.map[lru.key] 
-
-
+            lru = self._lru_remove()
+            del self.map[lru.key]
+      
 
 # Your LRUCache object will be instantiated and called as such:
 # obj = LRUCache(capacity)
 # param_1 = obj.get(key)
 # obj.put(key,value)
+
+
+
+
+
+
+# design a Node class for cache: double linkedlist so that put & get can be O(1)
+# within LRUCache: create map, prev, next, in map, key = node, val = node.val
