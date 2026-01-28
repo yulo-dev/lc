@@ -14,12 +14,13 @@ class Solution:
                 queue.append(i)
 
         num_complete = 0
+
         while queue:
             course = queue.popleft()
             num_complete += 1
-            for next_course in graph[course]:
-                in_degree[next_course] -= 1
-                if in_degree[next_course] == 0:
-                    queue.append(next_course)
+            for new_course in graph[course]:
+                in_degree[new_course] -= 1
+                if in_degree[new_course] == 0:
+                    queue.append(new_course)
 
         return num_complete == numCourses
