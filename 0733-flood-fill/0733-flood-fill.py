@@ -6,14 +6,14 @@ class Solution:
 
         visited = set()
 
-        self.bfs(image, sr, sc, visited, orig_color, color)
+        self.bfs(image, sr, sc, color, orig_color, visited)
 
         return image
 
-    def bfs(self, image, sr, sc, visited, orig_color, color):
+    def bfs(self, image, sr, sc, color, orig_color, visited):
         DIRECTIONS = [(1,0), (0,1), (-1,0), (0,-1)]
         queue = deque([(sr, sc)])
-        visited.add((sr,sc))
+        visited.add((sr, sc))
 
         while queue:
             x, y = queue.popleft()
@@ -24,10 +24,9 @@ class Solution:
 
                 if not self.is_valid(image, new_x, new_y, visited, orig_color):
                     continue
-                
                 queue.append((new_x, new_y))
                 visited.add((new_x, new_y))
-
+    
     def is_valid(self, image, x, y, visited, orig_color):
         m = len(image)
         n = len(image[0])
