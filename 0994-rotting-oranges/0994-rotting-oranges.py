@@ -8,27 +8,26 @@ class Solution:
         fresh = 0
         queue = deque([])
         visited = set()
-
+        
         for x in range(len(grid)):
             for y in range(len(grid[0])):
-                if grid[x][y] == 2:
+                if grid[x][y] == 1:
+                    fresh += 1
+                elif grid[x][y] == 2:
                     queue.append((x,y,0))
                     visited.add((x,y))
-                elif grid[x][y] == 1:
-                    fresh += 1
         
         fresh, minutes = self.bfs(grid, queue, visited, fresh)
-
         return minutes if fresh == 0 else -1
 
     def bfs(self, grid, queue, visited, fresh):
-        DIRECTIONS = [(1,0), (0,1), (-1,0), (0,-1)]
+        DIRECTION = [(1,0), (0,1), (-1,0), (0,-1)]
         minutes = 0
 
         while queue:
             x, y, minute = queue.popleft()
             minutes = max(minute, minutes)
-            for dir_x, dir_y in DIRECTIONS:
+            for dir_x, dir_y in DIRECTION:
                 new_x = dir_x + x
                 new_y = dir_y + y
 
@@ -47,7 +46,6 @@ class Solution:
 
         if not (0 <= x < m and 0 <= y < n):
             return False
-
         if (x,y) in visited:
             return False
 
