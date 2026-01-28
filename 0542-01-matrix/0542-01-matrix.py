@@ -1,30 +1,31 @@
 class Solution:
     def updateMatrix(self, mat: List[List[int]]) -> List[List[int]]:
         if not mat or not mat[0]:
-            return mat
-
-        queue = deque([])
-        visited = set()
+            return None
 
         m = len(mat)
         n = len(mat[0])
         res = [[0] * n for _ in range(m)]
 
+        queue = deque([])
+        visited = set()
+
         for x in range(m):
             for y in range(n):
-                if mat[x][y] == 0 and (x,y) not in visited:
+                if mat[x][y] == 0:
                     queue.append((x,y,0))
                     visited.add((x,y))
                     res[x][y] = 0
         
         res = self.bfs(mat, queue, visited, res)
+
         return res
 
     def bfs(self, mat, queue, visited, res):
-        DIRECTIONS = [(1,0), (-1,0), (0,1), (0,-1)]
+        DIRECTIONS = [(1,0), (0,1), (-1,0), (0,-1)]
 
         while queue:
-            x, y, dist = queue.popleft()
+            x , y, dist = queue.popleft()
             for dir_x, dir_y in DIRECTIONS:
                 new_x = x + dir_x
                 new_y = y + dir_y
@@ -32,11 +33,12 @@ class Solution:
                 if not self.is_valid(mat, new_x, new_y, visited):
                     continue
                 
+                res[new_x][new_y] = dist + 1
                 queue.append((new_x, new_y, dist + 1))
                 visited.add((new_x, new_y))
-                res[new_x][new_y] = dist + 1
 
         return res
+
 
     def is_valid(self, mat, x, y, visited):
         m = len(mat)
@@ -44,9 +46,7 @@ class Solution:
 
         if not (0 <= x < m and 0 <= y < n):
             return False
-
         if (x,y) in visited:
             return False
 
-        return True
-        
+        return mat[x][y] == 1
