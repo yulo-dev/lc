@@ -11,7 +11,7 @@ class Solution:
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
         if not node:
             return None
-            
+
         oldtonew = {}
         oldtonew[node] = Node(node.val)
         queue = deque([node])
@@ -22,7 +22,7 @@ class Solution:
                 if nei not in oldtonew:
                     oldtonew[nei] = Node(nei.val)
                     queue.append(nei)
-            
+                #This line connects the cloned nodes
                 oldtonew[curr].neighbors.append(oldtonew[nei])
 
         return oldtonew[node]
