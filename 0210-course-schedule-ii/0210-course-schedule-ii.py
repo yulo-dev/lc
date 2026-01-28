@@ -25,4 +25,7 @@ class Solution:
 
         return res if len(res) == numCourses else []
 
+        #如果 len(res) < numCourses代表有些課永遠無法被加入
+        #（它們的 in_degree 永遠降不到 0）→ 存在 cycle → 題目要求「不可能完成時回傳空陣列」→ 回傳 []
+
 
