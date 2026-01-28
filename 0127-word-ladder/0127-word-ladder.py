@@ -3,37 +3,37 @@ from collections import deque
 class Solution:
     def ladderLength(self, beginWord: str, endWord: str, wordList: list[str]) -> int:
         wordset = set(wordList)
-        if endWord not in wordList:
+        if endWord not in wordset:
             return 0
 
-        queue = deque([beginWord])
+        dist = 1
+        queue = deque([(beginWord)])
         visited = set([beginWord])
-        distance = 1
 
         while queue:
-            for _ in range(len(queue)): #同一個步數的字一起處理
-                word = queue.popleft()
-                if word == endWord:
-                    return distance
-
-                for new_word in self.valid_word(word):
-                    if new_word not in wordset or new_word in visited:
+            for i in range(len(queue)):
+                 word = queue.popleft()
+                 if word == endWord:
+                    return dist
+                 for next_word in self.find_word(word):
+                    if next_word not in wordset or next_word in visited:
                         continue
-
-                    queue.append(new_word)
-                    visited.add(new_word)
-            distance += 1 #同個步數一起更新一次長度
+                    queue.append(next_word)
+                    visited.add(next_word)
+            dist += 1
 
         return 0
-
-    def valid_word(self, word):
+    
+    def find_word(self, word):
         words = []
+
         for i in range(len(word)):
-            left = word[:i]
-            right = word[i + 1:]
             for ch in 'abcdefghijklmnopqrstuvwxyz':
+                left = word[:i]
+                right = word[i+1:]
                 if ch == word[i]:
                     continue
-                words.append(left + ch + right)
+                else:
+                    words.append(left + ch + right)
 
         return words
