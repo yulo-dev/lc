@@ -18,14 +18,11 @@ class Solution:
         while queue:
             course = queue.popleft()
             res.append(course)
-            for next_course in graph[course]:
-                in_degree[next_course] -= 1
-                if in_degree[next_course]  == 0:
-                    queue.append(next_course)
+            for new_course in graph[course]:
+                in_degree[new_course] -= 1
+                if in_degree[new_course] == 0:
+                    queue.append(new_course)
 
         return res if len(res) == numCourses else []
-
-        #如果 len(res) < numCourses代表有些課永遠無法被加入
-        #（它們的 in_degree 永遠降不到 0）→ 存在 cycle → 題目要求「不可能完成時回傳空陣列」→ 回傳 []
-
+                
 
