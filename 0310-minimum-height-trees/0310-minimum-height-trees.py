@@ -8,7 +8,7 @@ class Solution:
 
         for u, v in edges:
             graph[u].append(v)
-            graph[v].append(u)
+            graph[v].append(u) 
             in_degree[u] += 1
             in_degree[v] += 1
 
@@ -22,13 +22,11 @@ class Solution:
             size = len(queue)
             remaining -= size
 
-            for _ in range(size):
-                curr = queue.popleft()
-                for nei in graph[curr]:
-                    in_degree[nei] -= 1
-                    if in_degree[nei] == 1:
-                        queue.append(nei)
-        
+            for i in range(size):
+                leaf = queue.popleft()
+                for new_leaf in graph[leaf]:
+                    in_degree[new_leaf] -= 1
+                    if in_degree[new_leaf] == 1:
+                        queue.append(new_leaf)
+
         return list(queue)
-
-
