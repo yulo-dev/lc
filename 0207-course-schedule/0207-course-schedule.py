@@ -1,6 +1,5 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        
         graph = [[] for _ in range(numCourses)]
         in_degree = [0] * numCourses
 
@@ -9,6 +8,7 @@ class Solution:
             in_degree[course] += 1
 
         queue = deque()
+
         for i in range(numCourses):
             if in_degree[i] == 0:
                 queue.append(i)
@@ -24,3 +24,4 @@ class Solution:
                     queue.append(new_course)
 
         return num_complete == numCourses
+
