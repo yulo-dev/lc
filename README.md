@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0228-summary-ranges](https://github.com/yulo-dev/lc/tree/master/0228-summary-ranges) |
 | [0238-product-of-array-except-self](https://github.com/yulo-dev/lc/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/yulo-dev/lc/tree/master/0303-range-sum-query-immutable) |
+| [0347-top-k-frequent-elements](https://github.com/yulo-dev/lc/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/yulo-dev/lc/tree/master/0349-intersection-of-two-arrays) |
 | [0419-battleships-in-a-board](https://github.com/yulo-dev/lc/tree/master/0419-battleships-in-a-board) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/yulo-dev/lc/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
@@ -152,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/yulo-dev/lc/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/yulo-dev/lc/tree/master/0242-valid-anagram) |
 | [0264-ugly-number-ii](https://github.com/yulo-dev/lc/tree/master/0264-ugly-number-ii) |
+| [0347-top-k-frequent-elements](https://github.com/yulo-dev/lc/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/yulo-dev/lc/tree/master/0349-intersection-of-two-arrays) |
 | [0383-ransom-note](https://github.com/yulo-dev/lc/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/yulo-dev/lc/tree/master/0387-first-unique-character-in-a-string) |
@@ -296,6 +298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/yulo-dev/lc/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/yulo-dev/lc/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/yulo-dev/lc/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/yulo-dev/lc/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/yulo-dev/lc/tree/master/0349-intersection-of-two-arrays) |
 | [0389-find-the-difference](https://github.com/yulo-dev/lc/tree/master/0389-find-the-difference) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/yulo-dev/lc/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
@@ -328,11 +331,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/yulo-dev/lc/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/yulo-dev/lc/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/yulo-dev/lc/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/yulo-dev/lc/tree/master/0347-top-k-frequent-elements) |
 | [0973-k-closest-points-to-origin](https://github.com/yulo-dev/lc/tree/master/0973-k-closest-points-to-origin) |
 ## Counting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/yulo-dev/lc/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/yulo-dev/lc/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/yulo-dev/lc/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/yulo-dev/lc/tree/master/0387-first-unique-character-in-a-string) |
 ## Math
@@ -471,6 +476,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/yulo-dev/lc/tree/master/0215-kth-largest-element-in-an-array) |
 | [0264-ugly-number-ii](https://github.com/yulo-dev/lc/tree/master/0264-ugly-number-ii) |
+| [0347-top-k-frequent-elements](https://github.com/yulo-dev/lc/tree/master/0347-top-k-frequent-elements) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/yulo-dev/lc/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0973-k-closest-points-to-origin](https://github.com/yulo-dev/lc/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/yulo-dev/lc/tree/master/1046-last-stone-weight) |
@@ -478,6 +484,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/yulo-dev/lc/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/yulo-dev/lc/tree/master/0347-top-k-frequent-elements) |
 | [0973-k-closest-points-to-origin](https://github.com/yulo-dev/lc/tree/master/0973-k-closest-points-to-origin) |
 ## Data Stream
 |  |
@@ -487,4 +494,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0973-k-closest-points-to-origin](https://github.com/yulo-dev/lc/tree/master/0973-k-closest-points-to-origin) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/yulo-dev/lc/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
