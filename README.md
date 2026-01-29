@@ -148,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/yulo-dev/lc/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/yulo-dev/lc/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/yulo-dev/lc/tree/master/0242-valid-anagram) |
+| [0264-ugly-number-ii](https://github.com/yulo-dev/lc/tree/master/0264-ugly-number-ii) |
 | [0349-intersection-of-two-arrays](https://github.com/yulo-dev/lc/tree/master/0349-intersection-of-two-arrays) |
 | [0383-ransom-note](https://github.com/yulo-dev/lc/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/yulo-dev/lc/tree/master/0387-first-unique-character-in-a-string) |
@@ -311,6 +312,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/yulo-dev/lc/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/yulo-dev/lc/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/yulo-dev/lc/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0264-ugly-number-ii](https://github.com/yulo-dev/lc/tree/master/0264-ugly-number-ii) |
 | [0392-is-subsequence](https://github.com/yulo-dev/lc/tree/master/0392-is-subsequence) |
 | [0542-01-matrix](https://github.com/yulo-dev/lc/tree/master/0542-01-matrix) |
 ## Divide and Conquer
@@ -332,6 +334,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/yulo-dev/lc/tree/master/0048-rotate-image) |
 | [0066-plus-one](https://github.com/yulo-dev/lc/tree/master/0066-plus-one) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/yulo-dev/lc/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0264-ugly-number-ii](https://github.com/yulo-dev/lc/tree/master/0264-ugly-number-ii) |
 | [0441-arranging-coins](https://github.com/yulo-dev/lc/tree/master/0441-arranging-coins) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/yulo-dev/lc/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 ## Recursion
@@ -451,4 +454,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/yulo-dev/lc/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/yulo-dev/lc/tree/master/0210-course-schedule-ii) |
 | [0310-minimum-height-trees](https://github.com/yulo-dev/lc/tree/master/0310-minimum-height-trees) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0264-ugly-number-ii](https://github.com/yulo-dev/lc/tree/master/0264-ugly-number-ii) |
 <!---LeetCode Topics End-->
