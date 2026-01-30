@@ -1,6 +1,6 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        graph = [[] * i for i in range(numCourses)]
+        graph = [[] for _ in range(numCourses)]
         in_degree = [0] * numCourses
 
         for course, prereq in prerequisites:
