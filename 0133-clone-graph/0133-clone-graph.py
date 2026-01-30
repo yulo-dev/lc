@@ -22,7 +22,8 @@ class Solution:
                 if nei not in oldtonew:
                     oldtonew[nei] = Node(nei.val)
                     queue.append(nei)
-                #This line connects the cloned nodes
+            
                 oldtonew[curr].neighbors.append(oldtonew[nei])
 
-        return oldtonew[node]
+        return oldtonew[node] 
+
