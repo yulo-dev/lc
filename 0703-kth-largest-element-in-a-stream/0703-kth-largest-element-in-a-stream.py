@@ -5,7 +5,7 @@ class KthLargest:
         self.h = []
         for x in nums:
             self.add(x)
-
+      
     def add(self, val: int) -> int:
         heapq.heappush(self.h, val)
         if len(self.h) > self.k:
