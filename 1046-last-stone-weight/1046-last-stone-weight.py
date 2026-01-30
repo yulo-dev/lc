@@ -4,10 +4,10 @@ class Solution:
         heapq.heapify(h)
 
         while len(h) > 1:
-            y = heapq.heappop(h)
-            x = heapq.heappop(h)
+            y = -heapq.heappop(h)
+            x = -heapq.heappop(h)
             diff = y - x
             if diff != 0:
-                heapq.heappush(h, diff)
+                heapq.heappush(h, -diff)
 
         return -h[0] if len(h) == 1 else 0
