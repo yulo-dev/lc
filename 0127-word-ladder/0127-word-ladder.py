@@ -19,7 +19,7 @@ class Solution:
                     if new_word not in wordset or new_word in visited:
                         continue
                     if new_word == endWord:
-                        return dist + 1
+                        return dist + 1 #提早結束
                     queue.append(new_word)
                     visited.add(new_word)
             dist += 1
