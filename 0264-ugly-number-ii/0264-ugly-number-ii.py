@@ -1,6 +1,5 @@
 class Solution:
     def nthUglyNumber(self, n: int) -> int:
-
         ugly_candidates = [1]
         visited = set([1])
 
