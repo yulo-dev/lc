@@ -13,6 +13,8 @@ class Solution:
                 #至少在它存活期間是唯一的）
                 #你把 heap 元素放成 (node.val, id(node), node) 的原因是：
                 #當 node.val 一樣時，heap 需要第二個欄位來打破平手（tie-breaker），否則 Python 會試著比較 node 本身。
+
+                # 這邊只抓每個list的head, 沒有往下走node.next
                 heapq.heappush(h, (node.val, id(node), node)) 
         
         dummy = ListNode(0)
