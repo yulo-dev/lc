@@ -3,8 +3,8 @@ class Solution:
         
         destination = len(nums) - 1
         steps = 0
-        farthest = 0
-        current_end = 0
+        current_end = 0 #你「用目前這次跳數 steps」已經確定能到的最右邊界（本層邊界）
+        farthest = 0 #「你在掃描本層所有可達位置後，推算出「如果再跳一步」能到的最右邊界（下一層候選邊界）
 
         for i in range(destination):  # 注意：不用走到最後一格
             
@@ -15,7 +15,7 @@ class Solution:
             if i == current_end:      
                 steps += 1
                 current_end = farthest
-                if current_end >= destination:
+                if current_end >=destination:
                     break
 
         return steps
