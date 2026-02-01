@@ -5,18 +5,17 @@ class Solution:
         # Shrink trigger: if detect the third word in the window, shrink window
         # return max length
 
-        left = 0
-        count = {}
+        last_index = {} #ch->last index
         best = 0
+        left = 0
 
-        for right, ch in enumerate(s):
-            count[ch] = count.get(ch, 0) + 1
+        for right, val in enumerate(s):
+            last_index[val] = right
 
-            while len(count) > 2:
-                count[s[left]] -= 1
-                if count[s[left]] == 0:
-                    del count[s[left]]
-                left += 1
+            if len(last_index) > 2:
+                drop = min(last_index, key=last_index.get)
+                left = last_index[drop] + 1
+                del last_index[drop]
 
             best = max(best, right - left + 1)
 
