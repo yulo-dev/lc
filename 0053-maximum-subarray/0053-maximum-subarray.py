@@ -1,11 +1,23 @@
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
-        
-        curr = nums[0]
+        #模板一
         best = nums[0]
+        curr = nums[0]
 
         for i in range(1, len(nums)):
-            curr = max(nums[i], curr + nums[i]) #cur =「以 i 結尾」的最大子陣列和
-            best = max(best, curr) #best = 到目前為止（掃到 i 為止）看過的最大子陣列和
+            curr = max(nums[i], curr + nums[i])
+            best = max(best, curr)
 
         return best
+
+        #模板二
+        #best = float("-inf")
+        #curr = 0
+
+        #for x in nums:
+        #    if curr < 0:
+        #        curr = 0
+        #    curr += x
+        #    best = max(best, curr)
+
+        #return best
