@@ -1,17 +1,16 @@
 class Solution:
-    def minSubArrayLen(self, target: int, nums: List[int]) -> int:
+     def minSubArrayLen(self, target: int, nums: List[int]) -> int:
+
         left = 0
-        total = 0
         res = float("inf")
+        tot = 0
 
         for right, val in enumerate(nums):
-            total += val
-            while total >= target:
+            tot += val
+            while tot >= target:
                 res = min(res, right - left + 1)
-                total -= nums[left]
+                tot -= nums[left]
                 left += 1
-        
-        if res == float("inf"):
-            return 0
-        else:
-            return res
+
+        return 0 if res == float("inf") else res
+                
