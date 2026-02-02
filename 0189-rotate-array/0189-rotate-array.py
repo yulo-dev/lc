@@ -3,16 +3,15 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-
         n = len(nums)
         if n == 0:
             return
 
-        k = k % n
+        k = k%n
         if k == 0:
-            return 
-        
-        def reverse(l,r):
+            return
+
+        def reverse(l, r):
             while l < r:
                 nums[l], nums[r] = nums[r], nums[l]
                 l += 1
