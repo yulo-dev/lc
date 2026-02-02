@@ -4,8 +4,8 @@ class Solution:
         profit = 0
 
         for sell in prices:
+            profit = max(profit, sell - buy)
             if sell < buy:
                 buy = sell
-            profit = max(profit, sell - buy)
 
         return profit
