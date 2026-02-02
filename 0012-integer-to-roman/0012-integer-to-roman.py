@@ -17,13 +17,10 @@ class Solution:
         ]
         
         res = []
-        for value, symbol in pairs:
-            if num == 0:
-                break
 
-            count = num // value          # 這個符號要用幾次 從大到小（貪心）
-            if count:
-                res.append(symbol * count)
-                num -= value * count
+        for val, ch in pairs:
+            count = num // val
+            res.append(ch*count)
+            num -= val*count
 
         return "".join(res)
