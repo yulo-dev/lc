@@ -13,21 +13,21 @@ class Solution:
             in_degree[v] += 1
 
         queue = deque()
-
         for i in range(n):
             if in_degree[i] == 1:
                 queue.append(i)
-            
+
         remaining = n
         while remaining > 2:
             size = len(queue)
             remaining -= size
 
-            for _ in range(len(queue)):
-                leaf = queue.popleft()
-                for nei in graph[leaf]:
+            for _ in range(size):
+                curr = queue.popleft()
+                for nei in graph[curr]:
                     in_degree[nei] -= 1
                     if in_degree[nei] == 1:
                         queue.append(nei)
 
-        return list(queue)
+        return list(queue) 
+            
