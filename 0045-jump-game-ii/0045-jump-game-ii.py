@@ -11,7 +11,7 @@ class Solution:
             if i == current_end:
                 steps += 1
                 current_end = farthest
-                if farthest >= destination:
+                if current_end >= destination:
                     break
 
         return steps
