@@ -17,20 +17,20 @@ class Solution:
         REVERSE = False
 
         while queue:
-            level = deque()
+            level = []
             for _ in range(len(queue)):
                 node = queue.popleft()
-                if not REVERSE:
-                    level.append(node.val)
-                else:
-                    level.appendleft(node.val)
+                level.append(node.val)
 
                 if node.left:
                     queue.append(node.left)
                 if node.right:
                     queue.append(node.right)
 
-            res.append(list(level))
+            if REVERSE:
+                level.reverse()
+
+            res.append(level)
         
             REVERSE = not REVERSE
 
