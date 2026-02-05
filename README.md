@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0303-range-sum-query-immutable](https://github.com/yulo-dev/lc/tree/master/0303-range-sum-query-immutable) |
 | [0347-top-k-frequent-elements](https://github.com/yulo-dev/lc/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/yulo-dev/lc/tree/master/0349-intersection-of-two-arrays) |
+| [0380-insert-delete-getrandom-o1](https://github.com/yulo-dev/lc/tree/master/0380-insert-delete-getrandom-o1) |
 | [0419-battleships-in-a-board](https://github.com/yulo-dev/lc/tree/master/0419-battleships-in-a-board) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/yulo-dev/lc/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0542-01-matrix](https://github.com/yulo-dev/lc/tree/master/0542-01-matrix) |
@@ -168,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/yulo-dev/lc/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0347-top-k-frequent-elements](https://github.com/yulo-dev/lc/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/yulo-dev/lc/tree/master/0349-intersection-of-two-arrays) |
+| [0380-insert-delete-getrandom-o1](https://github.com/yulo-dev/lc/tree/master/0380-insert-delete-getrandom-o1) |
 | [0383-ransom-note](https://github.com/yulo-dev/lc/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/yulo-dev/lc/tree/master/0387-first-unique-character-in-a-string) |
 | [0389-find-the-difference](https://github.com/yulo-dev/lc/tree/master/0389-find-the-difference) |
@@ -391,6 +393,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/yulo-dev/lc/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/yulo-dev/lc/tree/master/0189-rotate-array) |
 | [0264-ugly-number-ii](https://github.com/yulo-dev/lc/tree/master/0264-ugly-number-ii) |
+| [0380-insert-delete-getrandom-o1](https://github.com/yulo-dev/lc/tree/master/0380-insert-delete-getrandom-o1) |
 | [0441-arranging-coins](https://github.com/yulo-dev/lc/tree/master/0441-arranging-coins) |
 | [0973-k-closest-points-to-origin](https://github.com/yulo-dev/lc/tree/master/0973-k-closest-points-to-origin) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/yulo-dev/lc/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
@@ -485,6 +488,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0211-design-add-and-search-words-data-structure](https://github.com/yulo-dev/lc/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0232-implement-queue-using-stacks](https://github.com/yulo-dev/lc/tree/master/0232-implement-queue-using-stacks) |
 | [0303-range-sum-query-immutable](https://github.com/yulo-dev/lc/tree/master/0303-range-sum-query-immutable) |
+| [0380-insert-delete-getrandom-o1](https://github.com/yulo-dev/lc/tree/master/0380-insert-delete-getrandom-o1) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/yulo-dev/lc/tree/master/0703-kth-largest-element-in-a-stream) |
 ## Interactive
 |  |
@@ -562,4 +566,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/yulo-dev/lc/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/yulo-dev/lc/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
