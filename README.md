@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/yulo-dev/lc/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/yulo-dev/lc/tree/master/0057-insert-interval) |
 | [0066-plus-one](https://github.com/yulo-dev/lc/tree/master/0066-plus-one) |
+| [0068-text-justification](https://github.com/yulo-dev/lc/tree/master/0068-text-justification) |
 | [0075-sort-colors](https://github.com/yulo-dev/lc/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/yulo-dev/lc/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/yulo-dev/lc/tree/master/0079-word-search) |
@@ -195,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/yulo-dev/lc/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/yulo-dev/lc/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/yulo-dev/lc/tree/master/0058-length-of-last-word) |
+| [0068-text-justification](https://github.com/yulo-dev/lc/tree/master/0068-text-justification) |
 | [0071-simplify-path](https://github.com/yulo-dev/lc/tree/master/0071-simplify-path) |
 | [0076-minimum-window-substring](https://github.com/yulo-dev/lc/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/yulo-dev/lc/tree/master/0079-word-search) |
@@ -479,6 +481,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0068-text-justification](https://github.com/yulo-dev/lc/tree/master/0068-text-justification) |
 | [1929-concatenation-of-array](https://github.com/yulo-dev/lc/tree/master/1929-concatenation-of-array) |
 ## Design
 |  |
