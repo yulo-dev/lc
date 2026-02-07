@@ -1,7 +1,9 @@
 class Solution:
     def trap(self, height: List[int]) -> int:
-        
 
+        if not height:
+            return 0
+        
         left_max = [0] * len(height)
         right_max = [0] * len(height)
 
