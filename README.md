@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/yulo-dev/lc/tree/master/0217-contains-duplicate) |
 | [0228-summary-ranges](https://github.com/yulo-dev/lc/tree/master/0228-summary-ranges) |
 | [0238-product-of-array-except-self](https://github.com/yulo-dev/lc/tree/master/0238-product-of-array-except-self) |
+| [0271-encode-and-decode-strings](https://github.com/yulo-dev/lc/tree/master/0271-encode-and-decode-strings) |
 | [0274-h-index](https://github.com/yulo-dev/lc/tree/master/0274-h-index) |
 | [0303-range-sum-query-immutable](https://github.com/yulo-dev/lc/tree/master/0303-range-sum-query-immutable) |
 | [0347-top-k-frequent-elements](https://github.com/yulo-dev/lc/tree/master/0347-top-k-frequent-elements) |
@@ -208,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/yulo-dev/lc/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/yulo-dev/lc/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0242-valid-anagram](https://github.com/yulo-dev/lc/tree/master/0242-valid-anagram) |
+| [0271-encode-and-decode-strings](https://github.com/yulo-dev/lc/tree/master/0271-encode-and-decode-strings) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/yulo-dev/lc/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0383-ransom-note](https://github.com/yulo-dev/lc/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/yulo-dev/lc/tree/master/0387-first-unique-character-in-a-string) |
@@ -493,6 +495,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/yulo-dev/lc/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/yulo-dev/lc/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0232-implement-queue-using-stacks](https://github.com/yulo-dev/lc/tree/master/0232-implement-queue-using-stacks) |
+| [0271-encode-and-decode-strings](https://github.com/yulo-dev/lc/tree/master/0271-encode-and-decode-strings) |
 | [0303-range-sum-query-immutable](https://github.com/yulo-dev/lc/tree/master/0303-range-sum-query-immutable) |
 | [0380-insert-delete-getrandom-o1](https://github.com/yulo-dev/lc/tree/master/0380-insert-delete-getrandom-o1) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/yulo-dev/lc/tree/master/0703-kth-largest-element-in-a-stream) |
