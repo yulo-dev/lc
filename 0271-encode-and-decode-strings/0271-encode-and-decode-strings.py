@@ -24,8 +24,9 @@ class Codec:
         n = len(s)
 
         while i < n:
-            #從 i 開始，找到下一個 #（用 j 走過去）
             j = i
+
+            # 一開始我就先找 # 如果還沒找到#就代表我都抓到數字
             while s[j] != '#':
                 j += 1
             length = int(s[i:j])
