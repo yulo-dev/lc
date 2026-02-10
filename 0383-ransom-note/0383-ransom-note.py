@@ -1,14 +1,9 @@
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
-        
-        if len(ransomNote) > len(magazine):
-            return False
+        r_count = Counter(ransomNote)
+        m_count = Counter(magazine)
 
-        ransomNote_cnt = Counter(ransomNote)
-        magazine_cnt = Counter(magazine)
-
-        for r in ransomNote_cnt:
-            if r not in magazine_cnt or ransomNote_cnt[r] > magazine_cnt[r]:
+        for ch, val in r_count.items():
+            if (ch not in m_count) or (ch in m_count and m_count[ch] < r_count[ch]):
                 return False
-
         return True
