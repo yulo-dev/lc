@@ -1,5 +1,14 @@
+# get要 O(1) 所以用hashmap去存: 存key - > node 這樣get(key) 才會是O(1) 拿到那個node
+# DLL 才可以讓remove & move to front 都 O(1) 
+# SLL 要把中間某個node拿出來 需要知道他的前一個 常常會 O(n)
+
+# 總結
+# dict 解決：key -> node 的 O(1) 存取
+# DLL 解決：維護「最近使用順序」的 O(1) 移動/刪除
+# → 兩個合起來才做得到 get/put 都 O(1)
+
 class Node:
-    def __init__(self, key, val):
+    def __init__(self, key = None, val = None):
         self.key = key
         self.val = val
         self.prev = None
@@ -8,11 +17,11 @@ class Node:
 class LRUCache:
     def __init__(self, capacity: int):
         self.cap = capacity
-        self.map = {} #key - node
+        self.map = {} # key -> node
         self.head = Node(0,0)
         self.tail = Node(0,0)
         self.head.next = self.tail
-        self.tail.prev = self.head
+        self.tail.next = self.head
 
     def _remove(self, node):
         prev = node.prev
@@ -22,16 +31,16 @@ class LRUCache:
 
     def _add_to_front(self, node):
         first = self.head.next
-        node.next = first
         node.prev = self.head
+        node.next = first
         self.head.next = node
         first.prev = node
 
-    def _move_to_front(self,node):
+    def _move_to_front(self, node):
         self._remove(node)
         self._add_to_front(node)
 
-    def _lru_remove(self):
+    def _remove_lru(self):
         lru = self.tail.prev
         self._remove(lru)
         return lru
@@ -39,6 +48,7 @@ class LRUCache:
     def get(self, key):
         if key not in self.map:
             return -1
+
         node = self.map[key]
         self._move_to_front(node)
         return node.val
@@ -49,15 +59,18 @@ class LRUCache:
             node.val = val
             self._move_to_front(node)
             return
-        
+
         node = Node(key, val)
         self.map[key] = node
         self._add_to_front(node)
 
         if len(self.map) > self.cap:
-            lru = self._lru_remove()
+            lru = self._remove_lru()
             del self.map[lru.key]
+
         
+
+
         
 
 # Your LRUCache object will be instantiated and called as such:
