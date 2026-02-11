@@ -24,9 +24,9 @@ class Solution:
 
         # 3) 反轉 right-left 次：每次把 cur.next 抽出來插到 prev 後面
         for _ in range(right - left):
-            move = cur.next          # 要被搬到前面的節點
-            cur.next = move.next     # 把 move 從原本位置拔掉
-            move.next = prev.next     # move 插到 prev 後面
-            prev.next = move          # prev 接到 move
+            move = cur.next          # 取出 curr 後面那個節點（等下要把它「搬到 prev 後面」當成新頭）
+            cur.next = move.next     # 把 move 從原本位置拔掉：讓 curr 直接跳過 move，接到 move 的下一個
+            move.next = prev.next     # 讓 move 指向原本 pre 後面的東西
+            prev.next = move          # 讓 pre 指向 move
 
         return dummy.next
