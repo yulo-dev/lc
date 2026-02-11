@@ -11,7 +11,10 @@ class Solution:
         #count the total length of the linkedlist
         length = 1
         curr = head
-        while curr.next:
+
+        while curr.next: # 注意這邊是while curr.next 不是while curr
+            # 意思：只要 curr 還「有下一個節點」，就繼續往後走
+            # 停下來的條件：curr.next 變成 None（代表 curr 已經在 tail）
             curr = curr.next
             length += 1
 
