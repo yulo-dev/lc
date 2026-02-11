@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/yulo-dev/lc/tree/master/0239-sliding-window-maximum) |
 | [0271-encode-and-decode-strings](https://github.com/yulo-dev/lc/tree/master/0271-encode-and-decode-strings) |
 | [0274-h-index](https://github.com/yulo-dev/lc/tree/master/0274-h-index) |
+| [0287-find-the-duplicate-number](https://github.com/yulo-dev/lc/tree/master/0287-find-the-duplicate-number) |
 | [0289-game-of-life](https://github.com/yulo-dev/lc/tree/master/0289-game-of-life) |
 | [0303-range-sum-query-immutable](https://github.com/yulo-dev/lc/tree/master/0303-range-sum-query-immutable) |
 | [0347-top-k-frequent-elements](https://github.com/yulo-dev/lc/tree/master/0347-top-k-frequent-elements) |
@@ -317,6 +318,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/yulo-dev/lc/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/yulo-dev/lc/tree/master/0136-single-number) |
 | [0222-count-complete-tree-nodes](https://github.com/yulo-dev/lc/tree/master/0222-count-complete-tree-nodes) |
+| [0287-find-the-duplicate-number](https://github.com/yulo-dev/lc/tree/master/0287-find-the-duplicate-number) |
 | [0389-find-the-difference](https://github.com/yulo-dev/lc/tree/master/0389-find-the-difference) |
 ## Two Pointers
 |  |
@@ -343,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/yulo-dev/lc/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/yulo-dev/lc/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/yulo-dev/lc/tree/master/0202-happy-number) |
+| [0287-find-the-duplicate-number](https://github.com/yulo-dev/lc/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/yulo-dev/lc/tree/master/0349-intersection-of-two-arrays) |
 | [0392-is-subsequence](https://github.com/yulo-dev/lc/tree/master/0392-is-subsequence) |
 | [0567-permutation-in-string](https://github.com/yulo-dev/lc/tree/master/0567-permutation-in-string) |
@@ -482,6 +485,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/yulo-dev/lc/tree/master/0209-minimum-size-subarray-sum) |
 | [0222-count-complete-tree-nodes](https://github.com/yulo-dev/lc/tree/master/0222-count-complete-tree-nodes) |
 | [0278-first-bad-version](https://github.com/yulo-dev/lc/tree/master/0278-first-bad-version) |
+| [0287-find-the-duplicate-number](https://github.com/yulo-dev/lc/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/yulo-dev/lc/tree/master/0349-intersection-of-two-arrays) |
 | [0441-arranging-coins](https://github.com/yulo-dev/lc/tree/master/0441-arranging-coins) |
 | [0704-binary-search](https://github.com/yulo-dev/lc/tree/master/0704-binary-search) |
