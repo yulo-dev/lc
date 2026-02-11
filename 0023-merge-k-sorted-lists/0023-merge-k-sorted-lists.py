@@ -8,17 +8,19 @@ class Solution:
         if not lists:
             return None
 
-        while len(lists) > 1:
-            new_list = []
-            for i in range(0, len(lists)-1, 2):
-                new_list.append(self.merge_two(lists[i], lists[i+1]))
+        return self.merge_range(lists, 0, len(lists) - 1)
 
-            if len(lists) % 2 == 1:
-                new_list.append(lists[-1])
+    def merge_range(self, lists, left, right):
+        if left == right:
+            return lists[left]
 
-            lists = new_list
+        mid = (left + right) // 2
 
-        return lists[0]
+        left_list = self.merge_range(lists, left, mid)
+        right_list = self.merge_range(lists, mid+1, right)
+
+        return self.merge_two(left_list, right_list)
+
 
     def merge_two(self, a, b):
         dummy = ListNode(0)
