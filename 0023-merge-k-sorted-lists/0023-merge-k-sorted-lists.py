@@ -5,37 +5,21 @@
 #         self.next = next
 class Solution:
     def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
-        if not lists:
-            return None
+        h = []
 
-        return self.merge_range(lists, 0, len(lists) - 1)
-
-    def merge_range(self, lists, left, right):
-        if left == right:
-            return lists[left]
-
-        mid = (left + right) // 2
-
-        left_list = self.merge_range(lists, left, mid)
-        right_list = self.merge_range(lists, mid+1, right)
-
-        return self.merge_two(left_list, right_list)
-
-
-    def merge_two(self, a, b):
+        for node in lists:
+            if node:
+                heapq.heappush(h, (node.val, id(node), node))
+        
         dummy = ListNode(0)
-        tail = dummy 
+        tail = dummy
 
-        while a and b:
-            if a.val < b.val:
-                tail.next = a
-                a = a.next
-            else:
-                tail.next = b
-                b = b.next
-
+        while h:
+            _, _, node = heapq.heappop(h)
+            tail.next = node
             tail = tail.next
-            
-        tail.next = a if a else b
+
+            if node.next:
+                heapq.heappush(h, (node.next.val, id(node.next), node.next))
 
         return dummy.next
