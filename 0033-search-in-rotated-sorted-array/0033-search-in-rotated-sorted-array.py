@@ -3,24 +3,25 @@ class Solution:
         left = 0 
         right = len(nums) - 1
 
-        while left + 1 < right:
-            mid = left + (right - left) // 2
+        while left <= right:
+            mid = (left + right) // 2
+
             if nums[mid] == target:
                 return mid
-            elif nums[left] < nums[mid]:
+
+            # 左半邊有序
+            # 注意這邊要加等號
+            # 可以用這例子測：nums = [3,1] target = 1, expected = 1
+            if nums[left] <= nums[mid]:
                 if nums[left] <= target < nums[mid]:
-                    right = mid
+                    right = mid - 1
                 else:
-                    left = mid
+                    left = mid + 1
+            # 右半邊有序
             else:
                 if nums[mid] < target <= nums[right]:
-                    left = mid
+                    left = mid + 1
                 else:
-                    right = mid
+                    right = mid - 1
         
-        if nums[left] == target:
-            return left
-        elif nums[right] == target:
-            return right
-        else:
-            return -1
+        return -1
