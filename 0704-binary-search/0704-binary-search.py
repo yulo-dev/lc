@@ -9,18 +9,13 @@ class Solution:
         if target < nums[left] or target > nums[right]:
             return -1
 
-        while left + 1 < right:
+        while left <= right:
             mid = (left + right) // 2
             if nums[mid] == target:
                 return mid
             elif nums[mid] < target:
-                left = mid 
+                left = mid + 1
             else:
-                right = mid 
-                
-        if target == nums[right]:
-            return right
-        elif target == nums[left]:
-            return left
-        else:
-            return -1
+                right = mid - 1
+
+        return -1
