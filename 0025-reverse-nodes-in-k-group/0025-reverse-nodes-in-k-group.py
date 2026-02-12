@@ -39,7 +39,8 @@ class Solution:
 
 
     def reverse_linked_list(self, head, k):
-        prev, curr, nxt = None, head, None
+        curr = head
+        prev = None 
         for _ in range(k):
             nxt = curr.next # temporarily store the nxt node
             curr.next = prev # reverse the current node
