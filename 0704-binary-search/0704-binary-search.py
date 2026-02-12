@@ -6,14 +6,21 @@ class Solution:
         left = 0
         right = len(nums) - 1
 
-        while left <= right:
+        if target < nums[left] or target > nums[right]:
+            return -1
+
+        while left + 1 < right:
             mid = (left + right) // 2
             if nums[mid] == target:
                 return mid
-
-            if nums[mid] < target:
-                left = mid + 1
+            elif nums[mid] < target:
+                left = mid 
             else:
-                right = mid - 1
+                right = mid 
                 
-        return -1
+        if target == nums[right]:
+            return right
+        elif target == nums[left]:
+            return left
+        else:
+            return -1
