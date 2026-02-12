@@ -6,32 +6,32 @@
 class Solution:
     def reverseKGroup(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
         
-        #類似lc206 指標反轉的寫法 只是只反轉k個
         dummy = ListNode(0, head)
-        groupPrev = dummy
-
+        prev = dummy
+    
         while True:
-            # 1) 找到這組的第 k 個（kth）
-            kth = groupPrev
+            # 先確認剩下夠不夠 k 個：找到第 k 個
+            kth = prev
             for _ in range(k):
                 kth = kth.next
-                if not kth:
-                    return dummy.next  # 不足 k 個就停, 回傳結果, 這邊也是最後跳出while loop的地方
+                if kth == None:
+                    return dummy.next   # 直接結束
+        
+            # 反轉 k 個
+            new_head, next_start = self.reverse_linked_list(prev.next, k)
 
-            # 2)  after = 下一組的開頭（這組後面的那個）
-            groupNext = kth.next
+            # 接回去
+            old_head = prev.next            # 反轉前的頭 -> 反轉後的尾巴
+            old_head.next = next_start      # 尾巴接回下一段
+            prev.next = new_head            # groupPrev 接到新頭
+            prev = old_head                 # prev 移到尾巴，準備下一組
+            
 
-            # 3) 反轉這一組（用 LC206 的寫法，但只做 k 次）
-            prev = groupNext
-            curr = groupPrev.next    # 這組的頭
-            for _ in range(k):
-                nxt = curr.next
-                curr.next = prev
-                prev = curr
-                curr = nxt
-
-            # 4) 接回去 + 移動 pre 到下一組
-            # 反轉前的頭（groupPrev.next）反轉後會變這組的尾巴
-            old_head = groupPrev.next
-            groupPrev.next = prev     # prev 是反轉後的新頭
-            groupPrev = old_head      # 下一輪從這組尾巴開始
+    def reverse_linked_list(self, head, k):
+        previous, current, nxt = None, head, None
+        for _ in range(k):
+            nxt = current.next # temporarily store the nxt node
+            current.next = previous # reverse the current node
+            previous = current # before we move to the next node, point previous to the current node
+            current = nxt  # move to the nxt node 
+        return previous, current
