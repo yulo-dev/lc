@@ -240,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/yulo-dev/lc/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/yulo-dev/lc/tree/master/0394-decode-string) |
 | [0409-longest-palindrome](https://github.com/yulo-dev/lc/tree/master/0409-longest-palindrome) |
+| [0412-fizz-buzz](https://github.com/yulo-dev/lc/tree/master/0412-fizz-buzz) |
 | [0424-longest-repeating-character-replacement](https://github.com/yulo-dev/lc/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/yulo-dev/lc/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/yulo-dev/lc/tree/master/0567-permutation-in-string) |
@@ -437,6 +438,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0224-basic-calculator](https://github.com/yulo-dev/lc/tree/master/0224-basic-calculator) |
 | [0264-ugly-number-ii](https://github.com/yulo-dev/lc/tree/master/0264-ugly-number-ii) |
 | [0380-insert-delete-getrandom-o1](https://github.com/yulo-dev/lc/tree/master/0380-insert-delete-getrandom-o1) |
+| [0412-fizz-buzz](https://github.com/yulo-dev/lc/tree/master/0412-fizz-buzz) |
 | [0441-arranging-coins](https://github.com/yulo-dev/lc/tree/master/0441-arranging-coins) |
 | [0973-k-closest-points-to-origin](https://github.com/yulo-dev/lc/tree/master/0973-k-closest-points-to-origin) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/yulo-dev/lc/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
@@ -537,6 +539,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/yulo-dev/lc/tree/master/0054-spiral-matrix) |
 | [0068-text-justification](https://github.com/yulo-dev/lc/tree/master/0068-text-justification) |
 | [0289-game-of-life](https://github.com/yulo-dev/lc/tree/master/0289-game-of-life) |
+| [0412-fizz-buzz](https://github.com/yulo-dev/lc/tree/master/0412-fizz-buzz) |
 | [1929-concatenation-of-array](https://github.com/yulo-dev/lc/tree/master/1929-concatenation-of-array) |
 ## Design
 |  |
