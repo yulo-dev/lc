@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/yulo-dev/lc/tree/master/0066-plus-one) |
 | [0068-text-justification](https://github.com/yulo-dev/lc/tree/master/0068-text-justification) |
 | [0073-set-matrix-zeroes](https://github.com/yulo-dev/lc/tree/master/0073-set-matrix-zeroes) |
+| [0074-search-a-2d-matrix](https://github.com/yulo-dev/lc/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/yulo-dev/lc/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/yulo-dev/lc/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/yulo-dev/lc/tree/master/0079-word-search) |
@@ -150,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/yulo-dev/lc/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/yulo-dev/lc/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/yulo-dev/lc/tree/master/0073-set-matrix-zeroes) |
+| [0074-search-a-2d-matrix](https://github.com/yulo-dev/lc/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/yulo-dev/lc/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/yulo-dev/lc/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/yulo-dev/lc/tree/master/0200-number-of-islands) |
@@ -489,6 +491,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/yulo-dev/lc/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/yulo-dev/lc/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/yulo-dev/lc/tree/master/0035-search-insert-position) |
+| [0074-search-a-2d-matrix](https://github.com/yulo-dev/lc/tree/master/0074-search-a-2d-matrix) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/yulo-dev/lc/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/yulo-dev/lc/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/yulo-dev/lc/tree/master/0167-two-sum-ii-input-array-is-sorted) |
