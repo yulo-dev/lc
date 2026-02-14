@@ -8,7 +8,12 @@ class Solution:
 
         while left <= right:
             mid = left + (right - left) // 2
+            
             row, col = divmod(mid, n)
+            #divmod(mid, n) 會一次回傳 (商, 餘數)，也就是：
+            #row = mid // n
+            #col = mid % n
+
             val = matrix[row][col]
 
             if val == target:
