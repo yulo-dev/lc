@@ -4,14 +4,11 @@ class Solution:
         left = 0
         right = len(nums) - 1
 
-        while left + 1 < right:
+        while left < right:
             mid = left + (right - left) // 2
-            if nums[mid] < nums[mid+1]: #右邊在上坡，peak 一定在右半邊
-                left = mid
-            else: #右邊在下坡或轉折，peak 一定在左半邊
+            if nums[mid] < nums[mid+1]:
+                left = mid + 1
+            else:
                 right = mid
 
-        if nums[left] > nums[right]:
-            return left
-        else:
-            return right
+        return left
