@@ -5,15 +5,15 @@ class Solution:
 
         # 1 indexed
         for i in range(1, n+1):
-            temp = ""
+            temp = []
             if i % 3 == 0:
-                temp += "Fizz" 
+                temp.append("Fizz") 
             if i % 5 == 0:
-                temp += "Buzz"
-            if temp == "":
-                temp = str(i)
-
-            res.append(temp)
+                temp.append("Buzz")  
+            if not temp:
+                res.append(str(i))
+            else:
+                res.append("".join(temp))
 
         return res 
                 
