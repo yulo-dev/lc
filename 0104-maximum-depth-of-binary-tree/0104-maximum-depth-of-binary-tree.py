@@ -13,16 +13,17 @@ class Solution:
             return 0
 
         queue = deque([root])
-        ans = 0
+        depth = 0
 
         while queue:
-            level_len = len(queue)
+            # 只要 queue 還有東西，代表還有一層
+            depth += 1
+
+            # 把這一層所有的 node 都吐出來，並把下一層塞進去
             for i in range(len(queue)):
                 node = queue.popleft()
-                if i == level_len - 1:
-                    ans += 1
                 if node.left:
                     queue.append(node.left)
                 if node.right:
                     queue.append(node.right)
-        return ans
+        return depth
