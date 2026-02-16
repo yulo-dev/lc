@@ -12,18 +12,5 @@ class Solution:
         if not root:
             return 0
 
-        queue = deque([root])
-        depth = 0
-
-        while queue:
-            # 只要 queue 還有東西，代表還有一層
-            depth += 1
-
-            # 把這一層所有的 node 都吐出來，並把下一層塞進去
-            for i in range(len(queue)):
-                node = queue.popleft()
-                if node.left:
-                    queue.append(node.left)
-                if node.right:
-                    queue.append(node.right)
-        return depth
+        #我這層的高度，就是左右兩邊比較高的那個，再加 1（加上我這一層）
+        return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
