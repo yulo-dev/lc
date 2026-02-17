@@ -12,20 +12,21 @@ class Solution:
         if not root:
             return True
         
-        queue = deque([(root.left, root.right)])
+        # 呼叫輔助函式，開始比對左子樹跟右子樹
+        return self.isMirrow(root.left, root.right)
 
-        while queue:
-            a, b = queue.popleft()
+    def isMirrow(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
+        # 1. Base Case: 處理 None
+        if not p and not q:
+            return True
 
-            if not a and not b:
-                continue
-            if not a or not b:
-                return False
-            
-            if a.val != b.val:
-                return False
+        if not p or not q:
+            return False
 
-            queue.append((a.left, b.right))
-            queue.append((b.left, a.right))
+        # 2. 當前層邏輯: 值要一樣
+        if p.val != q.val:
+            return False
 
-        return True
+        # 3. 交辦任務: 核心鏡像邏輯
+        # 比對 (p 的左 vs q 的右) AND (p 的右 vs q 的左)
+        return (self.isMirrow(p.left, q.right) and self.isMirrow(p.right, q.left))
