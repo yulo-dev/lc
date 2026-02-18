@@ -15,6 +15,12 @@ class Solution:
         # 3. 最後回傳筆記本裡的最高紀錄
         return self.max_diameter
 
+
+
+    #The helper function performs two tasks. 
+    #Primarily, it returns the height of the current subtree back to its parent. Simultaneously, it updates a global maximum variable by calculating the 
+    #path length through the current node, which is left_height + right_height. 
+    #Since the longest path could exist anywhere in the tree, we must traverse every node to ensure we've captured the absolute maximum.
     def getHeight(self, node: Optional[TreeNode]) -> int:
         # Base case: 空節點高度為 0
         if not node:
@@ -28,5 +34,5 @@ class Solution:
         # 我們把它跟筆記本裡的紀錄比比看，誰大就留誰
         self.max_diameter = max(self.max_diameter, left_h + right_h)
 
-        # 【維持傳統】：還是要回傳「高度」給上司看
+        # 【維持傳統】：還是要回傳「高度」
         return max(left_h, right_h) + 1
