@@ -16,16 +16,12 @@ class Solution:
         queue = deque([root])
 
         while queue:
-            # 關鍵：一定要先固定這一層的長度！
-            level_size = len(queue)
-            for i in range(level_size):
+            level_length = len(queue)
+            for i in range(level_length):
                 node = queue.popleft()
-
-                # 如果不是這一層的最後一個，就連向 Queue 的頭
-                if i < level_size - 1:
+                if i < (level_length - 1):
                     node.next = queue[0]
 
-                # 正常加入下一層的小孩
                 if node.left:
                     queue.append(node.left)
                 if node.right:
