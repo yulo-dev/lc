@@ -28,6 +28,7 @@ class Solution:
     
     #step 2: 重組（蓋平衡樹）(這就是 LC 108!)
     def build_balanced_tree(self, left, right, nums):
+        #當一個node沒有child時 這行就會觸發
         if left > right:
             return None
 
