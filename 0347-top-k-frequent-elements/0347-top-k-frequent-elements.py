@@ -6,8 +6,7 @@ class Solution:
 
         for num, freq in nums_count.items():
             heapq.heappush(h, (freq, num))
-
             if len(h) > k:
                 heapq.heappop(h)
 
-        return [x for _,x in h]
+        return [n for _, n in h]
