@@ -9,10 +9,10 @@ class Solution:
 
         res = []
         while h and len(res) < k:
-            _, i, j = heapq.heappop(h)
+            _,i,j = heapq.heappop(h)
             res.append([nums1[i], nums2[j]])
 
-            if j + 1 < len(nums2):
+            if j+1 < len(nums2):
                 heapq.heappush(h, (nums1[i] + nums2[j+1], i, j+1))
 
         return res
