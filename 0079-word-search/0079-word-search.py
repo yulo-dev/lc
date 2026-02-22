@@ -1,31 +1,41 @@
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
-        for i in range(len(board)):
-            for j in range(len(board[0])):
-                if self.check(board, i, j, word, 0, set()):
-                    return True
-        return False  
-
-    def check(self, board, x, y, word, k, visited):
-        DIRECTIONS = [(1,0), (-1,0), (0,1), (0,-1)]
-
-        if board[x][y] != word[k]:
-            return False
-        if k == len(word) - 1:
-            return True
-
-        visited.add((x, y))
-        result = False # result 只是為了 中途存「有沒有找到成功路徑」 預設這條路會失敗
-
-        for dir_x, dir_y in DIRECTIONS:
-            new_x = x + dir_x
-            new_y = y + dir_y
+        m, n = len(board), len(board[0])
+        
+        def dfs(r, c, i):
+            # 成功條件：指標 i 走到單字末尾
+            if i == len(word):
+                return True
             
-            if (0 <= new_x < len(board)) and (0 <= new_y < len(board[0])):
-                if (new_x, new_y) not in visited:
-                    if self.check(board, new_x, new_y, word, k + 1, visited):
-                        result = True # 如果某個方向成功 → 把 result 改成 True，並 break 提前結束 把他往上傳
-                        break
+            # 失敗條件：越界、字母不對、或是踩到走過的地方 ('#')
+            if r < 0 or r >= m or c < 0 or c >= n:
+                return False
+            if board[r][c] != word[i]:
+                return False
 
-        visited.remove((x, y))
-        return result
+            
+            # --- 選擇 (Choose) ---
+            # 暫存原本字母，並標記為已訪問
+            temp = board[r][c]
+            board[r][c] = "#"
+            
+            # --- 探索 (Explore) ---
+            # 往四個方向深挖
+            found = (dfs(r + 1, c, i + 1) or 
+                     dfs(r - 1, c, i + 1) or 
+                     dfs(r, c + 1, i + 1) or 
+                     dfs(r, c - 1, i + 1))
+            
+            # --- 撤銷 (Unchoose) ---
+            # 重要！不管有沒有找到，都要把字母還原，讓後面的起點能用
+            board[r][c] = temp
+            
+            return found
+
+        # 遍歷矩陣尋找第一個字母的起點
+        for r in range(m):
+            for c in range(n):
+                if board[r][c] == word[0]: # 優化：只從第一個字母開始 DFS
+                    if dfs(r, c, 0):
+                        return True
+        return False
