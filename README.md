@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1235-maximum-profit-in-job-scheduling](https://github.com/yulo-dev/lc/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1502-can-make-arithmetic-progression-from-sequence](https://github.com/yulo-dev/lc/tree/master/1502-can-make-arithmetic-progression-from-sequence) |
 | [1514-minimum-value-to-get-positive-step-by-step-sum](https://github.com/yulo-dev/lc/tree/master/1514-minimum-value-to-get-positive-step-by-step-sum) |
+| [1648-sell-diminishing-valued-colored-balls](https://github.com/yulo-dev/lc/tree/master/1648-sell-diminishing-valued-colored-balls) |
 | [1929-concatenation-of-array](https://github.com/yulo-dev/lc/tree/master/1929-concatenation-of-array) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/yulo-dev/lc/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/yulo-dev/lc/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
@@ -434,6 +435,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1235-maximum-profit-in-job-scheduling](https://github.com/yulo-dev/lc/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1502-can-make-arithmetic-progression-from-sequence](https://github.com/yulo-dev/lc/tree/master/1502-can-make-arithmetic-progression-from-sequence) |
 | [1561-rearrange-words-in-a-sentence](https://github.com/yulo-dev/lc/tree/master/1561-rearrange-words-in-a-sentence) |
+| [1648-sell-diminishing-valued-colored-balls](https://github.com/yulo-dev/lc/tree/master/1648-sell-diminishing-valued-colored-balls) |
 ## Sliding Window
 |  |
 | ------- |
@@ -507,6 +509,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0412-fizz-buzz](https://github.com/yulo-dev/lc/tree/master/0412-fizz-buzz) |
 | [0441-arranging-coins](https://github.com/yulo-dev/lc/tree/master/0441-arranging-coins) |
 | [0973-k-closest-points-to-origin](https://github.com/yulo-dev/lc/tree/master/0973-k-closest-points-to-origin) |
+| [1648-sell-diminishing-valued-colored-balls](https://github.com/yulo-dev/lc/tree/master/1648-sell-diminishing-valued-colored-balls) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/yulo-dev/lc/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 ## Recursion
 |  |
@@ -570,6 +573,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/yulo-dev/lc/tree/master/0907-koko-eating-bananas) |
 | [0981-time-based-key-value-store](https://github.com/yulo-dev/lc/tree/master/0981-time-based-key-value-store) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/yulo-dev/lc/tree/master/1235-maximum-profit-in-job-scheduling) |
+| [1648-sell-diminishing-valued-colored-balls](https://github.com/yulo-dev/lc/tree/master/1648-sell-diminishing-valued-colored-balls) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -600,6 +604,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/yulo-dev/lc/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/yulo-dev/lc/tree/master/0767-reorganize-string) |
 | [1382-balance-a-binary-search-tree](https://github.com/yulo-dev/lc/tree/master/1382-balance-a-binary-search-tree) |
+| [1648-sell-diminishing-valued-colored-balls](https://github.com/yulo-dev/lc/tree/master/1648-sell-diminishing-valued-colored-balls) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -684,6 +689,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0767-reorganize-string](https://github.com/yulo-dev/lc/tree/master/0767-reorganize-string) |
 | [0973-k-closest-points-to-origin](https://github.com/yulo-dev/lc/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/yulo-dev/lc/tree/master/1046-last-stone-weight) |
+| [1648-sell-diminishing-valued-colored-balls](https://github.com/yulo-dev/lc/tree/master/1648-sell-diminishing-valued-colored-balls) |
 ## Quickselect
 |  |
 | ------- |
