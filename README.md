@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/yulo-dev/lc/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/yulo-dev/lc/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/yulo-dev/lc/tree/master/0621-task-scheduler) |
+| [0695-max-area-of-island](https://github.com/yulo-dev/lc/tree/master/0695-max-area-of-island) |
 | [0704-binary-search](https://github.com/yulo-dev/lc/tree/master/0704-binary-search) |
 | [0733-flood-fill](https://github.com/yulo-dev/lc/tree/master/0733-flood-fill) |
 | [0739-daily-temperatures](https://github.com/yulo-dev/lc/tree/master/0739-daily-temperatures) |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0530-minimum-absolute-difference-in-bst](https://github.com/yulo-dev/lc/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/yulo-dev/lc/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/yulo-dev/lc/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0695-max-area-of-island](https://github.com/yulo-dev/lc/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/yulo-dev/lc/tree/master/0733-flood-fill) |
 | [1382-balance-a-binary-search-tree](https://github.com/yulo-dev/lc/tree/master/1382-balance-a-binary-search-tree) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/yulo-dev/lc/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
@@ -150,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0530-minimum-absolute-difference-in-bst](https://github.com/yulo-dev/lc/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0542-01-matrix](https://github.com/yulo-dev/lc/tree/master/0542-01-matrix) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/yulo-dev/lc/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0695-max-area-of-island](https://github.com/yulo-dev/lc/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/yulo-dev/lc/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/yulo-dev/lc/tree/master/0994-rotting-oranges) |
 | [1036-rotting-oranges](https://github.com/yulo-dev/lc/tree/master/1036-rotting-oranges) |
@@ -174,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0289-game-of-life](https://github.com/yulo-dev/lc/tree/master/0289-game-of-life) |
 | [0419-battleships-in-a-board](https://github.com/yulo-dev/lc/tree/master/0419-battleships-in-a-board) |
 | [0542-01-matrix](https://github.com/yulo-dev/lc/tree/master/0542-01-matrix) |
+| [0695-max-area-of-island](https://github.com/yulo-dev/lc/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/yulo-dev/lc/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/yulo-dev/lc/tree/master/0994-rotting-oranges) |
 | [1036-rotting-oranges](https://github.com/yulo-dev/lc/tree/master/1036-rotting-oranges) |
@@ -658,6 +662,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/yulo-dev/lc/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/yulo-dev/lc/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/yulo-dev/lc/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/yulo-dev/lc/tree/master/0695-max-area-of-island) |
 ## Doubly-Linked List
 |  |
 | ------- |
