@@ -5,6 +5,9 @@ class Solution:
 
         m = len(mat)
         n = len(mat[0])
+
+        #題目問的是「每個格子距離 0 的距離（一整個矩陣）」
+        #所以我們需要一個跟原本一樣大的 res 矩陣 來存這些算出來的距離
         res = [[0] * n for _ in range(m)]
 
         queue = deque()
