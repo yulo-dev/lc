@@ -8,7 +8,9 @@ class Solution:
             return board
 
         row = len(board)
+        last_row = row - 1
         col = len(board[0])
+        last_col = col - 1
 
         visited = set()
 
@@ -18,16 +20,16 @@ class Solution:
             if board[r][0] == "O" and (r, 0) not in visited:
                 self.bfs(board, r, 0, visited)
             # 右邊界 (col = n-1)
-            if board[r][len(board[0]) - 1] == "O" and (r, len(board[0]) - 1) not in visited:
-                self.bfs(board, r, len(board[0]) - 1, visited)
+            if board[r][last_col] == "O" and (r, last_col) not in visited:
+                self.bfs(board, r, last_col, visited)
 
         for c in range(col):
             # 上邊界 (row = 0)
             if board[0][c] == "O" and (0, c) not in visited:
                 self.bfs(board, 0, c, visited)
             # 下邊界 (row = m-1)
-            if board[len(board) - 1][c] == "O" and (len(board) - 1, c) not in visited:
-                self.bfs(board, len(board) - 1, c, visited)
+            if board[last_row][c] == "O" and (last_row, c) not in visited:
+                self.bfs(board, last_row, c, visited)
 
         # 2) 掃盤：被包住的 'O' -> 'X'；安全的 'T' -> 'O'
         for r in range(row):
