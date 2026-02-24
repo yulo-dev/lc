@@ -7,32 +7,35 @@ class Solution:
         if not board or not board[0]:
             return board
 
+        row = len(board)
+        col = len(board[0])
+
         visited = set()
 
         # 1) 只從邊界的 'O' 出發 BFS，把所有「邊界可達的 O」標成 'T'
-        for x in range(len(board)):
+        for r in range(row):
             # 左邊界 (col = 0)
-            if board[x][0] == "O" and (x, 0) not in visited:
-                self.bfs(board, x, 0, visited)
+            if board[r][0] == "O" and (r, 0) not in visited:
+                self.bfs(board, r, 0, visited)
             # 右邊界 (col = n-1)
-            if board[x][len(board[0]) - 1] == "O" and (x, len(board[0]) - 1) not in visited:
-                self.bfs(board, x, len(board[0]) - 1, visited)
+            if board[r][len(board[0]) - 1] == "O" and (r, len(board[0]) - 1) not in visited:
+                self.bfs(board, r, len(board[0]) - 1, visited)
 
-        for y in range(len(board[0])):
+        for c in range(col):
             # 上邊界 (row = 0)
-            if board[0][y] == "O" and (0, y) not in visited:
-                self.bfs(board, 0, y, visited)
+            if board[0][c] == "O" and (0, c) not in visited:
+                self.bfs(board, 0, c, visited)
             # 下邊界 (row = m-1)
-            if board[len(board) - 1][y] == "O" and (len(board) - 1, y) not in visited:
-                self.bfs(board, len(board) - 1, y, visited)
+            if board[len(board) - 1][c] == "O" and (len(board) - 1, c) not in visited:
+                self.bfs(board, len(board) - 1, c, visited)
 
         # 2) 掃盤：被包住的 'O' -> 'X'；安全的 'T' -> 'O'
-        for x in range(len(board)):
-            for y in range(len(board[0])):
-                if board[x][y] == "O":
-                    board[x][y] = "X"
-                elif board[x][y] == "T":
-                    board[x][y] = "O"
+        for r in range(row):
+            for c in range(col):
+                if board[r][c] == "O":
+                    board[r][c] = "X"
+                elif board[r][c] == "T":
+                    board[r][c] = "O"
 
         return 
 
