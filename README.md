@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1006-vowel-spellchecker](https://github.com/yulo-dev/lc/tree/master/1006-vowel-spellchecker) |
 | [1036-rotting-oranges](https://github.com/yulo-dev/lc/tree/master/1036-rotting-oranges) |
 | [1046-last-stone-weight](https://github.com/yulo-dev/lc/tree/master/1046-last-stone-weight) |
+| [1091-shortest-path-in-binary-matrix](https://github.com/yulo-dev/lc/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/yulo-dev/lc/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1502-can-make-arithmetic-progression-from-sequence](https://github.com/yulo-dev/lc/tree/master/1502-can-make-arithmetic-progression-from-sequence) |
 | [1514-minimum-value-to-get-positive-step-by-step-sum](https://github.com/yulo-dev/lc/tree/master/1514-minimum-value-to-get-positive-step-by-step-sum) |
@@ -156,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/yulo-dev/lc/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/yulo-dev/lc/tree/master/0994-rotting-oranges) |
 | [1036-rotting-oranges](https://github.com/yulo-dev/lc/tree/master/1036-rotting-oranges) |
+| [1091-shortest-path-in-binary-matrix](https://github.com/yulo-dev/lc/tree/master/1091-shortest-path-in-binary-matrix) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/yulo-dev/lc/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Union Find
 |  |
@@ -181,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/yulo-dev/lc/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/yulo-dev/lc/tree/master/0994-rotting-oranges) |
 | [1036-rotting-oranges](https://github.com/yulo-dev/lc/tree/master/1036-rotting-oranges) |
+| [1091-shortest-path-in-binary-matrix](https://github.com/yulo-dev/lc/tree/master/1091-shortest-path-in-binary-matrix) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/yulo-dev/lc/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Hash Table
 |  |
