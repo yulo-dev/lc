@@ -3,18 +3,16 @@ class Solution:
         
         left = 0
         right = x
-        ans = 0
 
         while left <= right:
             mid = left + (right - left) // 2
 
             if mid * mid <= x:
-                ans = mid
                 left = mid + 1
             else:
                 right = mid - 1 
 
-        return ans
+        return right
 
 # Binary search: for greedy problems
 # If looking for a maximum 的模板
