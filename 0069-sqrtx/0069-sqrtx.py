@@ -14,5 +14,5 @@ class Solution:
 
         return right
 
-# Binary search: for greedy problems
+# BBinary Search on Answer
 # If looking for a maximum 的模板
