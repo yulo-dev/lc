@@ -98,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1929-concatenation-of-array](https://github.com/yulo-dev/lc/tree/master/1929-concatenation-of-array) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/yulo-dev/lc/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/yulo-dev/lc/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
+| [3637-trionic-array-i](https://github.com/yulo-dev/lc/tree/master/3637-trionic-array-i) |
 ## Depth-First Search
 |  |
 | ------- |
