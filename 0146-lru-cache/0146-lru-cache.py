@@ -7,6 +7,8 @@
 # DLL 解決：維護「最近使用順序」的 O(1) 移動/刪除
 # → 兩個合起來才做得到 get/put 都 O(1)
 
+
+#DLL node 
 class Node:
     def __init__(self, key = None, val = None):
         self.key = key
@@ -18,10 +20,13 @@ class LRUCache:
     def __init__(self, capacity: int):
         self.cap = capacity
         self.map = {} # key -> node
+
+        #I use dummy head and dummy tail nodes to simplify insertion and deletion in the doubly linked list. 
+        #They make it easier to add or remove real nodes, because I can always assume there is a node before and after the position I’m updating.
         self.head = Node(0,0)
         self.tail = Node(0,0)
         self.head.next = self.tail
-        self.tail.next = self.head
+        self.tail.prev = self.head
 
     def _remove(self, node):
         prev = node.prev
