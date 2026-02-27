@@ -6,6 +6,20 @@ class Node:
         self.neighbors = neighbors if neighbors is not None else []
 """
 
+#要複製
+    #node的value
+    #neighbor關係
+    #整個graph structure
+
+#核心考點
+    #graph不是tree, 他有cycle 或可能 多個node指向同個node
+    #需要用hashmap 其中key=舊的node value=對應的新的clone node 
+    #hashmap用來防止
+        #重複clone
+        #防止cycle
+
+
+
 from typing import Optional
 class Solution:
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
@@ -22,16 +36,10 @@ class Solution:
                 if nei not in oldtonew:
                     oldtonew[nei] = Node(nei.val)
                     queue.append(nei)
-            
-                #在複製圖裡，把 curr' -> nei' 這條邊接起來:
-                    #oldtonew[curr]：拿到「curr 這個原本節點」對應的「複製節點 curr'」
-                    #oldtonew[nei]：拿到「nei 這個原本鄰居節點」對應的「複製節點 nei'」
-                    #append(...)：在 curr' 的 neighbors 裡加入 nei'
-                #為什麼不能寫 curr.neighbors.append(nei)
-                    #curr 是 原圖的節點
-                    #nei 是 原圖的鄰居
-                    #curr.neighbors.append(nei) 會把邊加在 原圖 上
+
+                #不是接原本 neighbor 像是 oldtonew[curr].neighbors.append(nei)
+                #而是接新的node 代表 新 graph 裡的 neighbor 也是新 node
                 oldtonew[curr].neighbors.append(oldtonew[nei])
 
+        # 回傳起點的 clone node
         return oldtonew[node] 
-
