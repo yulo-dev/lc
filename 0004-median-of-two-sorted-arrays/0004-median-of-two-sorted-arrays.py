@@ -5,20 +5,33 @@ class Solution:
 
         m = len(nums1) 
         n = len(nums2) 
-        half_length = (m + n + 1) // 2
+        half_length = (m + n + 1) // 2 # 這個+1的設計是 當總長是 odd 時，左半邊比右半邊多 1 個元素
 
         left = 0
         right = m
 
         while left <= right:
-            i = left + (right - left) // 2
-            j = half_length - i
+            i = left + (right - left) // 2   # i = 從 nums1 拿幾個放左邊, num1的切點
+            j = half_length - i              # j = 從 nums2 拿幾個放左邊, num2的切點, 由「左半邊應該有多少元素」減去 nums1 左邊已經拿了多少元素 i 得到
 
-            l1 = nums1[i - 1] if i > 0 else float("-inf")
-            r1 = nums1[i] if i < m else float("inf")
-            l2 = nums2[j - 1] if j > 0 else float("-inf")
-            r2 = nums2[j] if j < n else float("inf")
 
+            #這四個點是每個 array 的「切口左右兩邊最靠近切口的值」
+            #例如
+                #i = 2
+                #j = 2
+                #nums1: [1, 3 | 8]
+                #nums2: [7, 9 | 10, 11]
+            #則
+                #l1 = 3
+                #r1 = 8
+                #l2 = 9
+                #r2 = 10
+            l1 = nums1[i - 1] if i > 0 else float("-inf") #l1 = nums1 左半邊最後一個
+            r1 = nums1[i] if i < m else float("inf")      #r1 = nums1 右半邊第一個
+            l2 = nums2[j - 1] if j > 0 else float("-inf") #l2 = nums2 左半邊最後一個
+            r2 = nums2[j] if j < n else float("inf")      #r2 = nums2 右半邊第一個
+
+            #因為兩個陣列本來就各自 sorted 所以如果你已經知道l1 <= r2 and l2 <= r1, 就代表：左邊全部都 <= 右邊全部
             if l1 <= r2 and l2 <= r1:
                 if (m + n) % 2 == 1:
                     return max(l1, l2) 
