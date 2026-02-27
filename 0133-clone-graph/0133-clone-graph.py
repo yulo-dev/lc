@@ -23,9 +23,18 @@ class Node:
 from typing import Optional
 class Solution:
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
+        
+        # use bfs or dfs to traverse the original graph, and use a hashmap to store a mapping from the original node to its cloned node
+        # use a queue to store the current node
+        # bfs
+        # traverse its neighbor
+            # if the neighbor hasn't been add in the map: add in the map & queue
+        # connect the new cloned node with new cloned neighbor
+        # return the cloned starting node
+
         if not node:
             return None
-
+        
         oldtonew = {}
         oldtonew[node] = Node(node.val)
         queue = deque([node])
@@ -35,11 +44,8 @@ class Solution:
             for nei in curr.neighbors:
                 if nei not in oldtonew:
                     oldtonew[nei] = Node(nei.val)
-                    queue.append(nei)
-
-                #不是接原本 neighbor 像是 oldtonew[curr].neighbors.append(nei)
-                #而是接新的node 代表 新 graph 裡的 neighbor 也是新 node
+                    queue.append(nei) # 原本graph的neighbor node
+                
                 oldtonew[curr].neighbors.append(oldtonew[nei])
 
-        # 回傳起點的 clone node
-        return oldtonew[node] 
+        return oldtonew[node]
