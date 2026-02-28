@@ -2,13 +2,15 @@ class Node:
     def __init__(self, key, val):
         self.key = key
         self.val = val
+        #dll
         self.prev = None
         self.next = None
 
 class LRUCache:
-    def __init__(self, capacity: int):
+    def __init__(self, capacity):
         self.cap = capacity
-        self.map = {} #key - > Node
+        self.map = {} #key -> Node
+        #dummy head & tail
         self.head = Node(0,0)
         self.tail = Node(0,0)
         self.head.next = self.tail
@@ -20,41 +22,41 @@ class LRUCache:
         prev.next = nxt
         nxt.prev = prev
 
-    def _add_to_front(self, node):
+    def _add_to_start(self, node):
         first = self.head.next
-        node.next = first
         node.prev = self.head
+        node.next = first
         self.head.next = node
         first.prev = node
 
-    def _move_to_front(self, node):
+    def _move_to_start(self, node):
         self._remove(node)
-        self._add_to_front(node)
+        self._add_to_start(node)
 
-    def _remove_lru(self):
+    def _lru_remove(self):
         lru = self.tail.prev
         self._remove(lru)
-        return lru #for later use when the capacity exceeds
+        return lru
 
     def get(self, key):
         if key not in self.map:
             return -1
-            
+
         node = self.map[key]
-        self._move_to_front(node)
+        self._move_to_start(node)
         return node.val
 
     def put(self, key, val):
         if key in self.map:
             node = self.map[key]
             node.val = val
-            self._move_to_front(node)
+            self._move_to_start(node)
             return
-
+        
         node = Node(key, val)
         self.map[key] = node
-        self._add_to_front(node)
-        
+        self._add_to_start(node)
         if len(self.map) > self.cap:
-            lru = self._remove_lru()
+            lru = self._lru_remove()
             del self.map[lru.key]
+
