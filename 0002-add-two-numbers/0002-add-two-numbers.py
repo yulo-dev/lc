@@ -15,8 +15,8 @@ class Solution:
 
             tot = l1_val + l2_val + carry
 
-            carry = tot // 10
-            digit = tot % 10
+            carry = tot // 10 #sum floor-divided by ten to get the carry for the next step
+            digit = tot % 10 #sum mod ten to get the digit
 
             curr.next = ListNode(digit)
 
