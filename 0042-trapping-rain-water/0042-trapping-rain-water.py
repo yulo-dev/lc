@@ -20,3 +20,10 @@ class Solution:
             tot += min(left_max[i], right_max[i]) - height[i]
 
         return tot
+
+#My plan is to preprocess the array in two passes.
+#In the first pass, I record the highest wall to the left of each index.
+#In the second pass, I record the highest wall to the right of each index.
+#Once I have those two arrays, I can compute how much water each position can hold. 
+#The water level is determined by the shorter boundary between the left max and the right max, and then I subtract the current height.
+#Finally, I add up the trapped water for all positions.
