@@ -10,18 +10,16 @@ class Solution:
         
         while left < right:
             # 誰小就處理誰，因為「短板」決定水量
+            # 【左邊小，代表左邊這區塊的水位已經由 left_max 封頂了】
             if left_max < right_max:
-                left += 1
-                # 更新左側最大高度
-                left_max = max(left_max, height[left])
-                # 累加水量：當前最高牆 - 當前牆高
-                res += left_max - height[left]
+                left += 1 # 踏入新領地
+                left_max = max(left_max, height[left]) # 看看新領地的牆高
+                res += left_max - height[left] # 【立刻結算】這塊新領地的水
             else:
-                right -= 1
-                # 更新右側最大高度
+                # 【右邊小，代表右邊這區塊的水位已經由 right_max 封頂了】
+                right -= 1 # 踏入新領地
                 right_max = max(right_max, height[right])
-                # 累加水量
-                res += right_max - height[right]
+                res += right_max - height[right] # 【立刻結算】這塊新領地的水
                 
         return res
 
