@@ -29,7 +29,7 @@ class Solution:
             curr.next = prev
             prev = curr
             curr = nxt
-        second = prev  # 把 second 的頭指回正確的新頭
+        second = prev  # 把 second 這個指標，更新成「反轉後那段 linked list 的新頭」
 
         # 3) merge (weave) first and second
         first = head
