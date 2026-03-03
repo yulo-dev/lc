@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0752-open-the-lock](https://github.com/yulo-dev/lc/tree/master/0752-open-the-lock) |
 | [0792-binary-search](https://github.com/yulo-dev/lc/tree/master/0792-binary-search) |
 | [0853-car-fleet](https://github.com/yulo-dev/lc/tree/master/0853-car-fleet) |
+| [0875-koko-eating-bananas](https://github.com/yulo-dev/lc/tree/master/0875-koko-eating-bananas) |
 | [0907-koko-eating-bananas](https://github.com/yulo-dev/lc/tree/master/0907-koko-eating-bananas) |
 | [0918-maximum-sum-circular-subarray](https://github.com/yulo-dev/lc/tree/master/0918-maximum-sum-circular-subarray) |
 | [0973-k-closest-points-to-origin](https://github.com/yulo-dev/lc/tree/master/0973-k-closest-points-to-origin) |
@@ -596,6 +597,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0441-arranging-coins](https://github.com/yulo-dev/lc/tree/master/0441-arranging-coins) |
 | [0704-binary-search](https://github.com/yulo-dev/lc/tree/master/0704-binary-search) |
 | [0792-binary-search](https://github.com/yulo-dev/lc/tree/master/0792-binary-search) |
+| [0875-koko-eating-bananas](https://github.com/yulo-dev/lc/tree/master/0875-koko-eating-bananas) |
 | [0907-koko-eating-bananas](https://github.com/yulo-dev/lc/tree/master/0907-koko-eating-bananas) |
 | [0981-time-based-key-value-store](https://github.com/yulo-dev/lc/tree/master/0981-time-based-key-value-store) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/yulo-dev/lc/tree/master/1235-maximum-profit-in-job-scheduling) |
