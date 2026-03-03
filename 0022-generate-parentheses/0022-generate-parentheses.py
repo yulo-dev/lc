@@ -19,6 +19,8 @@ class Solution:
                 path.pop() # 回溯
                 
             # 3. 選擇二：嘗試放右括號
+            # only add a closing parenthesis when the number of closing parentheses is less than the number of opening parentheses.
+            # This ensures the current string is still valid, because we can only close a parenthesis if there is an unmatched opening parenthesis before it.
             if right < left:
                 path.append(")")
                 backtrack(left, right + 1)
