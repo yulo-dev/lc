@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0271-encode-and-decode-strings](https://github.com/yulo-dev/lc/tree/master/0271-encode-and-decode-strings) |
 | [0274-h-index](https://github.com/yulo-dev/lc/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/yulo-dev/lc/tree/master/0283-move-zeroes) |
+| [0286-walls-and-gates](https://github.com/yulo-dev/lc/tree/master/0286-walls-and-gates) |
 | [0287-find-the-duplicate-number](https://github.com/yulo-dev/lc/tree/master/0287-find-the-duplicate-number) |
 | [0289-game-of-life](https://github.com/yulo-dev/lc/tree/master/0289-game-of-life) |
 | [0303-range-sum-query-immutable](https://github.com/yulo-dev/lc/tree/master/0303-range-sum-query-immutable) |
@@ -155,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/yulo-dev/lc/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/yulo-dev/lc/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/yulo-dev/lc/tree/master/0226-invert-binary-tree) |
+| [0286-walls-and-gates](https://github.com/yulo-dev/lc/tree/master/0286-walls-and-gates) |
 | [0310-minimum-height-trees](https://github.com/yulo-dev/lc/tree/master/0310-minimum-height-trees) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/yulo-dev/lc/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0542-01-matrix](https://github.com/yulo-dev/lc/tree/master/0542-01-matrix) |
@@ -184,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/yulo-dev/lc/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/yulo-dev/lc/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/yulo-dev/lc/tree/master/0200-number-of-islands) |
+| [0286-walls-and-gates](https://github.com/yulo-dev/lc/tree/master/0286-walls-and-gates) |
 | [0289-game-of-life](https://github.com/yulo-dev/lc/tree/master/0289-game-of-life) |
 | [0419-battleships-in-a-board](https://github.com/yulo-dev/lc/tree/master/0419-battleships-in-a-board) |
 | [0542-01-matrix](https://github.com/yulo-dev/lc/tree/master/0542-01-matrix) |
