@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0134-gas-station](https://github.com/yulo-dev/lc/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/yulo-dev/lc/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/yulo-dev/lc/tree/master/0136-single-number) |
+| [0139-word-break](https://github.com/yulo-dev/lc/tree/master/0139-word-break) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/yulo-dev/lc/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/yulo-dev/lc/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/yulo-dev/lc/tree/master/0162-find-peak-element) |
@@ -218,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/yulo-dev/lc/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/yulo-dev/lc/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/yulo-dev/lc/tree/master/0138-copy-list-with-random-pointer) |
+| [0139-word-break](https://github.com/yulo-dev/lc/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/yulo-dev/lc/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/yulo-dev/lc/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/yulo-dev/lc/tree/master/0146-lru-cache) |
@@ -273,6 +275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/yulo-dev/lc/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/yulo-dev/lc/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/yulo-dev/lc/tree/master/0127-word-ladder) |
+| [0139-word-break](https://github.com/yulo-dev/lc/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/yulo-dev/lc/tree/master/0151-reverse-words-in-a-string) |
 | [0159-longest-substring-with-at-most-two-distinct-characters](https://github.com/yulo-dev/lc/tree/master/0159-longest-substring-with-at-most-two-distinct-characters) |
 | [0205-isomorphic-strings](https://github.com/yulo-dev/lc/tree/master/0205-isomorphic-strings) |
@@ -497,6 +500,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/yulo-dev/lc/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/yulo-dev/lc/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/yulo-dev/lc/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0139-word-break](https://github.com/yulo-dev/lc/tree/master/0139-word-break) |
 | [0264-ugly-number-ii](https://github.com/yulo-dev/lc/tree/master/0264-ugly-number-ii) |
 | [0392-is-subsequence](https://github.com/yulo-dev/lc/tree/master/0392-is-subsequence) |
 | [0542-01-matrix](https://github.com/yulo-dev/lc/tree/master/0542-01-matrix) |
@@ -685,6 +689,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/yulo-dev/lc/tree/master/0014-longest-common-prefix) |
+| [0139-word-break](https://github.com/yulo-dev/lc/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/yulo-dev/lc/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/yulo-dev/lc/tree/master/0211-design-add-and-search-words-data-structure) |
 ## Union-Find
@@ -779,4 +784,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/yulo-dev/lc/tree/master/0572-subtree-of-another-tree) |
+## Memoization
+|  |
+| ------- |
+| [0139-word-break](https://github.com/yulo-dev/lc/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
