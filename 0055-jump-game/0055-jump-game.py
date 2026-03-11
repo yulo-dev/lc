@@ -8,3 +8,4 @@ class Solution:
             farthest = max(farthest, nums[i] + i)
 
         return True
+            
