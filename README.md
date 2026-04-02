@@ -98,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-last-stone-weight](https://github.com/yulo-dev/lc/tree/master/1046-last-stone-weight) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/yulo-dev/lc/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/yulo-dev/lc/tree/master/1235-maximum-profit-in-job-scheduling) |
+| [1480-running-sum-of-1d-array](https://github.com/yulo-dev/lc/tree/master/1480-running-sum-of-1d-array) |
 | [1502-can-make-arithmetic-progression-from-sequence](https://github.com/yulo-dev/lc/tree/master/1502-can-make-arithmetic-progression-from-sequence) |
 | [1514-minimum-value-to-get-positive-step-by-step-sum](https://github.com/yulo-dev/lc/tree/master/1514-minimum-value-to-get-positive-step-by-step-sum) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/yulo-dev/lc/tree/master/1648-sell-diminishing-valued-colored-balls) |
@@ -623,6 +624,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/yulo-dev/lc/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/yulo-dev/lc/tree/master/0303-range-sum-query-immutable) |
 | [0560-subarray-sum-equals-k](https://github.com/yulo-dev/lc/tree/master/0560-subarray-sum-equals-k) |
+| [1480-running-sum-of-1d-array](https://github.com/yulo-dev/lc/tree/master/1480-running-sum-of-1d-array) |
 | [1514-minimum-value-to-get-positive-step-by-step-sum](https://github.com/yulo-dev/lc/tree/master/1514-minimum-value-to-get-positive-step-by-step-sum) |
 ## Database
 |  |
