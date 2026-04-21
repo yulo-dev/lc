@@ -1,18 +1,23 @@
 # Write your MySQL query statement below
-WITH first_login AS (
-    SELECT player_id, min(event_date) AS first_login_date
+
+# find the first date, and check if lead(1) is the first date + 1
+# numerator: # of players that logged in again after they first logged in
+# denominator: # of player 
+
+
+WITH login_after_first_date AS (
+    SELECT 
+        player_id, device_id, 
+        event_date,
+        LEAD(event_date, 1) OVER (PARTITION BY player_id ORDER BY event_date) AS event_next_date,
+        ROW_NUMBER() OVER (PARTITION BY player_id ORDER BY event_date) AS rk
     FROM Activity
-    GROUP BY player_id
 )
 
-SELECT ROUND(
-        AVG(a.event_date IS NOT NULL)
-    , 2) 
-    AS fraction
-
-FROM first_login AS f LEFT JOIN Activity AS a
-ON f.player_id = a.player_id and datediff(a.event_date, f.first_login_date) = 1;
-
-
-# 如果要單獨算分母 要用 SELECT COUNT(DISTINCT player_id) FROM Activity
-# 把所有 player_id 去重後數總數 → 一個數字，才能當分母。
+SELECT
+    ROUND(
+        SUM(CASE WHEN DATEDIFF(event_next_date, event_date) = 1 THEN 1 ELSE 0 END) / 
+        (SELECT COUNT(DISTINCT player_id) FROM Activity)
+        , 2) AS fraction
+FROM login_after_first_date
+WHERE rk = 1;
