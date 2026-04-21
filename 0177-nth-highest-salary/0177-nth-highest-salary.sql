@@ -1,15 +1,11 @@
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN
+  SET N = N - 1;
   RETURN (
       # Write your MySQL query statement below.
-      SELECT 
-        max(salary) AS getNthHighestSalary
-      FROM (
-        SELECT 
-            salary,
-            DENSE_RANK() OVER (ORDER BY salary DESC) AS rk
-        FROM Employee
-      ) AS t
-      WHERE rk = N
+      SELECT DISTINCT salary
+      FROM Employee
+      ORDER BY salary DESC
+      LIMIT 1 OFFSET N
   );
 END
