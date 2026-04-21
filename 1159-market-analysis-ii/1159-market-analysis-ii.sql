@@ -21,10 +21,10 @@ WITH rank_order AS (
 SELECT
     u.user_id AS seller_id,
     CASE 
-        WHEN r.item_brand IS NOT NULL THEN 'yes' 
+        WHEN u.favorite_brand = r.item_brand THEN 'yes' 
         ELSE 'no' 
         END AS 2nd_item_fav_brand
 
 FROM Users AS u 
-    LEFT JOIN rank_order AS r                   # -- join by favorite_brand = item_brand and rk = 2 per seller to check if the second item they sell is their fav brand
-    ON u.user_id = r.seller_id AND u.favorite_brand = r.item_brand AND r.rk = 2;
+    LEFT JOIN rank_order AS r      
+    ON u.user_id = r.seller_id AND r.rk = 2;
