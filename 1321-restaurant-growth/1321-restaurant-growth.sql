@@ -5,7 +5,7 @@
 # may have same date appear more than one row
 
 
-WITH total_amout_per_day AS (
+WITH daily_sales AS (
     SELECT 
         visited_on, SUM(amount) AS total_amout
     FROM Customer
@@ -13,7 +13,7 @@ WITH total_amout_per_day AS (
     ORDER BY visited_on
 ),
 
-total_amout_in_window AS (
+rolling_7day AS (
     SELECT 
         visited_on, 
         SUM(total_amout) OVER (
@@ -29,11 +29,11 @@ total_amout_in_window AS (
             ,2) AS average_amount,
         ROW_NUMBER() OVER (ORDER BY visited_on) AS rn
 
-    FROM total_amout_per_day
+    FROM daily_sales
     GROUP BY visited_on
 )
 
 SELECT 
     visited_on, amount, average_amount
-FROM total_amout_in_window
-WHERE RN >=7;
+FROM rolling_7day
+WHERE rn >=7;
