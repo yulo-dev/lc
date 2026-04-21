@@ -22,5 +22,5 @@ SELECT
 FROM Books AS b 
 LEFT JOIN aggregate_quantity_last_year AS a
     ON b.book_id = a.book_id
-WHERE b.available_from <= '2019-06-23' - INTERVAL 1 MONTH 
+WHERE b.available_from <= '2019-05-23' 
     AND COALESCE(a.quantity_per_book, 0) < 10; #不加coalesce的話 空值<10 不算true
