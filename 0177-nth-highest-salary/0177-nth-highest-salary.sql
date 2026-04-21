@@ -10,7 +10,8 @@ BEGIN
       )
       SELECT 
         max(salary) AS getNthHighestSalary
-      FROM rank_employee WHERE rk = N
+      FROM rank_employee 
+      WHERE rk = N
 
   );
 END
