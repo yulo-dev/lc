@@ -1,15 +1,25 @@
 # Write your MySQL query statement below
 
-WITH first_date AS (
+# immediate: same day -> percentage
+# scheduled: different day
+# first order: earliest date per customer (no tie)
+
+# row number: get the first record per customer (ORDER BY order_date)
+# numerator:  count of customers whose first order is immediate
+# denominator: total number of customers
+# percentage: numerator / denominator * 100
+
+WITH first_record AS (
     SELECT
-        customer_id, MIN(order_date) as first_order_date
+        ROW_NUMBER() OVER (PARTITION BY customer_id ORDER BY order_date) AS rn,
+        customer_id,
+        order_date, customer_pref_delivery_date
     FROM Delivery
-    GROUP BY customer_id
 )
 
-SELECT 
+SELECT
     ROUND(
-        AVG(CASE WHEN d.order_date = d.customer_pref_delivery_date THEN 1.0 ELSE 0 END) * 100
-    ,2) as immediate_percentage
-
-FROM Delivery AS d JOIN first_date AS f ON d.customer_id = f.customer_id and d.order_date = f.first_order_date;
+        AVG(CASE WHEN order_date = customer_pref_delivery_date THEN 1 ELSE 0 END) * 100
+        ,2) AS immediate_percentage
+FROM first_record
+WHERE rn = 1;
