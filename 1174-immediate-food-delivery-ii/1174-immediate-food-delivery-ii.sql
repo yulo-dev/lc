@@ -9,7 +9,7 @@
 # denominator: total number of customers
 # percentage: numerator / denominator * 100
 
-WITH first_record AS (
+WITH first_orders_ranked AS (
     SELECT
         ROW_NUMBER() OVER (PARTITION BY customer_id ORDER BY order_date) AS rn,
         customer_id,
@@ -21,5 +21,5 @@ SELECT
     ROUND(
         AVG(CASE WHEN order_date = customer_pref_delivery_date THEN 1 ELSE 0 END) * 100
         ,2) AS immediate_percentage
-FROM first_record
+FROM first_orders_ranked
 WHERE rn = 1;
