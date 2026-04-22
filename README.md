@@ -656,6 +656,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1321-restaurant-growth](https://github.com/yulo-dev/lc/tree/master/1321-restaurant-growth) |
 | [1341-movie-rating](https://github.com/yulo-dev/lc/tree/master/1341-movie-rating) |
 | [1378-replace-employee-id-with-the-unique-identifier](https://github.com/yulo-dev/lc/tree/master/1378-replace-employee-id-with-the-unique-identifier) |
+| [1454-active-users](https://github.com/yulo-dev/lc/tree/master/1454-active-users) |
 | [1581-customer-who-visited-but-did-not-make-any-transactions](https://github.com/yulo-dev/lc/tree/master/1581-customer-who-visited-but-did-not-make-any-transactions) |
 | [1661-average-time-of-process-per-machine](https://github.com/yulo-dev/lc/tree/master/1661-average-time-of-process-per-machine) |
 | [1683-invalid-tweets](https://github.com/yulo-dev/lc/tree/master/1683-invalid-tweets) |
