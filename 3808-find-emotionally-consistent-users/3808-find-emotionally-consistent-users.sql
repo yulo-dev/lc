@@ -11,9 +11,10 @@
 
 WITH five_contents AS (
     SELECT 
-        user_id, COUNT(DISTINCT content_id) AS nums_of_content
+        user_id, COUNT(*) AS nums_of_content
     FROM reactions 
     GROUP BY user_id
+    HAVING COUNT(*) >= 5
 ),
 
 percantage_of_reaction AS (
@@ -21,12 +22,12 @@ percantage_of_reaction AS (
         r.user_id, 
         r.reaction,
         ROUND(
-            COUNT(*) / f.nums_of_content
+            COUNT(*) * 1.0 / f.nums_of_content
         ,2) AS ratio
     FROM reactions AS r 
-    LEFT JOIN five_contents AS f
-    ON r.user_id = f.user_id AND f.nums_of_content >= 5 
-    GROUP BY r.user_id, r.reaction
+    JOIN five_contents AS f
+    ON r.user_id = f.user_id
+    GROUP BY r.user_id, r.reaction, f.nums_of_content
 )
 
 SELECT
@@ -35,5 +36,5 @@ SELECT
     ratio AS reaction_ratio
 
 FROM percantage_of_reaction 
-WHERE ratio > 0.6
+WHERE ratio >= 0.6
 ORDER BY reaction_ratio DESC, user_id;
