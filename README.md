@@ -636,6 +636,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0178-rank-scores](https://github.com/yulo-dev/lc/tree/master/0178-rank-scores) |
 | [0184-department-highest-salary](https://github.com/yulo-dev/lc/tree/master/0184-department-highest-salary) |
 | [0197-rising-temperature](https://github.com/yulo-dev/lc/tree/master/0197-rising-temperature) |
+| [0534-game-play-analysis-iii](https://github.com/yulo-dev/lc/tree/master/0534-game-play-analysis-iii) |
 | [0550-game-play-analysis-iv](https://github.com/yulo-dev/lc/tree/master/0550-game-play-analysis-iv) |
 | [0570-managers-with-at-least-5-direct-reports](https://github.com/yulo-dev/lc/tree/master/0570-managers-with-at-least-5-direct-reports) |
 | [0577-employee-bonus](https://github.com/yulo-dev/lc/tree/master/0577-employee-bonus) |
