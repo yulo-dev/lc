@@ -1,39 +1,26 @@
 # Write your MySQL query statement below
 
+#aggregate the total amount to one row per visit_on
+#row-based window to calculate total amount over current visit and the previous 6 days
 
-# no date gaps between rows
-# may have same date appear more than one row
-
-
-WITH daily_sales AS (
-    SELECT 
-        visited_on, SUM(amount) AS total_amout
+WITH aggregate_amount AS (
+    SELECT
+        visited_on, SUM(amount) AS amount_per_day
     FROM Customer
     GROUP BY visited_on
-    ORDER BY visited_on
 ),
-
-rolling_7day AS (
+seven_day_amount AS (
     SELECT 
-        visited_on, 
-        SUM(total_amout) OVER (
-            ORDER BY visited_on 
-            ROWS BETWEEN 6 PRECEDING AND CURRENT ROW
-            ) AS amount,
-
+        visited_on,
+        SUM(amount_per_day) OVER (ORDER BY visited_on ROWS BETWEEN 6 PRECEDING AND CURRENT ROW) AS amount,
         ROUND(
-            AVG(total_amout) OVER (
-            ORDER BY visited_on 
-            ROWS BETWEEN 6 PRECEDING AND CURRENT ROW
-            )
+            AVG(amount_per_day) OVER (ORDER BY visited_on ROWS BETWEEN 6 PRECEDING AND CURRENT ROW)
             ,2) AS average_amount,
-        ROW_NUMBER() OVER (ORDER BY visited_on) AS rn
-
-    FROM daily_sales
-    GROUP BY visited_on
+            ROW_NUMBER() OVER (ORDER BY visited_on) AS rk
+    FROM aggregate_amount
 )
 
-SELECT 
+SELECT
     visited_on, amount, average_amount
-FROM rolling_7day
-WHERE rn >=7;
+FROM seven_day_amount
+WHERE rk > 6;
