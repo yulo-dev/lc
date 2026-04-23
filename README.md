@@ -634,6 +634,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0175-combine-two-tables](https://github.com/yulo-dev/lc/tree/master/0175-combine-two-tables) |
 | [0177-nth-highest-salary](https://github.com/yulo-dev/lc/tree/master/0177-nth-highest-salary) |
 | [0178-rank-scores](https://github.com/yulo-dev/lc/tree/master/0178-rank-scores) |
+| [0182-duplicate-emails](https://github.com/yulo-dev/lc/tree/master/0182-duplicate-emails) |
 | [0184-department-highest-salary](https://github.com/yulo-dev/lc/tree/master/0184-department-highest-salary) |
 | [0197-rising-temperature](https://github.com/yulo-dev/lc/tree/master/0197-rising-temperature) |
 | [0534-game-play-analysis-iii](https://github.com/yulo-dev/lc/tree/master/0534-game-play-analysis-iii) |
