@@ -648,6 +648,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0601-human-traffic-of-stadium](https://github.com/yulo-dev/lc/tree/master/0601-human-traffic-of-stadium) |
 | [0608-tree-node](https://github.com/yulo-dev/lc/tree/master/0608-tree-node) |
 | [0612-shortest-distance-in-a-plane](https://github.com/yulo-dev/lc/tree/master/0612-shortest-distance-in-a-plane) |
+| [0627-swap-sex-of-employees](https://github.com/yulo-dev/lc/tree/master/0627-swap-sex-of-employees) |
 | [1068-product-sales-analysis-i](https://github.com/yulo-dev/lc/tree/master/1068-product-sales-analysis-i) |
 | [1070-product-sales-analysis-iii](https://github.com/yulo-dev/lc/tree/master/1070-product-sales-analysis-iii) |
 | [1098-unpopular-books](https://github.com/yulo-dev/lc/tree/master/1098-unpopular-books) |
