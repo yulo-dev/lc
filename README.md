@@ -653,6 +653,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1070-product-sales-analysis-iii](https://github.com/yulo-dev/lc/tree/master/1070-product-sales-analysis-iii) |
 | [1097-game-play-analysis-v](https://github.com/yulo-dev/lc/tree/master/1097-game-play-analysis-v) |
 | [1098-unpopular-books](https://github.com/yulo-dev/lc/tree/master/1098-unpopular-books) |
+| [1142-user-activity-for-the-past-30-days-ii](https://github.com/yulo-dev/lc/tree/master/1142-user-activity-for-the-past-30-days-ii) |
 | [1148-article-views-i](https://github.com/yulo-dev/lc/tree/master/1148-article-views-i) |
 | [1159-market-analysis-ii](https://github.com/yulo-dev/lc/tree/master/1159-market-analysis-ii) |
 | [1174-immediate-food-delivery-ii](https://github.com/yulo-dev/lc/tree/master/1174-immediate-food-delivery-ii) |
