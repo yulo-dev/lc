@@ -647,6 +647,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0586-customer-placing-the-largest-number-of-orders](https://github.com/yulo-dev/lc/tree/master/0586-customer-placing-the-largest-number-of-orders) |
 | [0595-big-countries](https://github.com/yulo-dev/lc/tree/master/0595-big-countries) |
 | [0601-human-traffic-of-stadium](https://github.com/yulo-dev/lc/tree/master/0601-human-traffic-of-stadium) |
+| [0607-sales-person](https://github.com/yulo-dev/lc/tree/master/0607-sales-person) |
 | [0608-tree-node](https://github.com/yulo-dev/lc/tree/master/0608-tree-node) |
 | [0612-shortest-distance-in-a-plane](https://github.com/yulo-dev/lc/tree/master/0612-shortest-distance-in-a-plane) |
 | [0627-swap-sex-of-employees](https://github.com/yulo-dev/lc/tree/master/0627-swap-sex-of-employees) |
