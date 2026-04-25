@@ -8,7 +8,7 @@
 # numerator: sum the count   
 # denominator: unique user_id 
 
-
+#grain: one row per userid, session_id
 WITH within_window AS (
     SELECT 
         DISTINCT user_id, session_id
