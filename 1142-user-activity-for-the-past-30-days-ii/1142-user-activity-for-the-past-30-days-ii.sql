@@ -13,7 +13,8 @@ WITH within_window AS (
     SELECT 
         DISTINCT user_id, session_id
     FROM Activity 
-    WHERE DATEDIFF('2019-07-27', activity_date) <= 29
+    WHERE activity_date BETWEEN DATE_SUB('2019-07-27', INTERVAL 29 DAY) AND '2019-07-27'
+    #WHERE DATEDIFF('2019-07-27', activity_date) BETWEEN 0 AND 29 #要記得下下界 不然負數也會算進來
 )
 
 SELECT
