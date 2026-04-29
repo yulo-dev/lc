@@ -676,6 +676,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1757-recyclable-and-low-fat-products](https://github.com/yulo-dev/lc/tree/master/1757-recyclable-and-low-fat-products) |
 | [1767-find-the-subtasks-that-did-not-execute](https://github.com/yulo-dev/lc/tree/master/1767-find-the-subtasks-that-did-not-execute) |
 | [1801-average-time-of-process-per-machine](https://github.com/yulo-dev/lc/tree/master/1801-average-time-of-process-per-machine) |
+| [1831-maximum-transaction-each-day](https://github.com/yulo-dev/lc/tree/master/1831-maximum-transaction-each-day) |
 | [1908-recyclable-and-low-fat-products](https://github.com/yulo-dev/lc/tree/master/1908-recyclable-and-low-fat-products) |
 | [1934-confirmation-rate](https://github.com/yulo-dev/lc/tree/master/1934-confirmation-rate) |
 | [1949-strong-friendship](https://github.com/yulo-dev/lc/tree/master/1949-strong-friendship) |
