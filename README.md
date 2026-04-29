@@ -680,6 +680,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1934-confirmation-rate](https://github.com/yulo-dev/lc/tree/master/1934-confirmation-rate) |
 | [1949-strong-friendship](https://github.com/yulo-dev/lc/tree/master/1949-strong-friendship) |
 | [2051-the-category-of-each-member-in-the-store](https://github.com/yulo-dev/lc/tree/master/2051-the-category-of-each-member-in-the-store) |
+| [2066-account-balance](https://github.com/yulo-dev/lc/tree/master/2066-account-balance) |
 | [2388-change-null-values-in-a-table-to-the-previous-value](https://github.com/yulo-dev/lc/tree/master/2388-change-null-values-in-a-table-to-the-previous-value) |
 | [2854-rolling-average-steps](https://github.com/yulo-dev/lc/tree/master/2854-rolling-average-steps) |
 | [3421-find-students-who-improved](https://github.com/yulo-dev/lc/tree/master/3421-find-students-who-improved) |
