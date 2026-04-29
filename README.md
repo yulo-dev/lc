@@ -678,6 +678,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1908-recyclable-and-low-fat-products](https://github.com/yulo-dev/lc/tree/master/1908-recyclable-and-low-fat-products) |
 | [1934-confirmation-rate](https://github.com/yulo-dev/lc/tree/master/1934-confirmation-rate) |
 | [1949-strong-friendship](https://github.com/yulo-dev/lc/tree/master/1949-strong-friendship) |
+| [2051-the-category-of-each-member-in-the-store](https://github.com/yulo-dev/lc/tree/master/2051-the-category-of-each-member-in-the-store) |
 | [2854-rolling-average-steps](https://github.com/yulo-dev/lc/tree/master/2854-rolling-average-steps) |
 | [3421-find-students-who-improved](https://github.com/yulo-dev/lc/tree/master/3421-find-students-who-improved) |
 | [3586-find-covid-recovery-patients](https://github.com/yulo-dev/lc/tree/master/3586-find-covid-recovery-patients) |
