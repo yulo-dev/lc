@@ -670,6 +670,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1369-get-the-second-most-recent-activity](https://github.com/yulo-dev/lc/tree/master/1369-get-the-second-most-recent-activity) |
 | [1378-replace-employee-id-with-the-unique-identifier](https://github.com/yulo-dev/lc/tree/master/1378-replace-employee-id-with-the-unique-identifier) |
 | [1454-active-users](https://github.com/yulo-dev/lc/tree/master/1454-active-users) |
+| [1532-the-most-recent-three-orders](https://github.com/yulo-dev/lc/tree/master/1532-the-most-recent-three-orders) |
 | [1549-the-most-recent-orders-for-each-product](https://github.com/yulo-dev/lc/tree/master/1549-the-most-recent-orders-for-each-product) |
 | [1581-customer-who-visited-but-did-not-make-any-transactions](https://github.com/yulo-dev/lc/tree/master/1581-customer-who-visited-but-did-not-make-any-transactions) |
 | [1661-average-time-of-process-per-machine](https://github.com/yulo-dev/lc/tree/master/1661-average-time-of-process-per-machine) |
