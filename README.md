@@ -689,6 +689,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2388-change-null-values-in-a-table-to-the-previous-value](https://github.com/yulo-dev/lc/tree/master/2388-change-null-values-in-a-table-to-the-previous-value) |
 | [2688-find-active-users](https://github.com/yulo-dev/lc/tree/master/2688-find-active-users) |
 | [2854-rolling-average-steps](https://github.com/yulo-dev/lc/tree/master/2854-rolling-average-steps) |
+| [2993-friday-purchases-i](https://github.com/yulo-dev/lc/tree/master/2993-friday-purchases-i) |
 | [3055-top-percentile-fraud](https://github.com/yulo-dev/lc/tree/master/3055-top-percentile-fraud) |
 | [3421-find-students-who-improved](https://github.com/yulo-dev/lc/tree/master/3421-find-students-who-improved) |
 | [3586-find-covid-recovery-patients](https://github.com/yulo-dev/lc/tree/master/3586-find-covid-recovery-patients) |
