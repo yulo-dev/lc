@@ -685,6 +685,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1949-strong-friendship](https://github.com/yulo-dev/lc/tree/master/1949-strong-friendship) |
 | [2051-the-category-of-each-member-in-the-store](https://github.com/yulo-dev/lc/tree/master/2051-the-category-of-each-member-in-the-store) |
 | [2066-account-balance](https://github.com/yulo-dev/lc/tree/master/2066-account-balance) |
+| [2228-users-with-two-purchases-within-seven-days](https://github.com/yulo-dev/lc/tree/master/2228-users-with-two-purchases-within-seven-days) |
 | [2388-change-null-values-in-a-table-to-the-previous-value](https://github.com/yulo-dev/lc/tree/master/2388-change-null-values-in-a-table-to-the-previous-value) |
 | [2854-rolling-average-steps](https://github.com/yulo-dev/lc/tree/master/2854-rolling-average-steps) |
 | [3055-top-percentile-fraud](https://github.com/yulo-dev/lc/tree/master/3055-top-percentile-fraud) |
