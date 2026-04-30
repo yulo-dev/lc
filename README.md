@@ -694,6 +694,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3055-top-percentile-fraud](https://github.com/yulo-dev/lc/tree/master/3055-top-percentile-fraud) |
 | [3118-friday-purchase-iii](https://github.com/yulo-dev/lc/tree/master/3118-friday-purchase-iii) |
 | [3421-find-students-who-improved](https://github.com/yulo-dev/lc/tree/master/3421-find-students-who-improved) |
+| [3497-analyze-subscription-conversion](https://github.com/yulo-dev/lc/tree/master/3497-analyze-subscription-conversion) |
 | [3586-find-covid-recovery-patients](https://github.com/yulo-dev/lc/tree/master/3586-find-covid-recovery-patients) |
 ## Greedy
 |  |
