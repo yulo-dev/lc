@@ -692,6 +692,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2993-friday-purchases-i](https://github.com/yulo-dev/lc/tree/master/2993-friday-purchases-i) |
 | [2994-friday-purchases-ii](https://github.com/yulo-dev/lc/tree/master/2994-friday-purchases-ii) |
 | [3055-top-percentile-fraud](https://github.com/yulo-dev/lc/tree/master/3055-top-percentile-fraud) |
+| [3118-friday-purchase-iii](https://github.com/yulo-dev/lc/tree/master/3118-friday-purchase-iii) |
 | [3421-find-students-who-improved](https://github.com/yulo-dev/lc/tree/master/3421-find-students-who-improved) |
 | [3586-find-covid-recovery-patients](https://github.com/yulo-dev/lc/tree/master/3586-find-covid-recovery-patients) |
 ## Greedy
