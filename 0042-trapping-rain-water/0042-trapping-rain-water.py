@@ -3,20 +3,20 @@ class Solution:
 
         n = len(height) 
         
-        max_left = [0] * n
-        max_left[0] = height[0]
-        for i in range(1,n):
-            max_left[i] = max(max_left[i-1], height[i])
-
-        max_right = [0] * n
-        max_right[n-1] = height[n-1]
-        for i in range(n-2, -1, -1):
-            max_right[i] = max(max_right[i+1], height[i])
-
+        left = 0 
+        right = n - 1
+        max_left = 0
+        max_right = 0
         area = 0
-        
-        for i in range(len(height)):
-            area += min(max_left[i], max_right[i]) - height[i]
+
+        while left < right:
+            if height[left] <= height[right]:
+                max_left = max(height[left], max_left)
+                area += max_left - height[left]
+                left += 1
+            if height[left] > height[right]:
+                max_right = max(height[right], max_right)
+                area += max_right - height[right]
+                right -= 1
 
         return area
-            
