@@ -2,12 +2,13 @@ class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         left = 0
         res = 0
-        visited = {} #char:index
+        seen = set()
         for right in range(len(s)):
-            if s[right] in visited and visited[s[right]] >= left:
-                left = visited[s[right]] + 1
+            while s[right] in seen:
+                seen.remove(s[left])
+                left += 1
 
-            visited[s[right]] = right 
+            seen.add(s[right])
             res = max(res, right - left + 1)
 
         return res
