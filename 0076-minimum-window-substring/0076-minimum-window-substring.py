@@ -1,29 +1,26 @@
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
-        t_cnt = Counter(t)
-        window = Counter()
-
-        formed = 0
-
+       
         left = 0
-        best_len = float("inf")
-        best_left = 0
-        
-        for right, val in enumerate(s):
-            window[val] += 1
-            if val in t_cnt and window[val] == t_cnt[val]:
-                formed += 1
-            while formed == len(t_cnt):
-                if (right - left + 1) < best_len:
-                    best_len = right - left + 1
-                    best_left = left
+        window_freq = defaultdict(int)
+        t_freq = Counter(t)
+        min_len = float("inf")
+        res = ""
 
-                window[s[left]] -= 1
-                if s[left] in t_cnt and window[s[left]] < t_cnt[s[left]]:
-                    formed -= 1
+        for right in range(len(s)):
+            window_freq[s[right]] += 1
+            while self.is_valid(window_freq, t_freq):
+                if right - left + 1 < min_len:
+                    min_len = right - left + 1
+                    res = s[left:right+1]
+
+                window_freq[s[left]] -= 1
                 left += 1
 
-        if best_len == float("inf"):
-            return ""
-        else:
-            return s[best_left:best_len+best_left]
+        return res
+
+    def is_valid(self, window_freq, t_freq):
+        for ch, freq in t_freq.items():
+            if ch not in window_freq or freq > window_freq[ch]:
+                return False
+        return True
