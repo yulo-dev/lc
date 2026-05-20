@@ -3,11 +3,8 @@ class Solution:
         if not nums:
             return -1
 
-        left = 0
+        left = 0 
         right = len(nums) - 1
-
-        if target < nums[left] or target > nums[right]:
-            return -1
 
         while left <= right:
             mid = (left + right) // 2
