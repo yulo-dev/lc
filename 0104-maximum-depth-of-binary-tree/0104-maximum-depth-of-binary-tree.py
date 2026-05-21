@@ -11,6 +11,16 @@ class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
         if not root:
             return 0
+            
+        queue = deque([root])
+        level = 0
+        while queue:
+            for _ in range(len(queue)):
+                node = queue.popleft()
+                if node.left:
+                    queue.append(node.left)
+                if node.right:
+                    queue.append(node.right)
+            level += 1
 
-        #我這層的高度，就是左右兩邊比較高的那個，再加 1（加上我這一層）
-        return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
+        return level
