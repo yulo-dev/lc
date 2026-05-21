@@ -15,7 +15,9 @@ class Solution:
             return False
         
         return self.isSametree(root, subRoot) or self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot)
-        
+
+        # isSametree 是在問 「你跟 subRoot 一模一樣嗎？」
+        # isSubtree 是在問 「你那邊找不找得到 subRoot？」
 
     def isSametree(self, p, q):
         if not p and not q:
