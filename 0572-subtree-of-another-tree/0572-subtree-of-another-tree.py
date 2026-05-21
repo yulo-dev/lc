@@ -9,15 +9,15 @@ from collections import deque
 
 class Solution:
     def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
-        if not subRoot:
-            return True
-        if not root:
+        if not root and subRoot:
             return False
-        
-        return self.isSametree(root, subRoot) or self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot)
+        if root and not subRoot:
+            return True
+        if self.isSametree(root, subRoot):
+            return True
 
-        # isSametree 是在問 「你跟 subRoot 一模一樣嗎？」
-        # isSubtree 是在問 「你那邊找不找得到 subRoot？」
+        return self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot)
+        
 
     def isSametree(self, p, q):
         if not p and not q:
@@ -26,4 +26,6 @@ class Solution:
             return False
         if p.val != q.val:
             return False
-        return self.isSametree(p.left, q.left) and self.isSametree(p.right, q.right) 
+        return self.isSametree(p.left, q.left) and self.isSametree(p.right, q.right)
+
+    
