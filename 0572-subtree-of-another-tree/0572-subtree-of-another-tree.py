@@ -9,23 +9,19 @@ from collections import deque
 
 class Solution:
     def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
-       # DFS recursive approach - natural tree traversal with same tree check
         if not subRoot:
             return True
         if not root:
             return False
-        if self.same(root, subRoot):
-            return True
-        return self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot)
-    
+        
+        return self.isSametree(root, subRoot) or self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot)
+        
 
-    #lc100的架構
-    def same(self, a, b):
-        # Two-Tree Comparison Pattern for identical tree check
-        if not a and not b:
+    def isSametree(self, p, q):
+        if not p and not q:
             return True
-        if not a or not b:
+        if not p or not q:
             return False
-        if a.val != b.val:
+        if p.val != q.val:
             return False
-        return self.same(a.left, b.left) and self.same(a.right, b.right)
+        return self.isSametree(p.left, q.left) and self.isSametree(p.right, q.right) 
