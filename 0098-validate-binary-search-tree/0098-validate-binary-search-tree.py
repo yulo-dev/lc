@@ -6,22 +6,21 @@
 #         self.right = right
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        self.prev = float('-inf')
-        return self.inorder(root)
-
-    def inorder(self, node):
-        if not node:
+        if not root:
             return True
 
+        res = []
+        self.inorder(root, res)
 
-        # 他會回傳boolean
-        # 所以如果 self.inOrder(node.left) 的結果不是 True, 也就是左子樹驗證失敗了，那現在整棵樹也直接失敗，回傳 False。
-        if not self.inorder(node.left):
-            return False
+        for i in range(len(res)):
+            if i > 0 and res[i] <= res[i-1]:
+                return False
 
-        if node.val <= self.prev:
-            return False
+        return True
 
-        self.prev = node.val
-
-        return self.inorder(node.right)
+    def inorder(self, root, res):
+        if not root:
+            return 
+        self.inorder(root.left, res)
+        res.append(root.val)
+        self.inorder(root.right, res)
