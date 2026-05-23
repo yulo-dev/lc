@@ -2,41 +2,43 @@ from collections import deque
 
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
-        if not grid or not grid[0]:
-            return 0
 
-        m, n = len(grid), len(grid[0])
-        islands = 0
+        queue = deque([])
+        visited = set()
+        island = 0
         
-        for r in range(m):
-            for c in range(n):
-                # 1. 發現新島嶼的「起點」
-                if grid[r][c] == "1":
-                    islands += 1
-                    # 2. 發動 DFS 把它淹沒
-                    self.dfs(grid, r, c)
-        
-        return islands
+        for x in range(len(grid)):
+            for y in range(len(grid[0])):
+                if grid[x][y] == "1" and (x,y) not in visited:
+                    queue.append((x,y))
+                    visited.add((x, y))
+                    self.bfs(grid, queue, visited)
+                    island += 1
 
-    def dfs(self, grid, r, c):
-        # --- 邊界檢查與終止條件 ---
-        # 如果超出邊界，或是這格已經是水 ("0")，就撤退
-        if (r < 0 or c < 0 or 
-            r >= len(grid) or c >= len(grid[0]) or 
-            grid[r][c] == "0"):
-            return
-        
-        # --- 做標記 (淹沒陸地) ---
-        # 把這格改成 "0"，確保外層迴圈和未來的遞迴不會重複計算
-        grid[r][c] = "0"
-        
-        # --- 往四周深挖 (四個方向) ---
-        self.dfs(grid, r + 1, c) # 下
-        self.dfs(grid, r - 1, c) # 上
-        self.dfs(grid, r, c + 1) # 右
-        self.dfs(grid, r, c - 1) # 左
+        return island
 
-        #我們的目標是「把這團相連的陸地標記完」，標記完了就是完了，這格已經完成了它的使命，
-        #不需要再變回 1 -> 不需要回溯
-        #邏輯： 只要這塊地被我「淹掉」了（從 1 變成 0），它就永遠失去了作為「新起點」的資格。
-        #LC 200 是「破壞性」的搜尋：拆掉這座島，數 1 次，就再也不回頭
+        
+    def bfs(self, grid, queue, visited):
+        DIRECTIONS = [(1,0), (0,1), (0,-1), (-1,0)]
+
+        while queue:
+            x, y = queue.popleft()
+
+            for x_dir, y_dir in DIRECTIONS:
+                new_x = x + x_dir
+                new_y = y + y_dir
+
+                if self.is_valid(new_x, new_y, grid, queue, visited):
+                    queue.append((new_x, new_y))
+                    visited.add((new_x, new_y))
+
+
+    def is_valid(self, x, y, grid, queue, visited):
+
+        if (x,y) in visited:
+            return False
+        if not (0 <= x < len(grid)) or not (0 <= y < len(grid[0])):
+            return False
+
+        return grid[x][y] == "1"
+            
