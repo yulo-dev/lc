@@ -2,53 +2,50 @@ from collections import deque
 
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
-        if not grid or not grid[0]:
-            return -1
 
-        fresh = 0
-        queue = deque()
+        queue = deque([])
         visited = set()
-
-        for i in range(len(grid)):
-            for j in range(len(grid[0])):
-                if grid[i][j] == 1:
+        fresh = 0
+        minutes = 0
+        
+        for x in range(len(grid)):
+            for y in range(len(grid[0])):
+                if grid[x][y] == 2:
+                    visited.add((x,y))
+                    queue.append((x,y,minutes))
+                elif grid[x][y] == 1:
                     fresh += 1
-                elif grid[i][j] == 2:
-                    queue.append((i,j))
-                    visited.add((i,j))
+        
+        fresh, minutes = self.bfs(grid, queue, visited, fresh)
 
         if fresh == 0:
-            return 0
-        fresh, minutes = self.bfs(grid, queue, fresh, visited)
-        return minutes if fresh == 0 else -1
+            return minutes
+        else:
+            return -1
 
+    def bfs(self, grid, queue, visited, fresh):
 
-    def bfs(self, grid, queue, fresh, visited):
-        DIRECTIONS = [(1,0), (-1,0), (0,1), (0,-1)]
+        directions = [(1,0), (0,1), (-1,0), (0,-1)]
         minutes = 0
 
-        while queue and fresh > 0:
-            for _ in range(len(queue)):
-                x, y = queue.popleft()
-                for dir_x, dir_y in DIRECTIONS:
-                    new_x = x + dir_x
-                    new_y = y + dir_y
-                    if not self.is_valid(grid, new_x, new_y, visited):
-                        continue
+        while queue:
+            x, y, minutes = queue.popleft()
+            for dir_x, dir_y in directions:
+                new_x = x + dir_x
+                new_y = y + dir_y
+
+                if self.is_valid(grid, new_x, new_y, visited):
+                    queue.append((new_x, new_y, minutes+1))
+                    visited.add((new_x, new_y))
                     fresh -= 1
-                    queue.append((new_x,new_y))
-                    visited.add((new_x,new_y))
-            minutes += 1
 
         return fresh, minutes
 
     def is_valid(self, grid, x, y, visited):
-        m = len(grid)
-        n = len(grid[0])
 
-        if not (0 <= x < m and 0 <= y < n):
+        if (x, y) in visited:
             return False
-        if (x,y) in visited:
+        if not (0 <= x < len(grid)) or not (0 <= y < len(grid[0])):
             return False
 
         return grid[x][y] == 1
