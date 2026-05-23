@@ -1,20 +1,22 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
 
-        graph = [[] for _ in range(numCourses)]
-        in_degree = defaultdict(int)
-        
+        graph = []
+        for _ in range(numCourses):
+            graph.append([])
+
+        in_degree = [0] * numCourses
+
         for course, prereq in prerequisites:
             graph[prereq].append(course)
             in_degree[course] += 1
-            
+
         queue = deque()
-        for i in range(numCourses):
+        for i in range(len(in_degree)):
             if in_degree[i] == 0:
                 queue.append(i)
 
         num_complete = 0
-
         while queue:
             course = queue.popleft()
             num_complete += 1
@@ -24,4 +26,3 @@ class Solution:
                     queue.append(next_course)
 
         return num_complete == numCourses
-
