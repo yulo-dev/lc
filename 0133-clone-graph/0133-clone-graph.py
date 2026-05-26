@@ -22,8 +22,8 @@ class Solution:
             for nei in curr.neighbors:
                 if nei not in old_new:
                     old_new[nei] = Node(nei.val)
-                    queue.append(nei)
+                    queue.append(nei) #queue 裡放舊的 → 用來遍歷、讀取原本的結構
 
-                old_new[curr].neighbors.append(old_new[nei])
+                old_new[curr].neighbors.append(old_new[nei]) #dict 裡存新的 → 用來建立 clone 的連接
 
         return old_new[node]
