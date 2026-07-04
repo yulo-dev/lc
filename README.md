@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/yulo-dev/lc/tree/master/0621-task-scheduler) |
 | [0695-max-area-of-island](https://github.com/yulo-dev/lc/tree/master/0695-max-area-of-island) |
 | [0704-binary-search](https://github.com/yulo-dev/lc/tree/master/0704-binary-search) |
+| [0721-accounts-merge](https://github.com/yulo-dev/lc/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/yulo-dev/lc/tree/master/0733-flood-fill) |
 | [0739-daily-temperatures](https://github.com/yulo-dev/lc/tree/master/0739-daily-temperatures) |
 | [0752-open-the-lock](https://github.com/yulo-dev/lc/tree/master/0752-open-the-lock) |
@@ -145,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/yulo-dev/lc/tree/master/0572-subtree-of-another-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/yulo-dev/lc/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0695-max-area-of-island](https://github.com/yulo-dev/lc/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/yulo-dev/lc/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/yulo-dev/lc/tree/master/0733-flood-fill) |
 | [1382-balance-a-binary-search-tree](https://github.com/yulo-dev/lc/tree/master/1382-balance-a-binary-search-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/yulo-dev/lc/tree/master/1448-count-good-nodes-in-binary-tree) |
@@ -176,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/yulo-dev/lc/tree/master/0542-01-matrix) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/yulo-dev/lc/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0695-max-area-of-island](https://github.com/yulo-dev/lc/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/yulo-dev/lc/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/yulo-dev/lc/tree/master/0733-flood-fill) |
 | [0752-open-the-lock](https://github.com/yulo-dev/lc/tree/master/0752-open-the-lock) |
 | [0994-rotting-oranges](https://github.com/yulo-dev/lc/tree/master/0994-rotting-oranges) |
@@ -262,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/yulo-dev/lc/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/yulo-dev/lc/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/yulo-dev/lc/tree/master/0621-task-scheduler) |
+| [0721-accounts-merge](https://github.com/yulo-dev/lc/tree/master/0721-accounts-merge) |
 | [0752-open-the-lock](https://github.com/yulo-dev/lc/tree/master/0752-open-the-lock) |
 | [0767-reorganize-string](https://github.com/yulo-dev/lc/tree/master/0767-reorganize-string) |
 | [0981-time-based-key-value-store](https://github.com/yulo-dev/lc/tree/master/0981-time-based-key-value-store) |
@@ -315,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/yulo-dev/lc/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/yulo-dev/lc/tree/master/0451-sort-characters-by-frequency) |
 | [0567-permutation-in-string](https://github.com/yulo-dev/lc/tree/master/0567-permutation-in-string) |
+| [0721-accounts-merge](https://github.com/yulo-dev/lc/tree/master/0721-accounts-merge) |
 | [0752-open-the-lock](https://github.com/yulo-dev/lc/tree/master/0752-open-the-lock) |
 | [0767-reorganize-string](https://github.com/yulo-dev/lc/tree/master/0767-reorganize-string) |
 | [0777-swap-adjacent-in-lr-string](https://github.com/yulo-dev/lc/tree/master/0777-swap-adjacent-in-lr-string) |
@@ -487,6 +492,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/yulo-dev/lc/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0502-ipo](https://github.com/yulo-dev/lc/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/yulo-dev/lc/tree/master/0621-task-scheduler) |
+| [0721-accounts-merge](https://github.com/yulo-dev/lc/tree/master/0721-accounts-merge) |
 | [0767-reorganize-string](https://github.com/yulo-dev/lc/tree/master/0767-reorganize-string) |
 | [0853-car-fleet](https://github.com/yulo-dev/lc/tree/master/0853-car-fleet) |
 | [0973-k-closest-points-to-origin](https://github.com/yulo-dev/lc/tree/master/0973-k-closest-points-to-origin) |
@@ -789,6 +795,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/yulo-dev/lc/tree/master/0200-number-of-islands) |
 | [0399-evaluate-division](https://github.com/yulo-dev/lc/tree/master/0399-evaluate-division) |
 | [0695-max-area-of-island](https://github.com/yulo-dev/lc/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/yulo-dev/lc/tree/master/0721-accounts-merge) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/yulo-dev/lc/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 ## Doubly-Linked List
 |  |
