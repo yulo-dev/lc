@@ -9,7 +9,7 @@ class Solution:
             right = i
             window += nums[right]
 
-            while window >= target and left <= right:
+            while window >= target:
 
                 if window >= target:
                     res = min(res, right - left + 1)
