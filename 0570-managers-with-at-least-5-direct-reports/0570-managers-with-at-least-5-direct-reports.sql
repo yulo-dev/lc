@@ -1,17 +1,17 @@
 # Write your MySQL query statement below
 
-#step1: only count the number
-WITH manager_counts AS (
-    SELECT managerId, COUNT(*) as report_count
-    FROM Employee 
+WITH cnt_manager AS (
+    SELECT
+        managerId, 
+        COUNT(*) AS freq
+    FROM Employee
     GROUP BY managerId
+    HAVING freq >= 5
 )
 
-#step2: get the name
-SELECT e.name
-FROM Employee AS e JOIN manager_counts AS m
-ON e.id = m.managerId
-WHERE report_count >= 5;
+SELECT
+    e.name
+FROM Employee AS e JOIN cnt_manager AS c 
+ON e.id = c.managerId
+;
 
-#嘗試用cte
-#join=inner join
