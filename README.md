@@ -914,4 +914,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0399-evaluate-division](https://github.com/yulo-dev/lc/tree/master/0399-evaluate-division) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/yulo-dev/lc/tree/master/3286-find-a-safe-walk-through-a-grid) |
+## Quicksort
+|  |
+| ------- |
+| [0056-merge-intervals](https://github.com/yulo-dev/lc/tree/master/0056-merge-intervals) |
 <!---LeetCode Topics End-->
