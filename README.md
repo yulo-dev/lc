@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/yulo-dev/lc/tree/master/0380-insert-delete-getrandom-o1) |
 | [0399-evaluate-division](https://github.com/yulo-dev/lc/tree/master/0399-evaluate-division) |
 | [0419-battleships-in-a-board](https://github.com/yulo-dev/lc/tree/master/0419-battleships-in-a-board) |
+| [0435-non-overlapping-intervals](https://github.com/yulo-dev/lc/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/yulo-dev/lc/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0502-ipo](https://github.com/yulo-dev/lc/tree/master/0502-ipo) |
 | [0542-01-matrix](https://github.com/yulo-dev/lc/tree/master/0542-01-matrix) |
@@ -497,6 +498,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/yulo-dev/lc/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/yulo-dev/lc/tree/master/0349-intersection-of-two-arrays) |
 | [0389-find-the-difference](https://github.com/yulo-dev/lc/tree/master/0389-find-the-difference) |
+| [0435-non-overlapping-intervals](https://github.com/yulo-dev/lc/tree/master/0435-non-overlapping-intervals) |
 | [0451-sort-characters-by-frequency](https://github.com/yulo-dev/lc/tree/master/0451-sort-characters-by-frequency) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/yulo-dev/lc/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0502-ipo](https://github.com/yulo-dev/lc/tree/master/0502-ipo) |
@@ -543,6 +545,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/yulo-dev/lc/tree/master/0139-word-break) |
 | [0264-ugly-number-ii](https://github.com/yulo-dev/lc/tree/master/0264-ugly-number-ii) |
 | [0392-is-subsequence](https://github.com/yulo-dev/lc/tree/master/0392-is-subsequence) |
+| [0435-non-overlapping-intervals](https://github.com/yulo-dev/lc/tree/master/0435-non-overlapping-intervals) |
 | [0542-01-matrix](https://github.com/yulo-dev/lc/tree/master/0542-01-matrix) |
 | [0918-maximum-sum-circular-subarray](https://github.com/yulo-dev/lc/tree/master/0918-maximum-sum-circular-subarray) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/yulo-dev/lc/tree/master/1235-maximum-profit-in-job-scheduling) |
@@ -746,6 +749,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0134-gas-station](https://github.com/yulo-dev/lc/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/yulo-dev/lc/tree/master/0135-candy) |
 | [0409-longest-palindrome](https://github.com/yulo-dev/lc/tree/master/0409-longest-palindrome) |
+| [0435-non-overlapping-intervals](https://github.com/yulo-dev/lc/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/yulo-dev/lc/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0502-ipo](https://github.com/yulo-dev/lc/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/yulo-dev/lc/tree/master/0621-task-scheduler) |
