@@ -322,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0412-fizz-buzz](https://github.com/yulo-dev/lc/tree/master/0412-fizz-buzz) |
 | [0424-longest-repeating-character-replacement](https://github.com/yulo-dev/lc/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/yulo-dev/lc/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0443-string-compression](https://github.com/yulo-dev/lc/tree/master/0443-string-compression) |
 | [0451-sort-characters-by-frequency](https://github.com/yulo-dev/lc/tree/master/0451-sort-characters-by-frequency) |
 | [0567-permutation-in-string](https://github.com/yulo-dev/lc/tree/master/0567-permutation-in-string) |
 | [0721-accounts-merge](https://github.com/yulo-dev/lc/tree/master/0721-accounts-merge) |
@@ -472,6 +473,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/yulo-dev/lc/tree/master/0295-find-median-from-data-stream) |
 | [0349-intersection-of-two-arrays](https://github.com/yulo-dev/lc/tree/master/0349-intersection-of-two-arrays) |
 | [0392-is-subsequence](https://github.com/yulo-dev/lc/tree/master/0392-is-subsequence) |
+| [0443-string-compression](https://github.com/yulo-dev/lc/tree/master/0443-string-compression) |
 | [0567-permutation-in-string](https://github.com/yulo-dev/lc/tree/master/0567-permutation-in-string) |
 | [0777-swap-adjacent-in-lr-string](https://github.com/yulo-dev/lc/tree/master/0777-swap-adjacent-in-lr-string) |
 | [0876-middle-of-the-linked-list](https://github.com/yulo-dev/lc/tree/master/0876-middle-of-the-linked-list) |
