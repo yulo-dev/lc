@@ -26,11 +26,11 @@ class Solution:
                 new_x = x + dir_x
                 new_y = y + dir_y
 
-                if self.is_valid(grid, new_x, new_y, queue, visited):
+                if self.is_valid(grid, new_x, new_y, visited):
                     queue.append((new_x, new_y))
                     visited.add((new_x, new_y))
 
-    def is_valid(self, grid, x, y, queue, visited):
+    def is_valid(self, grid, x, y, visited):
         if (x,y) in visited:
             return False
         if not (0 <= x < len(grid)) or not (0 <= y < len(grid[0])):
