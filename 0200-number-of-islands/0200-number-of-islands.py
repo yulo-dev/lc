@@ -2,43 +2,38 @@ from collections import deque
 
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
-
-        queue = deque([])
-        visited = set()
         island = 0
-        
-        for x in range(len(grid)):
-            for y in range(len(grid[0])):
-                if grid[x][y] == "1" and (x,y) not in visited:
-                    queue.append((x,y))
-                    visited.add((x, y))
-                    self.bfs(grid, queue, visited)
+        visited = set()
+        queue = deque([])
+
+        for r in range(len(grid)):
+            for c in range(len(grid[0])):
+                if grid[r][c] == "1" and (r,c) not in visited:
+                    queue.append((r,c))
+                    visited.add((r,c))
+                    self.bfs(grid,queue,visited)
                     island += 1
-
-        return island
-
         
+        return island
+                
+
     def bfs(self, grid, queue, visited):
-        DIRECTIONS = [(1,0), (0,1), (0,-1), (-1,0)]
+        DIRECTIONS = [(1,0), (0,1), (-1,0), (0,-1)]
 
         while queue:
             x, y = queue.popleft()
+            for dir_x, dir_y in DIRECTIONS:
+                new_x = x + dir_x
+                new_y = y + dir_y
 
-            for x_dir, y_dir in DIRECTIONS:
-                new_x = x + x_dir
-                new_y = y + y_dir
-
-                if self.is_valid(new_x, new_y, grid, queue, visited):
+                if self.is_valid(grid, new_x, new_y, queue, visited):
                     queue.append((new_x, new_y))
                     visited.add((new_x, new_y))
 
-
-    def is_valid(self, x, y, grid, queue, visited):
-
+    def is_valid(self, grid, x, y, queue, visited):
         if (x,y) in visited:
             return False
         if not (0 <= x < len(grid)) or not (0 <= y < len(grid[0])):
             return False
 
         return grid[x][y] == "1"
-            
