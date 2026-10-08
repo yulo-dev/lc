@@ -258,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/yulo-dev/lc/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0347-top-k-frequent-elements](https://github.com/yulo-dev/lc/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/yulo-dev/lc/tree/master/0349-intersection-of-two-arrays) |
+| [0359-logger-rate-limiter](https://github.com/yulo-dev/lc/tree/master/0359-logger-rate-limiter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/yulo-dev/lc/tree/master/0380-insert-delete-getrandom-o1) |
 | [0383-ransom-note](https://github.com/yulo-dev/lc/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/yulo-dev/lc/tree/master/0387-first-unique-character-in-a-string) |
@@ -790,6 +791,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0271-encode-and-decode-strings](https://github.com/yulo-dev/lc/tree/master/0271-encode-and-decode-strings) |
 | [0295-find-median-from-data-stream](https://github.com/yulo-dev/lc/tree/master/0295-find-median-from-data-stream) |
 | [0303-range-sum-query-immutable](https://github.com/yulo-dev/lc/tree/master/0303-range-sum-query-immutable) |
+| [0359-logger-rate-limiter](https://github.com/yulo-dev/lc/tree/master/0359-logger-rate-limiter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/yulo-dev/lc/tree/master/0380-insert-delete-getrandom-o1) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/yulo-dev/lc/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0933-number-of-recent-calls](https://github.com/yulo-dev/lc/tree/master/0933-number-of-recent-calls) |
@@ -866,6 +868,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/yulo-dev/lc/tree/master/0295-find-median-from-data-stream) |
+| [0359-logger-rate-limiter](https://github.com/yulo-dev/lc/tree/master/0359-logger-rate-limiter) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/yulo-dev/lc/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0933-number-of-recent-calls](https://github.com/yulo-dev/lc/tree/master/0933-number-of-recent-calls) |
 ## Geometry
