@@ -43,6 +43,3 @@ class Solution:
 
         if second:
             first.next = second
-
-        return head
-            
