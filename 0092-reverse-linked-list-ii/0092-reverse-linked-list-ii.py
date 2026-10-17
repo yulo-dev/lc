@@ -4,73 +4,33 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def reverseBetween(self, head: Optional[ListNode], left: int, right: int) -> Optional[ListNode]:
-        if not head or left == right:
-            return head
-
-        #只要 head 可能會被改掉，就加 dummy
+    def reverseBetween(self, head: ListNode | None, left: int, right: int) -> ListNode | None:
+        
         dummy = ListNode(0, head)
-        prev = dummy
-        for _ in range(left - 1):
-            prev = prev.next
+        start = dummy
+        for _ in range(left-1):
+            start = start.next
+        tail = start.next
 
-        curr = prev.next
+        end = head
+        for _ in range(right):
+            end = end.next
 
-        for _ in range(right - left):
+        prev = None
+        curr = tail
+
+        while curr != end:
             nxt = curr.next
-            curr.next = nxt.next
-            nxt.next = prev.next
-            prev.next = nxt
+            curr.next = prev
+            prev = curr
+            curr = nxt
+            
+
+        start.next = prev
+        tail.next = end
 
         return dummy.next
 
 
-        # 1 -> 2 -> 3 -> 4 -> 5
-        # dummy - > 1 ->  2 ------> 3 -> 4 -> 5
-        #           |     |              | 
-        #          prev  left(curr)     right
-
-
-        # (1) nxt = curr.next
-        #
-        # dummy - > 1 ->  2 --------> 3 ------> 4 -> 5
-        #           |     |           |         | 
-        #          prev  left(curr)  nxt      right
-
-
-        # (2) curr.next = nxt.next  [curr跳過nxt 直接接到nxt.next]
-        #
-        #                 ---------(2)---------->
-        #                 |                     |
-        # dummy - > 1 ->  2 --------> 3 ------> 4 -> 5
-        #           |     |           |         | 
-        #          prev  left(curr)  nxt      right
-
-
-
-
-        # (3) nxt.next = prev.next  [nxt轉指針 指向prev的下一個 就是curr]
-        #
-        #                 ---------(2)---------->
-        #                 |                     |
-        # dummy - > 1 ->  2           3 ------> 4 -> 5
-        #           |     |           |         | 
-        #                 <-----(3)----
-        #          prev  left(curr)  nxt      right
-
-
-        # (4) prev.next = nxt  [prev 指向nxt]
-        #
-        #            -------(4)------->
-        #           ｜                ｜ 
-        #           ｜                ｜    
-        #           ｜     ---------(2)---------->
-        #           ｜     |          ｜         |
-        # dummy - > 1 ->  2           3 ------> 4 -> 5
-        #           |     |           |         | 
-        #                 <-----(3)----
-        #          prev  left(curr)  nxt      right
-
-
-
-        # dummy -> 1 -> 3 -> 2 -> 4 -> 5
+        
+        
