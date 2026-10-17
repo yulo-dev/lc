@@ -4,44 +4,45 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def reorderList(self, head: Optional[ListNode]) -> None:
+    def reorderList(self, head: ListNode | None) -> None:
         """
         Do not return anything, modify head in-place instead.
         """
-
-        # 找到中點 然後切成前後半
-        curr = head
-        slow = fast = curr
-
+        
+        #cut into 2 parts: slow/fast pointers
+        slow = fast = head
         while fast and fast.next:
             slow = slow.next
             fast = fast.next.next
-        
-        second = slow.next
-        slow.next = None
-       
-        # 反轉後半
+
+
+        #reverse the 2nd part
         prev = None
-        curr = second
+        curr = slow.next
+
+        slow.next = None
+
         while curr:
             nxt = curr.next
             curr.next = prev
             prev = curr
             curr = nxt
-
-        # 合併
+        
+        #merge the 2 lists
         first = head
         second = prev
 
         while first and second:
-            nxt_first = first.next
-            nxt_second = second.next
-
+            remain_first = first.next
             first.next = second
-            second.next = nxt_first
-            
-            first = nxt_first
-            second = nxt_second
+            first = remain_first
 
+            remain_second = second.next
+            second.next = first
+            second = remain_second
 
+        if second:
+            first.next = second
+
+        return head
             
