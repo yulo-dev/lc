@@ -4,19 +4,19 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def deleteDuplicates(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        dummy = ListNode()
-        dummy.next = head
+    def deleteDuplicates(self, head: ListNode | None) -> ListNode | None:
+    
 
+        dummy = ListNode(0, head)
         prev = dummy
         curr = head
 
         while curr:
             if curr.next and curr.val == curr.next.val:
-                dup_val = curr.val
-                while curr and curr.val == dup_val:
+                while curr.next and curr.val == curr.next.val:
                     curr = curr.next
-                prev.next = curr
+                prev.next = curr.next
+                curr = prev.next
             else:
                 prev = curr
                 curr = curr.next
