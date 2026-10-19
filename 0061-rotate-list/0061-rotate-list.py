@@ -4,37 +4,45 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def rotateRight(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
-        if not head or not head.next or k == 0:
-            return head
-
-        #count the total length of the linkedlist
-        length = 1
-        curr = head
-
-        while curr.next: # 注意這邊是while curr.next 不是while curr
-            # 意思：只要 curr 還「有下一個節點」，就繼續往後走
-            # 停下來的條件：curr.next 變成 None（代表 curr 已經在 tail）
-            curr = curr.next
-            length += 1
-
-        #count the exact rotate time
-        k = k % length
-        if k == 0:
-            return head
-
-        #make it a cycle
-        curr.next = head
-
-        #find the new tail and then we can get the new head
-        new_tail = head
-        for _ in range(length - k - 1):
-            new_tail = new_tail.next
-
-        # find the new head (which is next to the new tail)
-        new_head = new_tail.next
+    def rotateRight(self, head: ListNode | None, k: int) -> ListNode | None:
         
-        # break the cycle
-        new_tail.next = None
+        #k divided by the length of list and the remainer = the time to rotate
+        #how to get the length:
+            #use for loop to iterate through the linkedlist
+        #how to rotate:
+            #two pointers: one pointer will move to the kth position from the end (linkedlist A), the other remain from the start (linkedlist B)
+            #link the end of linkedlist A.next = head of linkedlist B 
+
+        if not head:
+            return None
+        
+        curr = head
+        length = 0
+
+        while curr:
+            length += 1
+            curr = curr.next
+
+        new_k = k % length
+
+        if new_k == 0:
+            return head
+
+
+        # find new tail / old tail
+
+        slow = fast = head
+
+        for _ in range(new_k):
+            fast = fast.next
+
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next
+
+        # reconnect
+        new_head = slow.next
+        slow.next = None
+        fast.next = head
 
         return new_head
