@@ -4,13 +4,13 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def partition(self, head: Optional[ListNode], x: int) -> Optional[ListNode]:
+    def partition(self, head: ListNode | None, x: int) -> ListNode | None:
         
-        less_dummy = ListNode()
-        less = less_dummy
+        dummy1 = ListNode(0)
+        dummy2 = ListNode(0)
 
-        ge_dummy = ListNode()
-        ge = ge_dummy
+        less = dummy1
+        greater = dummy2
 
         curr = head
 
@@ -19,12 +19,12 @@ class Solution:
                 less.next = curr
                 less = less.next
             else:
-                ge.next = curr
-                ge = ge.next
+                greater.next = curr
+                greater = greater.next
 
             curr = curr.next
 
-        ge.next = None
-        less.next = ge_dummy.next
+        greater.next = None
+        less.next = dummy2.next
 
-        return less_dummy.next
+        return dummy1.next
