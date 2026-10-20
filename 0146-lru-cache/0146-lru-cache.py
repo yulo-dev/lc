@@ -1,4 +1,5 @@
 class ListNode:
+
     def __init__(self, key = None, val = None):
         self.key = key
         self.val = val
@@ -14,13 +15,13 @@ class LRUCache:
         self.tail = ListNode()
         self.head.next = self.tail
         self.tail.prev = self.head
-        
+
     def _remove(self, node):
         node.prev.next = node.next
         node.next.prev = node.prev
 
     def _add(self, node):
-        nxt = self.head.next 
+        nxt = self.head.next
         self.head.next = node
         node.prev = self.head
         node.next = nxt
@@ -36,20 +37,22 @@ class LRUCache:
             return -1
 
     def put(self, key: int, value: int) -> None:
-        new_node = ListNode(key, value)
+        
         if key in self.map:
             node = self.map[key]
+            node.val = value
             self._remove(node)
-            self.map[key] = new_node
-            self._add(new_node)
-        else:
-            self.map[key] = new_node
-            self._add(new_node)
+            self._add(node)
+            return
+
+        new_node = ListNode(key, value)
+        self.map[key] = new_node
+        self._add(new_node)
 
         if len(self.map) > self.cap:
             lru = self.tail.prev
             self._remove(lru)
-            del self.map[lru.key]
+            del self.map[lru.key] 
 
 
 # Your LRUCache object will be instantiated and called as such:
