@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/yulo-dev/lc/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/yulo-dev/lc/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0502-ipo](https://github.com/yulo-dev/lc/tree/master/0502-ipo) |
+| [0523-continuous-subarray-sum](https://github.com/yulo-dev/lc/tree/master/0523-continuous-subarray-sum) |
 | [0542-01-matrix](https://github.com/yulo-dev/lc/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/yulo-dev/lc/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/yulo-dev/lc/tree/master/0621-task-scheduler) |
@@ -268,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/yulo-dev/lc/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/yulo-dev/lc/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/yulo-dev/lc/tree/master/0451-sort-characters-by-frequency) |
+| [0523-continuous-subarray-sum](https://github.com/yulo-dev/lc/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/yulo-dev/lc/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/yulo-dev/lc/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/yulo-dev/lc/tree/master/0621-task-scheduler) |
@@ -595,6 +597,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/yulo-dev/lc/tree/master/0380-insert-delete-getrandom-o1) |
 | [0412-fizz-buzz](https://github.com/yulo-dev/lc/tree/master/0412-fizz-buzz) |
 | [0441-arranging-coins](https://github.com/yulo-dev/lc/tree/master/0441-arranging-coins) |
+| [0523-continuous-subarray-sum](https://github.com/yulo-dev/lc/tree/master/0523-continuous-subarray-sum) |
 | [0973-k-closest-points-to-origin](https://github.com/yulo-dev/lc/tree/master/0973-k-closest-points-to-origin) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/yulo-dev/lc/tree/master/1648-sell-diminishing-valued-colored-balls) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/yulo-dev/lc/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
@@ -674,6 +677,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/yulo-dev/lc/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/yulo-dev/lc/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/yulo-dev/lc/tree/master/0303-range-sum-query-immutable) |
+| [0523-continuous-subarray-sum](https://github.com/yulo-dev/lc/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/yulo-dev/lc/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/yulo-dev/lc/tree/master/0724-find-pivot-index) |
 | [1480-running-sum-of-1d-array](https://github.com/yulo-dev/lc/tree/master/1480-running-sum-of-1d-array) |
@@ -942,4 +946,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/yulo-dev/lc/tree/master/0023-merge-k-sorted-lists) |
+## Pigeonhole Principle
+|  |
+| ------- |
+| [0523-continuous-subarray-sum](https://github.com/yulo-dev/lc/tree/master/0523-continuous-subarray-sum) |
 <!---LeetCode Topics End-->
