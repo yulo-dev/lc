@@ -12,15 +12,17 @@ class Solution:
 
         res = []
 
-        while left <= right and top <= bottom:
+        while len(res) < (row_n * col_n):
             
-            for i in range(left, right + 1):
-                res.append(matrix[top][i])
-            top += 1
+            if top <= bottom:
+                for i in range(left, right + 1):
+                    res.append(matrix[top][i])
+                top += 1
             
-            for i in range(top, bottom + 1):
-                res.append(matrix[i][right])
-            right -= 1
+            if left <= right:
+                for i in range(top, bottom + 1):
+                    res.append(matrix[i][right])
+                right -= 1
 
             if top <= bottom:
                 for i in range(right, left -1, -1):
