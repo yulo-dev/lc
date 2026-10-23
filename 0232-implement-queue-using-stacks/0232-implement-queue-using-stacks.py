@@ -1,29 +1,26 @@
 class MyQueue:
 
     def __init__(self):
-        self.in_stack = []
-        self.out_stack = []
+        self.stack1 = [] #orig
+        self.stack2 = [] #reverse orig
 
     def push(self, x: int) -> None:
-        self.in_stack.append(x)
-    
-    def _move(self):
-        if not self.out_stack:
-            while self.in_stack:
-                self.out_stack.append(self.in_stack.pop())
+        self.stack1.append(x)
 
-    #拿出「隊首元素」，而且會移除
     def pop(self) -> int:
-        self._move()
-        return self.out_stack.pop()
-       
-    #看「隊首元素」是誰，但不移除
+        self.peek()
+        return self.stack2.pop()
+
     def peek(self) -> int:
-        self._move()
-        return self.out_stack[-1]
-       
+        if not self.stack2:
+            while self.stack1:
+                self.stack2.append(self.stack1.pop())
+
+        return self.stack2[-1]
+
     def empty(self) -> bool:
-        return not self.in_stack and not self.out_stack
+        return not self.stack1 and not self.stack2
+        
 
 
 # Your MyQueue object will be instantiated and called as such:
