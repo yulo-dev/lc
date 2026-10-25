@@ -6,16 +6,14 @@
 class Solution:
     def addTwoNumbers(self, l1: ListNode | None, l2: ListNode | None) -> ListNode | None:
         
-        curr1 = l1
-        curr2 = l2
         carry = 0
         dummy = ListNode(0)
         curr = dummy
 
-        while curr1 or curr2 or carry:
+        while l1 or l2 or carry:
 
-            v1 = curr1.val if curr1 else 0 
-            v2 = curr2.val if curr2 else 0 
+            v1 = l1.val if l1 else 0 
+            v2 = l2.val if l2 else 0 
 
             tot = v1 + v2 + carry
             digit = tot % 10
@@ -24,10 +22,10 @@ class Solution:
             curr.next = ListNode(digit)
             curr = curr.next
 
-            if curr1:
-                curr1 = curr1.next
+            if l1:
+                l1 = l1.next
             
-            if curr2:
-                curr2 = curr2.next
+            if l2:
+                l2 = l2.next
 
         return dummy.next
