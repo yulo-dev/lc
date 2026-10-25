@@ -344,6 +344,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/yulo-dev/lc/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1396-design-underground-system](https://github.com/yulo-dev/lc/tree/master/1396-design-underground-system) |
 | [1561-rearrange-words-in-a-sentence](https://github.com/yulo-dev/lc/tree/master/1561-rearrange-words-in-a-sentence) |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/yulo-dev/lc/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/yulo-dev/lc/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/yulo-dev/lc/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [2337-move-pieces-to-obtain-a-string](https://github.com/yulo-dev/lc/tree/master/2337-move-pieces-to-obtain-a-string) |
@@ -636,6 +637,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/yulo-dev/lc/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/yulo-dev/lc/tree/master/0853-car-fleet) |
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/yulo-dev/lc/tree/master/1209-remove-all-adjacent-duplicates-in-string-ii) |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/yulo-dev/lc/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -971,4 +973,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/yulo-dev/lc/tree/master/0020-valid-parentheses) |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/yulo-dev/lc/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 <!---LeetCode Topics End-->
