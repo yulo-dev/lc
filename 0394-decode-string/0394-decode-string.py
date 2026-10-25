@@ -1,29 +1,26 @@
 class Solution:
     def decodeString(self, s: str) -> str:
         
-        # numeric
-        # alphabets
-        # [
-        # ]
+        stack = [] #(string, num)
 
-        stack = []
-        curr_alpha = ""
-        curr_num = 0
+        string = ""
+        nums = 0
 
         for ch in s:
-            if ch.isalpha():
-                curr_alpha += ch
-
-            elif ch.isnumeric():
-                curr_num = curr_num * 10 + int(ch)
+            if ch.isdigit():
+                nums = nums * 10 + int(ch)
 
             elif ch == "[":
-                stack.append((curr_num, curr_alpha))
-                curr_alpha = ""
-                curr_num = 0
-                
-            else:
-                time, alpha = stack.pop()
-                curr_alpha = alpha + time * curr_alpha
+                stack.append((string, nums))
 
-        return curr_alpha
+                string = ""
+                nums = 0
+                
+            elif ch == "]":
+                prev, times = stack.pop()
+                string = prev + string * times
+
+            else:
+                string += ch
+
+        return string
