@@ -17,12 +17,11 @@ class Solution:
                 k -= 1
             right += 1
 
-            if k >= 0:
-                res = max(res, right - left)
-
-            while left < right and k < 0:
+            while k < 0:
                 if nums[left] == 0:
                     k += 1
                 left += 1
+
+            res = max(res, right - left)
                 
         return res
