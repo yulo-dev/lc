@@ -1,27 +1,48 @@
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
-       
-        left = 0
-        window_freq = defaultdict(int)
-        t_freq = Counter(t)
-        min_len = float("inf")
+        
+        #move right: when the window does not contain all the character in t
+        #move left: when the window contain all the character in t (try to shrink th window and find the mininum length)
+        #update result: every time the window is valid, BEFORE shrinking left
+
+        from collections import defaultdict
+
+        need = defaultdict(int)
+        for ch in t:
+            need[ch] += 1
+
+        window = defaultdict(int)
+
+        left = 0 
+        right = 0 
+
+        valid = 0
+
         res = ""
-        comp = 0
 
-        for right in range(len(s)):
-            window_freq[s[right]] += 1
+        while right < len(s):
+            if s[right] in need:
+                window[s[right]] += 1
+                if window[s[right]] == need[s[right]]:
+                    valid += 1
+            
+            right += 1
 
-            if s[right] in t_freq and window_freq[s[right]] == t_freq[s[right]]:
-                comp += 1
+            while left < right and valid == len(need):
+                
+                if len(res) == 0 or (right - left < len(res)):
+                    res = s[left:right]
 
-            while comp >= len(t_freq):
-                if right - left + 1 < min_len:
-                    min_len = right - left + 1
-                    res = s[left:right+1]
+                if s[left] in window:
+                    window[s[left]] -= 1
 
-                window_freq[s[left]] -= 1
-                if s[left] in t_freq and window_freq[s[left]] < t_freq[s[left]]:
-                    comp -= 1
+                    if window[s[left]] < need[s[left]]:
+                        valid -= 1
+
+                    if window[s[left]] == 0:
+                        del window[s[left]]
+                        
+
                 left += 1
 
         return res
