@@ -10,16 +10,22 @@ class Node:
 
 class Solution:
     def connect(self, root: 'Node') -> 'Node':
+        from collections import deque
+
         if not root:
             return None
 
-        queue = deque([root])
+        queue = deque([])
+        queue.append(root)
 
         while queue:
-            level_length = len(queue)
-            for i in range(level_length):
+            sz = len(queue)
+
+            for i in range(sz):
                 node = queue.popleft()
-                if i < (level_length - 1):
+                if i == sz-1:
+                    node.next = None
+                else:
                     node.next = queue[0]
 
                 if node.left:
