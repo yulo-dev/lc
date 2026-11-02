@@ -9,15 +9,15 @@ class Solution:
         import heapq 
         heap = []
 
-        for num, freq in freq.items():
-            heapq.heappush(heap, (freq, num)) 
+        for num, cnt in freq.items():
+            heapq.heappush(heap, (cnt, num)) 
 
         while len(heap) > k:
             heapq.heappop(heap)
 
         res = []
         for i in range(k-1, -1, -1):
-            freq, num = heapq.heappop(heap)
+            cnt, num = heapq.heappop(heap)
             res.append(num)
 
         return res
