@@ -4,34 +4,31 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+from collections import deque
+
 class Solution:
     def widthOfBinaryTree(self, root: TreeNode | None) -> int:
         
-        from collections import deque
-
-        if not root:
-            return 0
-
         queue = deque()
         queue.append((root,1))
-
-        res = 0
+        res = float("-inf")
 
         while queue:
             sz = len(queue)
-            min_order = float("inf")
-            max_order = float("-inf")
+            min_index = float("inf")
+            max_index = float("-inf")
             for _ in range(sz):
                 node, idx = queue.popleft()
+                min_index = min(min_index, idx)
+                max_index = max(max_index, idx)
+                res = max(res, max_index - min_index + 1)
 
-                min_order = min(min_order, idx)
-                max_order = max(max_order, idx)
-                
                 if node.left:
                     queue.append((node.left, idx * 2))
                 if node.right:
                     queue.append((node.right, idx * 2 + 1))
 
-            res = max(res, (max_order - min_order + 1))
-            
         return res
+
+
