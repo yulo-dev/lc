@@ -9,7 +9,8 @@ class Solution:
         if root is None:
             return []
 
-        res = [root.val]
+        res = []
+        res.append(root.val)
         
         res += self.preorderTraversal(root.left)
         res += self.preorderTraversal(root.right)
