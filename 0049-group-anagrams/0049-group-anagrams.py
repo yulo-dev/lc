@@ -4,7 +4,7 @@ class Solution:
         mapping = defaultdict(list) #key=sorted word, value = corresponding original strings
 
         for s in strs:
-            keys = str(sorted(s))
+            keys = ''.join(sorted(s))
             mapping[keys].append(s)
 
         return list(mapping.values())
