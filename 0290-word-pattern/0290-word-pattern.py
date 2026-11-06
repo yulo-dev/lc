@@ -1,21 +1,23 @@
 class Solution:
     def wordPattern(self, pattern: str, s: str) -> bool:
-        mapping1 = defaultdict(list)
-        mapping2 = defaultdict(list)
 
-        res1 = []
-        res2 = []
+        words = s.split()
+        if len(pattern) != len(words):
+            return False
 
-        for i, ch in enumerate(pattern):
-            mapping1[ch].append(i)
+        mapping = {}
 
-        for val in mapping1.values():
-            res1.append(val)
-        
-        for i, ch in enumerate(s.split()):
-            mapping2[ch].append(i)
+        visited = set()
 
-        for val in mapping2.values():
-            res2.append(val)
+        for ch, word in zip(pattern, words):
+            if ch in mapping:
+                if mapping[ch] != word:
+                    return False
+            else:
+                if word in visited:
+                    return False
+                mapping[ch] = word
+                visited.add(word)
 
-        return res1 == res2
+        return True
+            
