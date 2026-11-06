@@ -9,7 +9,9 @@ from collections import deque
 
 class Solution:
     def widthOfBinaryTree(self, root: TreeNode | None) -> int:
-        
+        if not root:
+            return 0
+            
         queue = deque()
         queue.append((root,1))
         res = float("-inf")
