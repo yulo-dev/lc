@@ -1,36 +1,42 @@
 class RandomizedSet:
 
     def __init__(self):
-        self.arr = []
-        self.pos = {}  # val -> index in arr 
+        self.val_to_index = defaultdict(list)
+        self.index_to_val = defaultdict(list)
+        self.cnt = 0
 
     def insert(self, val: int) -> bool:
-        if val in self.pos:
+        if val not in self.val_to_index:
+            self.val_to_index[val] = self.cnt 
+            self.index_to_val[self.cnt] = val
+            self.cnt += 1
+            return True
+        else:
             return False
-
-        self.pos[val] = len(self.arr)
-        self.arr.append(val)
-        return True
 
     def remove(self, val: int) -> bool:
-        if val not in self.pos:
+        if val in self.val_to_index:
+            idx = self.val_to_index[val]
+            last_val = self.index_to_val[self.cnt - 1]
+
+            self.index_to_val[idx] = last_val
+            del self.index_to_val[self.cnt - 1]
+
+            self.val_to_index[last_val] = idx
+            del self.val_to_index[val]
+
+            self.cnt -= 1
+            return True
+        else:
             return False
-        
-        # 為了list要用pop 維持O(1) 所以把最後一個元素 last 搬去補你要刪的位置 idx, 這樣要刪的元素就被覆蓋掉了，最後再 pop() 掉尾巴（O(1)）
-        index = self.pos[val]
-        last = self.arr[-1]
 
-        # move last to idx
-        self.arr[index] = last
-        self.pos[last] = index
-
-        # pop last and delete val
-        self.arr.pop() 
-        del self.pos[val]
-        return True
-        
     def getRandom(self) -> int:
-        return random.choice(self.arr)
+        import random
+        idx = random.randint(0, self.cnt -1)
+        return self.index_to_val[idx]
+
+
+        
 
 
 # Your RandomizedSet object will be instantiated and called as such:
