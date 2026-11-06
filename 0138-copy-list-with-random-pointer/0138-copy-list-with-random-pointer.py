@@ -9,8 +9,9 @@ class Node:
 
 class Solution:
     def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
-        mapping = {}
-
+        
+        mapping = {} # old node -> new node
+        
         curr = head
         while curr:
             mapping[curr] = Node(curr.val)
