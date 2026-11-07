@@ -6,12 +6,12 @@ class Solution:
         for i in range(len(matrix)):
             heapq.heappush(heap, (matrix[i][0], i, 0))
 
-        while k > 0:
-            ele, i, j = heapq.heappop(heap)
+        cnt = 0
+        while heap:
+            num, i, j = heapq.heappop(heap)
+            cnt += 1
+            if cnt == k:
+                return num
 
-            if j + 1 < len(matrix[0]):
+            if j+1 < len(matrix[0]):
                 heapq.heappush(heap, (matrix[i][j+1], i, j+1))
-
-            k -= 1
-
-        return ele
