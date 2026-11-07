@@ -1,16 +1,20 @@
 class Solution:
     def findErrorNums(self, nums: list[int]) -> list[int]:
-        
-        uni_nums = set()
+        #find duplicate (ref: lc 442)
 
         dup = None
 
         for n in nums:
-            if n in uni_nums:
-                dup = n
+            if nums[abs(n)-1] < 0:
+                dup = abs(n)
             else:
-                uni_nums.add(n)
-           
-        for n in range(1, len(nums)+1):
-            if n not in uni_nums:
-                return [dup, n]
+                nums[abs(n)-1] *= -1
+
+        #find missing
+
+        missing = None
+        for i in range(len(nums)):
+            if nums[i] > 0:
+                missing = i+1
+
+        return [dup, missing]
