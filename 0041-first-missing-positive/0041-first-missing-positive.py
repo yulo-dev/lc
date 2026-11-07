@@ -6,10 +6,10 @@ class Solution:
             if nums[i] <= 0 or nums[i] > n:
                 nums[i] = n+1
 
-        for i in range(n):
-            index = abs(nums[i])
-            if index <= n:
-                nums[index - 1] = -abs(nums[index - 1])
+        for num in nums:
+            value = abs(num)
+            if value <= n:
+                nums[value - 1] = -abs(nums[value - 1])
 
         for i in range(n):
             if nums[i] > 0:
