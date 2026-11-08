@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0271-encode-and-decode-strings](https://github.com/yulo-dev/lc/tree/master/0271-encode-and-decode-strings) |
 | [0274-h-index](https://github.com/yulo-dev/lc/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/yulo-dev/lc/tree/master/0283-move-zeroes) |
+| [0284-peeking-iterator](https://github.com/yulo-dev/lc/tree/master/0284-peeking-iterator) |
 | [0286-walls-and-gates](https://github.com/yulo-dev/lc/tree/master/0286-walls-and-gates) |
 | [0287-find-the-duplicate-number](https://github.com/yulo-dev/lc/tree/master/0287-find-the-duplicate-number) |
 | [0289-game-of-life](https://github.com/yulo-dev/lc/tree/master/0289-game-of-life) |
@@ -878,6 +879,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/yulo-dev/lc/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/yulo-dev/lc/tree/master/0232-implement-queue-using-stacks) |
 | [0271-encode-and-decode-strings](https://github.com/yulo-dev/lc/tree/master/0271-encode-and-decode-strings) |
+| [0284-peeking-iterator](https://github.com/yulo-dev/lc/tree/master/0284-peeking-iterator) |
 | [0295-find-median-from-data-stream](https://github.com/yulo-dev/lc/tree/master/0295-find-median-from-data-stream) |
 | [0303-range-sum-query-immutable](https://github.com/yulo-dev/lc/tree/master/0303-range-sum-query-immutable) |
 | [0355-design-twitter](https://github.com/yulo-dev/lc/tree/master/0355-design-twitter) |
@@ -1005,6 +1007,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/yulo-dev/lc/tree/master/0173-binary-search-tree-iterator) |
+| [0284-peeking-iterator](https://github.com/yulo-dev/lc/tree/master/0284-peeking-iterator) |
 ## Hash Function
 |  |
 | ------- |
