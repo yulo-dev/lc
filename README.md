@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0713-subarray-product-less-than-k](https://github.com/yulo-dev/lc/tree/master/0713-subarray-product-less-than-k) |
 | [0721-accounts-merge](https://github.com/yulo-dev/lc/tree/master/0721-accounts-merge) |
 | [0724-find-pivot-index](https://github.com/yulo-dev/lc/tree/master/0724-find-pivot-index) |
+| [0729-my-calendar-i](https://github.com/yulo-dev/lc/tree/master/0729-my-calendar-i) |
 | [0733-flood-fill](https://github.com/yulo-dev/lc/tree/master/0733-flood-fill) |
 | [0739-daily-temperatures](https://github.com/yulo-dev/lc/tree/master/0739-daily-temperatures) |
 | [0752-open-the-lock](https://github.com/yulo-dev/lc/tree/master/0752-open-the-lock) |
@@ -731,6 +732,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0441-arranging-coins](https://github.com/yulo-dev/lc/tree/master/0441-arranging-coins) |
 | [0704-binary-search](https://github.com/yulo-dev/lc/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/yulo-dev/lc/tree/master/0713-subarray-product-less-than-k) |
+| [0729-my-calendar-i](https://github.com/yulo-dev/lc/tree/master/0729-my-calendar-i) |
 | [0792-binary-search](https://github.com/yulo-dev/lc/tree/master/0792-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/yulo-dev/lc/tree/master/0875-koko-eating-bananas) |
 | [0907-koko-eating-bananas](https://github.com/yulo-dev/lc/tree/master/0907-koko-eating-bananas) |
@@ -879,6 +881,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0359-logger-rate-limiter](https://github.com/yulo-dev/lc/tree/master/0359-logger-rate-limiter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/yulo-dev/lc/tree/master/0380-insert-delete-getrandom-o1) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/yulo-dev/lc/tree/master/0703-kth-largest-element-in-a-stream) |
+| [0729-my-calendar-i](https://github.com/yulo-dev/lc/tree/master/0729-my-calendar-i) |
 | [0895-maximum-frequency-stack](https://github.com/yulo-dev/lc/tree/master/0895-maximum-frequency-stack) |
 | [0933-number-of-recent-calls](https://github.com/yulo-dev/lc/tree/master/0933-number-of-recent-calls) |
 | [0981-time-based-key-value-store](https://github.com/yulo-dev/lc/tree/master/0981-time-based-key-value-store) |
@@ -1059,5 +1062,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Ordered Set
 |  |
 | ------- |
+| [0729-my-calendar-i](https://github.com/yulo-dev/lc/tree/master/0729-my-calendar-i) |
 | [0895-maximum-frequency-stack](https://github.com/yulo-dev/lc/tree/master/0895-maximum-frequency-stack) |
+## Segment Tree
+|  |
+| ------- |
+| [0729-my-calendar-i](https://github.com/yulo-dev/lc/tree/master/0729-my-calendar-i) |
 <!---LeetCode Topics End-->
