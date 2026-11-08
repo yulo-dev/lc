@@ -161,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/yulo-dev/lc/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/yulo-dev/lc/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0310-minimum-height-trees](https://github.com/yulo-dev/lc/tree/master/0310-minimum-height-trees) |
+| [0341-flatten-nested-list-iterator](https://github.com/yulo-dev/lc/tree/master/0341-flatten-nested-list-iterator) |
 | [0399-evaluate-division](https://github.com/yulo-dev/lc/tree/master/0399-evaluate-division) |
 | [0419-battleships-in-a-board](https://github.com/yulo-dev/lc/tree/master/0419-battleships-in-a-board) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/yulo-dev/lc/tree/master/0530-minimum-absolute-difference-in-bst) |
@@ -432,6 +433,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/yulo-dev/lc/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/yulo-dev/lc/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/yulo-dev/lc/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0341-flatten-nested-list-iterator](https://github.com/yulo-dev/lc/tree/master/0341-flatten-nested-list-iterator) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/yulo-dev/lc/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/yulo-dev/lc/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/yulo-dev/lc/tree/master/0572-subtree-of-another-tree) |
@@ -691,6 +693,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/yulo-dev/lc/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/yulo-dev/lc/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/yulo-dev/lc/tree/master/0234-palindrome-linked-list) |
+| [0341-flatten-nested-list-iterator](https://github.com/yulo-dev/lc/tree/master/0341-flatten-nested-list-iterator) |
 | [0394-decode-string](https://github.com/yulo-dev/lc/tree/master/0394-decode-string) |
 | [0739-daily-temperatures](https://github.com/yulo-dev/lc/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/yulo-dev/lc/tree/master/0853-car-fleet) |
@@ -710,6 +713,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/yulo-dev/lc/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/yulo-dev/lc/tree/master/0232-implement-queue-using-stacks) |
 | [0239-sliding-window-maximum](https://github.com/yulo-dev/lc/tree/master/0239-sliding-window-maximum) |
+| [0341-flatten-nested-list-iterator](https://github.com/yulo-dev/lc/tree/master/0341-flatten-nested-list-iterator) |
 | [0387-first-unique-character-in-a-string](https://github.com/yulo-dev/lc/tree/master/0387-first-unique-character-in-a-string) |
 | [0918-maximum-sum-circular-subarray](https://github.com/yulo-dev/lc/tree/master/0918-maximum-sum-circular-subarray) |
 | [0933-number-of-recent-calls](https://github.com/yulo-dev/lc/tree/master/0933-number-of-recent-calls) |
@@ -882,6 +886,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0284-peeking-iterator](https://github.com/yulo-dev/lc/tree/master/0284-peeking-iterator) |
 | [0295-find-median-from-data-stream](https://github.com/yulo-dev/lc/tree/master/0295-find-median-from-data-stream) |
 | [0303-range-sum-query-immutable](https://github.com/yulo-dev/lc/tree/master/0303-range-sum-query-immutable) |
+| [0341-flatten-nested-list-iterator](https://github.com/yulo-dev/lc/tree/master/0341-flatten-nested-list-iterator) |
 | [0355-design-twitter](https://github.com/yulo-dev/lc/tree/master/0355-design-twitter) |
 | [0359-logger-rate-limiter](https://github.com/yulo-dev/lc/tree/master/0359-logger-rate-limiter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/yulo-dev/lc/tree/master/0380-insert-delete-getrandom-o1) |
@@ -1008,6 +1013,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/yulo-dev/lc/tree/master/0173-binary-search-tree-iterator) |
 | [0284-peeking-iterator](https://github.com/yulo-dev/lc/tree/master/0284-peeking-iterator) |
+| [0341-flatten-nested-list-iterator](https://github.com/yulo-dev/lc/tree/master/0341-flatten-nested-list-iterator) |
 ## Hash Function
 |  |
 | ------- |
