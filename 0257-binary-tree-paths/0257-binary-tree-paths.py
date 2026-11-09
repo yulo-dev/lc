@@ -8,22 +8,18 @@ class Solution:
     def binaryTreePaths(self, root: TreeNode | None) -> list[str]:
         if not root:
             return []
-        
-        from collections import deque
-        queue = deque([])
-        queue.append((root, str(root.val)))
 
         res = []
 
-        while queue:
-            node, val = queue.popleft()
+        def dfs(node, path):
             if node.left:
-                queue.append((node.left, f"{val}->{node.left.val}"))
+                dfs(node.left, f"{path}->{node.left.val}")
             if node.right:
-                queue.append((node.right, f"{val}->{node.right.val}"))
+                dfs(node.right, f"{path}->{node.right.val}")
 
-        
             if not node.left and not node.right:
-                res.append(val)
+                res.append(path)
+                return
 
+        dfs(root, str(root.val))
         return res
