@@ -160,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/yulo-dev/lc/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/yulo-dev/lc/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/yulo-dev/lc/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/yulo-dev/lc/tree/master/0257-binary-tree-paths) |
 | [0310-minimum-height-trees](https://github.com/yulo-dev/lc/tree/master/0310-minimum-height-trees) |
 | [0341-flatten-nested-list-iterator](https://github.com/yulo-dev/lc/tree/master/0341-flatten-nested-list-iterator) |
 | [0399-evaluate-division](https://github.com/yulo-dev/lc/tree/master/0399-evaluate-division) |
@@ -349,6 +350,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0211-design-add-and-search-words-data-structure](https://github.com/yulo-dev/lc/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0224-basic-calculator](https://github.com/yulo-dev/lc/tree/master/0224-basic-calculator) |
 | [0242-valid-anagram](https://github.com/yulo-dev/lc/tree/master/0242-valid-anagram) |
+| [0257-binary-tree-paths](https://github.com/yulo-dev/lc/tree/master/0257-binary-tree-paths) |
 | [0271-encode-and-decode-strings](https://github.com/yulo-dev/lc/tree/master/0271-encode-and-decode-strings) |
 | [0290-word-pattern](https://github.com/yulo-dev/lc/tree/master/0290-word-pattern) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/yulo-dev/lc/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
@@ -433,6 +435,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/yulo-dev/lc/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/yulo-dev/lc/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/yulo-dev/lc/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/yulo-dev/lc/tree/master/0257-binary-tree-paths) |
 | [0341-flatten-nested-list-iterator](https://github.com/yulo-dev/lc/tree/master/0341-flatten-nested-list-iterator) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/yulo-dev/lc/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/yulo-dev/lc/tree/master/0543-diameter-of-binary-tree) |
@@ -472,6 +475,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/yulo-dev/lc/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/yulo-dev/lc/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/yulo-dev/lc/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/yulo-dev/lc/tree/master/0257-binary-tree-paths) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/yulo-dev/lc/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/yulo-dev/lc/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/yulo-dev/lc/tree/master/0572-subtree-of-another-tree) |
@@ -492,6 +496,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0077-combinations](https://github.com/yulo-dev/lc/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/yulo-dev/lc/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/yulo-dev/lc/tree/master/0079-word-search) |
+| [0257-binary-tree-paths](https://github.com/yulo-dev/lc/tree/master/0257-binary-tree-paths) |
 ## Bit Manipulation
 |  |
 | ------- |
