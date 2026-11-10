@@ -6,6 +6,8 @@
 #         self.right = right
 class Solution:
     def isSymmetric(self, root: TreeNode | None) -> bool:
+        if not root:
+            return True
         
         queue = deque([])
         queue.append(root)
