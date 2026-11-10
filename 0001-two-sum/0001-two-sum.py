@@ -1,11 +1,10 @@
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
-        from collections import defaultdict
-
-        mapping = defaultdict(int)
-        for i, num in enumerate(nums):
-            if target - num in mapping:
-                return [mapping[target - num], i]
+        
+        mapping = defaultdict(int) #key = nums - target #val = index
+        res = []
+        for i in range(len(nums)):
+            if target - nums[i] in mapping:
+                return [mapping[target - nums[i]], i]
             else:
-                mapping[num] = i
-        return []
+                mapping[nums[i]] = i
