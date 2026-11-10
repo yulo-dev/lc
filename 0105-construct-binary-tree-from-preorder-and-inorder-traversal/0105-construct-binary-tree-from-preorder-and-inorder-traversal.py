@@ -5,16 +5,23 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
-        if not preorder or not inorder:
-            return None
+    def buildTree(self, preorder: list[int], inorder: list[int]) -> TreeNode | None:
+        
+        def build(preorder, inorder):
+            if not preorder:
+                return None
+            
+            root = TreeNode(preorder[0])
+            root_index = inorder.index(preorder[0])
 
-        root_val = preorder[0]
-        root = TreeNode(root_val)
+            root.left = build(
+                            preorder[1:root_index+1], inorder[0:root_index]
+                            )
 
-        mid = inorder.index(root_val)
+            root.right = build(
+                            preorder[root_index+1:], inorder[root_index+1:]
+                            )
 
-        root.left = self.buildTree(preorder[1:mid+1], inorder[:mid])
-        root.right = self.buildTree(preorder[mid+1:], inorder[mid+1:])
+            return root
 
-        return root
+        return build(preorder, inorder)
