@@ -7,8 +7,12 @@
 class Solution:
     def maxPathSum(self, root: TreeNode | None) -> int:
         
+        #send to parent: max(left, right)
+        #res: left + right + node.val
+        #negative: dont include
+
         res = float("-inf")
-        
+
         def dfs(node):
             if not node:
                 return 0
@@ -22,6 +26,6 @@ class Solution:
             return node.val + max(left_max, right_max)
 
         dfs(root)
-        
+
         return res
-            
+
