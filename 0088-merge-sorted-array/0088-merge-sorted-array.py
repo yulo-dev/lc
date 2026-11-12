@@ -43,6 +43,6 @@ class Solution:
                 nums1[i] = nums2[right]
                 right -= 1
 
-            elif left >= 0 and right == 0:
+            elif left >= 0 and right < 0:
                 nums1[i] = nums1[left]
                 left -= 1
