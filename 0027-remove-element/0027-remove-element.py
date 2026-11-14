@@ -1,14 +1,11 @@
 class Solution:
     def removeElement(self, nums: list[int], val: int) -> int:
         
-        left = 0
-        right = len(nums) - 1
+        write = 0
 
-        while left <= right:
-            if nums[left] == val:
-                nums[left], nums[right] = nums[right], nums[left]
-                right -= 1
-            else:
-                left += 1
+        for read in range(len(nums)):
+            if nums[read] != val:
+                nums[write] = nums[read]
+                write += 1
 
-        return right + 1
+        return write
