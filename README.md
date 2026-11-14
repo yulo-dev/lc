@@ -178,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/yulo-dev/lc/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/yulo-dev/lc/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/yulo-dev/lc/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/yulo-dev/lc/tree/master/0743-network-delay-time) |
 | [0841-keys-and-rooms](https://github.com/yulo-dev/lc/tree/master/0841-keys-and-rooms) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/yulo-dev/lc/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [1382-balance-a-binary-search-tree](https://github.com/yulo-dev/lc/tree/master/1382-balance-a-binary-search-tree) |
@@ -214,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/yulo-dev/lc/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/yulo-dev/lc/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/yulo-dev/lc/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/yulo-dev/lc/tree/master/0743-network-delay-time) |
 | [0752-open-the-lock](https://github.com/yulo-dev/lc/tree/master/0752-open-the-lock) |
 | [0841-keys-and-rooms](https://github.com/yulo-dev/lc/tree/master/0841-keys-and-rooms) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/yulo-dev/lc/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
@@ -961,6 +963,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/yulo-dev/lc/tree/master/0210-course-schedule-ii) |
 | [0310-minimum-height-trees](https://github.com/yulo-dev/lc/tree/master/0310-minimum-height-trees) |
 | [0399-evaluate-division](https://github.com/yulo-dev/lc/tree/master/0399-evaluate-division) |
+| [0743-network-delay-time](https://github.com/yulo-dev/lc/tree/master/0743-network-delay-time) |
 | [0841-keys-and-rooms](https://github.com/yulo-dev/lc/tree/master/0841-keys-and-rooms) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/yulo-dev/lc/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/yulo-dev/lc/tree/master/3286-find-a-safe-walk-through-a-grid) |
@@ -987,6 +990,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/yulo-dev/lc/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/yulo-dev/lc/tree/master/0692-top-k-frequent-words) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/yulo-dev/lc/tree/master/0703-kth-largest-element-in-a-stream) |
+| [0743-network-delay-time](https://github.com/yulo-dev/lc/tree/master/0743-network-delay-time) |
 | [0767-reorganize-string](https://github.com/yulo-dev/lc/tree/master/0767-reorganize-string) |
 | [0973-k-closest-points-to-origin](https://github.com/yulo-dev/lc/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/yulo-dev/lc/tree/master/1046-last-stone-weight) |
@@ -1060,6 +1064,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0399-evaluate-division](https://github.com/yulo-dev/lc/tree/master/0399-evaluate-division) |
+| [0743-network-delay-time](https://github.com/yulo-dev/lc/tree/master/0743-network-delay-time) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/yulo-dev/lc/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Quicksort
 |  |
@@ -1118,4 +1123,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0654-maximum-binary-tree](https://github.com/yulo-dev/lc/tree/master/0654-maximum-binary-tree) |
+## Dijkstra's Algorithm
+|  |
+| ------- |
+| [0743-network-delay-time](https://github.com/yulo-dev/lc/tree/master/0743-network-delay-time) |
 <!---LeetCode Topics End-->
