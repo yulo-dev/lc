@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1672-richest-customer-wealth](https://github.com/yulo-dev/lc/tree/master/1672-richest-customer-wealth) |
 | [1833-maximum-ice-cream-bars](https://github.com/yulo-dev/lc/tree/master/1833-maximum-ice-cream-bars) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/yulo-dev/lc/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
+| [1851-minimum-interval-to-include-each-query](https://github.com/yulo-dev/lc/tree/master/1851-minimum-interval-to-include-each-query) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/yulo-dev/lc/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [1929-concatenation-of-array](https://github.com/yulo-dev/lc/tree/master/1929-concatenation-of-array) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/yulo-dev/lc/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
@@ -625,6 +626,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/yulo-dev/lc/tree/master/1648-sell-diminishing-valued-colored-balls) |
 | [1833-maximum-ice-cream-bars](https://github.com/yulo-dev/lc/tree/master/1833-maximum-ice-cream-bars) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/yulo-dev/lc/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
+| [1851-minimum-interval-to-include-each-query](https://github.com/yulo-dev/lc/tree/master/1851-minimum-interval-to-include-each-query) |
 ## Sliding Window
 |  |
 | ------- |
@@ -800,6 +802,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-path-with-minimum-effort](https://github.com/yulo-dev/lc/tree/master/1631-path-with-minimum-effort) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/yulo-dev/lc/tree/master/1648-sell-diminishing-valued-colored-balls) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/yulo-dev/lc/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
+| [1851-minimum-interval-to-include-each-query](https://github.com/yulo-dev/lc/tree/master/1851-minimum-interval-to-include-each-query) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -1025,6 +1028,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-last-stone-weight](https://github.com/yulo-dev/lc/tree/master/1046-last-stone-weight) |
 | [1631-path-with-minimum-effort](https://github.com/yulo-dev/lc/tree/master/1631-path-with-minimum-effort) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/yulo-dev/lc/tree/master/1648-sell-diminishing-valued-colored-balls) |
+| [1851-minimum-interval-to-include-each-query](https://github.com/yulo-dev/lc/tree/master/1851-minimum-interval-to-include-each-query) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/yulo-dev/lc/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Quickselect
 |  |
@@ -1170,4 +1174,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0881-boats-to-save-people](https://github.com/yulo-dev/lc/tree/master/0881-boats-to-save-people) |
+## Sweep Line
+|  |
+| ------- |
+| [1851-minimum-interval-to-include-each-query](https://github.com/yulo-dev/lc/tree/master/1851-minimum-interval-to-include-each-query) |
 <!---LeetCode Topics End-->
