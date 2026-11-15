@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/yulo-dev/lc/tree/master/0792-binary-search) |
 | [0853-car-fleet](https://github.com/yulo-dev/lc/tree/master/0853-car-fleet) |
 | [0875-koko-eating-bananas](https://github.com/yulo-dev/lc/tree/master/0875-koko-eating-bananas) |
+| [0881-boats-to-save-people](https://github.com/yulo-dev/lc/tree/master/0881-boats-to-save-people) |
 | [0907-koko-eating-bananas](https://github.com/yulo-dev/lc/tree/master/0907-koko-eating-bananas) |
 | [0912-sort-an-array](https://github.com/yulo-dev/lc/tree/master/0912-sort-an-array) |
 | [0918-maximum-sum-circular-subarray](https://github.com/yulo-dev/lc/tree/master/0918-maximum-sum-circular-subarray) |
@@ -575,6 +576,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/yulo-dev/lc/tree/master/0680-valid-palindrome-ii) |
 | [0777-swap-adjacent-in-lr-string](https://github.com/yulo-dev/lc/tree/master/0777-swap-adjacent-in-lr-string) |
 | [0876-middle-of-the-linked-list](https://github.com/yulo-dev/lc/tree/master/0876-middle-of-the-linked-list) |
+| [0881-boats-to-save-people](https://github.com/yulo-dev/lc/tree/master/0881-boats-to-save-people) |
 | [1768-merge-strings-alternately](https://github.com/yulo-dev/lc/tree/master/1768-merge-strings-alternately) |
 | [2337-move-pieces-to-obtain-a-string](https://github.com/yulo-dev/lc/tree/master/2337-move-pieces-to-obtain-a-string) |
 ## Sorting
@@ -608,6 +610,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/yulo-dev/lc/tree/master/0721-accounts-merge) |
 | [0767-reorganize-string](https://github.com/yulo-dev/lc/tree/master/0767-reorganize-string) |
 | [0853-car-fleet](https://github.com/yulo-dev/lc/tree/master/0853-car-fleet) |
+| [0881-boats-to-save-people](https://github.com/yulo-dev/lc/tree/master/0881-boats-to-save-people) |
 | [0912-sort-an-array](https://github.com/yulo-dev/lc/tree/master/0912-sort-an-array) |
 | [0973-k-closest-points-to-origin](https://github.com/yulo-dev/lc/tree/master/0973-k-closest-points-to-origin) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/yulo-dev/lc/tree/master/1235-maximum-profit-in-job-scheduling) |
@@ -893,6 +896,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/yulo-dev/lc/tree/master/0621-task-scheduler) |
 | [0680-valid-palindrome-ii](https://github.com/yulo-dev/lc/tree/master/0680-valid-palindrome-ii) |
 | [0767-reorganize-string](https://github.com/yulo-dev/lc/tree/master/0767-reorganize-string) |
+| [0881-boats-to-save-people](https://github.com/yulo-dev/lc/tree/master/0881-boats-to-save-people) |
 | [1382-balance-a-binary-search-tree](https://github.com/yulo-dev/lc/tree/master/1382-balance-a-binary-search-tree) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/yulo-dev/lc/tree/master/1648-sell-diminishing-valued-colored-balls) |
 | [1833-maximum-ice-cream-bars](https://github.com/yulo-dev/lc/tree/master/1833-maximum-ice-cream-bars) |
@@ -1153,4 +1157,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0912-sort-an-array](https://github.com/yulo-dev/lc/tree/master/0912-sort-an-array) |
+## Timsort
+|  |
+| ------- |
+| [0881-boats-to-save-people](https://github.com/yulo-dev/lc/tree/master/0881-boats-to-save-people) |
 <!---LeetCode Topics End-->
