@@ -3,20 +3,9 @@ class Solution:
         
         intervals.sort()
 
-        prev_start = None
-        prev_end = None
-
-        for start, end in intervals:
-            if prev_start == None and prev_end == None:
-                prev_start = start
-                prev_end = end
-
-            else:
-                if prev_end > start:
-                    return False
-                else:
-                    prev_start = start
-                    prev_end = end
+        for i in range(1, len(intervals)):
+            if intervals[i][0] < intervals[i-1][1]:
+                return False
 
         return True
 
