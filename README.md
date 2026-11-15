@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/yulo-dev/lc/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/yulo-dev/lc/tree/master/0239-sliding-window-maximum) |
 | [0252-meeting-rooms](https://github.com/yulo-dev/lc/tree/master/0252-meeting-rooms) |
+| [0253-meeting-rooms-ii](https://github.com/yulo-dev/lc/tree/master/0253-meeting-rooms-ii) |
 | [0271-encode-and-decode-strings](https://github.com/yulo-dev/lc/tree/master/0271-encode-and-decode-strings) |
 | [0274-h-index](https://github.com/yulo-dev/lc/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/yulo-dev/lc/tree/master/0283-move-zeroes) |
@@ -566,6 +567,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/yulo-dev/lc/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/yulo-dev/lc/tree/master/0202-happy-number) |
 | [0234-palindrome-linked-list](https://github.com/yulo-dev/lc/tree/master/0234-palindrome-linked-list) |
+| [0253-meeting-rooms-ii](https://github.com/yulo-dev/lc/tree/master/0253-meeting-rooms-ii) |
 | [0283-move-zeroes](https://github.com/yulo-dev/lc/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/yulo-dev/lc/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/yulo-dev/lc/tree/master/0295-find-median-from-data-stream) |
@@ -595,6 +597,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/yulo-dev/lc/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/yulo-dev/lc/tree/master/0242-valid-anagram) |
 | [0252-meeting-rooms](https://github.com/yulo-dev/lc/tree/master/0252-meeting-rooms) |
+| [0253-meeting-rooms-ii](https://github.com/yulo-dev/lc/tree/master/0253-meeting-rooms-ii) |
 | [0274-h-index](https://github.com/yulo-dev/lc/tree/master/0274-h-index) |
 | [0295-find-median-from-data-stream](https://github.com/yulo-dev/lc/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/yulo-dev/lc/tree/master/0347-top-k-frequent-elements) |
@@ -802,6 +805,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/yulo-dev/lc/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/yulo-dev/lc/tree/master/0238-product-of-array-except-self) |
+| [0253-meeting-rooms-ii](https://github.com/yulo-dev/lc/tree/master/0253-meeting-rooms-ii) |
 | [0303-range-sum-query-immutable](https://github.com/yulo-dev/lc/tree/master/0303-range-sum-query-immutable) |
 | [0523-continuous-subarray-sum](https://github.com/yulo-dev/lc/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/yulo-dev/lc/tree/master/0525-contiguous-array) |
@@ -891,6 +895,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/yulo-dev/lc/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/yulo-dev/lc/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/yulo-dev/lc/tree/master/0135-candy) |
+| [0253-meeting-rooms-ii](https://github.com/yulo-dev/lc/tree/master/0253-meeting-rooms-ii) |
 | [0409-longest-palindrome](https://github.com/yulo-dev/lc/tree/master/0409-longest-palindrome) |
 | [0435-non-overlapping-intervals](https://github.com/yulo-dev/lc/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/yulo-dev/lc/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
@@ -1001,6 +1006,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/yulo-dev/lc/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/yulo-dev/lc/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/yulo-dev/lc/tree/master/0239-sliding-window-maximum) |
+| [0253-meeting-rooms-ii](https://github.com/yulo-dev/lc/tree/master/0253-meeting-rooms-ii) |
 | [0264-ugly-number-ii](https://github.com/yulo-dev/lc/tree/master/0264-ugly-number-ii) |
 | [0295-find-median-from-data-stream](https://github.com/yulo-dev/lc/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/yulo-dev/lc/tree/master/0347-top-k-frequent-elements) |
