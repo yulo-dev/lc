@@ -1201,4 +1201,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/yulo-dev/lc/tree/master/0204-count-primes) |
+## Newton's Method
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/yulo-dev/lc/tree/master/0069-sqrtx) |
 <!---LeetCode Topics End-->
