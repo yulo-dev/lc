@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/yulo-dev/lc/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/yulo-dev/lc/tree/master/0189-rotate-array) |
 | [0200-number-of-islands](https://github.com/yulo-dev/lc/tree/master/0200-number-of-islands) |
+| [0204-count-primes](https://github.com/yulo-dev/lc/tree/master/0204-count-primes) |
 | [0209-minimum-size-subarray-sum](https://github.com/yulo-dev/lc/tree/master/0209-minimum-size-subarray-sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/yulo-dev/lc/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/yulo-dev/lc/tree/master/0217-contains-duplicate) |
@@ -705,6 +706,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/yulo-dev/lc/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/yulo-dev/lc/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/yulo-dev/lc/tree/master/0202-happy-number) |
+| [0204-count-primes](https://github.com/yulo-dev/lc/tree/master/0204-count-primes) |
 | [0224-basic-calculator](https://github.com/yulo-dev/lc/tree/master/0224-basic-calculator) |
 | [0264-ugly-number-ii](https://github.com/yulo-dev/lc/tree/master/0264-ugly-number-ii) |
 | [0380-insert-delete-getrandom-o1](https://github.com/yulo-dev/lc/tree/master/0380-insert-delete-getrandom-o1) |
@@ -1096,6 +1098,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/yulo-dev/lc/tree/master/0204-count-primes) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/yulo-dev/lc/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 ## Shortest Path
 |  |
@@ -1178,4 +1181,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1851-minimum-interval-to-include-each-query](https://github.com/yulo-dev/lc/tree/master/1851-minimum-interval-to-include-each-query) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/yulo-dev/lc/tree/master/0204-count-primes) |
+## Primality Test
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/yulo-dev/lc/tree/master/0204-count-primes) |
+## Sieve Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/yulo-dev/lc/tree/master/0204-count-primes) |
+## Prime Number Sieve
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/yulo-dev/lc/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
