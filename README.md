@@ -111,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0853-car-fleet](https://github.com/yulo-dev/lc/tree/master/0853-car-fleet) |
 | [0875-koko-eating-bananas](https://github.com/yulo-dev/lc/tree/master/0875-koko-eating-bananas) |
 | [0881-boats-to-save-people](https://github.com/yulo-dev/lc/tree/master/0881-boats-to-save-people) |
+| [0896-monotonic-array](https://github.com/yulo-dev/lc/tree/master/0896-monotonic-array) |
 | [0907-koko-eating-bananas](https://github.com/yulo-dev/lc/tree/master/0907-koko-eating-bananas) |
 | [0912-sort-an-array](https://github.com/yulo-dev/lc/tree/master/0912-sort-an-array) |
 | [0918-maximum-sum-circular-subarray](https://github.com/yulo-dev/lc/tree/master/0918-maximum-sum-circular-subarray) |
