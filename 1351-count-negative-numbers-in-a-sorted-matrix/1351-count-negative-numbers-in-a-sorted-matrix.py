@@ -4,10 +4,15 @@ class Solution:
         res = 0
 
         for g in grid:
-            i = 0
-            while i < len(g):
-                if g[i] < 0:
-                    res += 1
-                i += 1
-                
+            left = 0
+            right = len(g)
+            while left < right:
+                mid = (left + right) // 2
+                if g[mid] >= 0:
+                    left = mid + 1
+                else:
+                    right = mid 
+
+            res += len(g) - left 
+            
         return res
