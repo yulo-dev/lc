@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0731-my-calendar-ii](https://github.com/yulo-dev/lc/tree/master/0731-my-calendar-ii) |
 | [0733-flood-fill](https://github.com/yulo-dev/lc/tree/master/0733-flood-fill) |
 | [0739-daily-temperatures](https://github.com/yulo-dev/lc/tree/master/0739-daily-temperatures) |
+| [0744-find-smallest-letter-greater-than-target](https://github.com/yulo-dev/lc/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0752-open-the-lock](https://github.com/yulo-dev/lc/tree/master/0752-open-the-lock) |
 | [0792-binary-search](https://github.com/yulo-dev/lc/tree/master/0792-binary-search) |
 | [0853-car-fleet](https://github.com/yulo-dev/lc/tree/master/0853-car-fleet) |
@@ -802,6 +803,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0713-subarray-product-less-than-k](https://github.com/yulo-dev/lc/tree/master/0713-subarray-product-less-than-k) |
 | [0729-my-calendar-i](https://github.com/yulo-dev/lc/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/yulo-dev/lc/tree/master/0731-my-calendar-ii) |
+| [0744-find-smallest-letter-greater-than-target](https://github.com/yulo-dev/lc/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0792-binary-search](https://github.com/yulo-dev/lc/tree/master/0792-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/yulo-dev/lc/tree/master/0875-koko-eating-bananas) |
 | [0907-koko-eating-bananas](https://github.com/yulo-dev/lc/tree/master/0907-koko-eating-bananas) |
