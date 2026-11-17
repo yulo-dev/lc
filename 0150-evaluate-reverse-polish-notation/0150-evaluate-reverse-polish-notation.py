@@ -1,30 +1,34 @@
 class Solution:
-    def evalRPN(self, tokens: List[str]) -> int:
-    
+    def evalRPN(self, tokens: list[str]) -> int:
+        
         stack = []
-        cnt = 0
-        for ch in tokens:
-            if ch not in "+-*/":
-                stack.append(int(ch))
-            elif ch == "+":
-                num_sec = stack.pop()
-                num_first = stack.pop()
-                cnt = num_first + num_sec
-                stack.append(cnt)
-            elif ch == "-":
-                num_sec = stack.pop()
-                num_first = stack.pop()
-                cnt = num_first - num_sec
-                stack.append(cnt)
-            elif ch == "*":
-                num_sec = stack.pop()
-                num_first = stack.pop()
-                cnt = num_first * num_sec
-                stack.append(cnt)
-            elif ch == "/":
-                num_sec = stack.pop()
-                num_first = stack.pop()
-                cnt = int(num_first / num_sec)
-                stack.append(cnt)
+
+        for t in tokens:
+            if t == "+":
+                num_2 = stack.pop()
+                num_1 = stack.pop()
+                res = num_1 + num_2
+                stack.append(res)
+
+            elif t == "-":
+                num_2 = stack.pop()
+                num_1 = stack.pop()
+                res = num_1 - num_2
+                stack.append(res)
+
+            elif t == "*":
+                num_2 = stack.pop()
+                num_1 = stack.pop()
+                res = num_1 * num_2
+                stack.append(res)
+
+            elif t == "/":
+                num_2 = stack.pop()
+                num_1 = stack.pop()
+                res = int(num_1 / num_2)
+                stack.append(res)
+            
+            else:
+                stack.append(int(t))
 
         return stack[-1]
