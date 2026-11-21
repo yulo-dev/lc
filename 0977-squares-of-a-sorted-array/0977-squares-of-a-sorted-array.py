@@ -1,14 +1,20 @@
 class Solution:
     def sortedSquares(self, nums: list[int]) -> list[int]:
         
-        heap = []
+        left = 0
+        right = len(nums) - 1
 
-        for n in nums:
-            heapq.heappush(heap, n * n)
+        res = [0] * len(nums)
+        pos = len(nums) -1
 
-        res = []
-        while heap:
-            val = heapq.heappop(heap)
-            res.append(val)
+        while left <= right:
+            if abs(nums[left]) > abs(nums[right]):
+                res[pos] = nums[left] * nums[left]
+                left += 1
+            else:
+                res[pos] = nums[right] * nums[right]
+                right -= 1
+
+            pos -= 1
 
         return res
