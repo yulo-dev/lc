@@ -18,6 +18,8 @@ class Solution:
         while heap:
             curr_dist, node = heapq.heappop(heap)
 
+            #best_dist 已經更新，但 Heap 裡可能還留著舊資料。
+            #Lazy Deletion（延遲刪除）
             if curr_dist > best_dict[node]:
                 continue
 
