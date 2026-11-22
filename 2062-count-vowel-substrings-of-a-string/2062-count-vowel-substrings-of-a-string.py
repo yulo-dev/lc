@@ -4,13 +4,9 @@ class Solution:
         vowels = set("aeiou")
         res = 0
 
-        for i in range(len(word)-1):
+        for i in range(len(word)):
             vowels_appear = set()
-
-            left = i
-            right = i 
-
-            while right < len(word):
+            for right in range(i, len(word)):
                 if word[right] not in vowels:
                     break
 
@@ -18,7 +14,5 @@ class Solution:
                 
                 if len(vowels_appear) == 5:
                     res +=1
-
-                right += 1
-
+                    
         return res
