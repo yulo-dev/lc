@@ -345,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1396-design-underground-system](https://github.com/yulo-dev/lc/tree/master/1396-design-underground-system) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/yulo-dev/lc/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/yulo-dev/lc/tree/master/1960-check-if-the-sentence-is-pangram) |
+| [2062-count-vowel-substrings-of-a-string](https://github.com/yulo-dev/lc/tree/master/2062-count-vowel-substrings-of-a-string) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/yulo-dev/lc/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3484-design-spreadsheet](https://github.com/yulo-dev/lc/tree/master/3484-design-spreadsheet) |
 ## String
@@ -412,6 +413,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1768-merge-strings-alternately](https://github.com/yulo-dev/lc/tree/master/1768-merge-strings-alternately) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/yulo-dev/lc/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/yulo-dev/lc/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
+| [2062-count-vowel-substrings-of-a-string](https://github.com/yulo-dev/lc/tree/master/2062-count-vowel-substrings-of-a-string) |
 | [2337-move-pieces-to-obtain-a-string](https://github.com/yulo-dev/lc/tree/master/2337-move-pieces-to-obtain-a-string) |
 | [3484-design-spreadsheet](https://github.com/yulo-dev/lc/tree/master/3484-design-spreadsheet) |
 ## Linked List
