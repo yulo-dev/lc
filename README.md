@@ -551,6 +551,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0191-number-of-1-bits](https://github.com/yulo-dev/lc/tree/master/0191-number-of-1-bits) |
 | [0222-count-complete-tree-nodes](https://github.com/yulo-dev/lc/tree/master/0222-count-complete-tree-nodes) |
 | [0287-find-the-duplicate-number](https://github.com/yulo-dev/lc/tree/master/0287-find-the-duplicate-number) |
+| [0338-counting-bits](https://github.com/yulo-dev/lc/tree/master/0338-counting-bits) |
 | [0389-find-the-difference](https://github.com/yulo-dev/lc/tree/master/0389-find-the-difference) |
 | [0645-set-mismatch](https://github.com/yulo-dev/lc/tree/master/0645-set-mismatch) |
 ## Two Pointers
@@ -677,6 +678,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/yulo-dev/lc/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0139-word-break](https://github.com/yulo-dev/lc/tree/master/0139-word-break) |
 | [0264-ugly-number-ii](https://github.com/yulo-dev/lc/tree/master/0264-ugly-number-ii) |
+| [0338-counting-bits](https://github.com/yulo-dev/lc/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/yulo-dev/lc/tree/master/0392-is-subsequence) |
 | [0435-non-overlapping-intervals](https://github.com/yulo-dev/lc/tree/master/0435-non-overlapping-intervals) |
 | [0542-01-matrix](https://github.com/yulo-dev/lc/tree/master/0542-01-matrix) |
