@@ -131,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1480-running-sum-of-1d-array](https://github.com/yulo-dev/lc/tree/master/1480-running-sum-of-1d-array) |
 | [1502-can-make-arithmetic-progression-from-sequence](https://github.com/yulo-dev/lc/tree/master/1502-can-make-arithmetic-progression-from-sequence) |
 | [1514-minimum-value-to-get-positive-step-by-step-sum](https://github.com/yulo-dev/lc/tree/master/1514-minimum-value-to-get-positive-step-by-step-sum) |
+| [1514-path-with-maximum-probability](https://github.com/yulo-dev/lc/tree/master/1514-path-with-maximum-probability) |
 | [1631-path-with-minimum-effort](https://github.com/yulo-dev/lc/tree/master/1631-path-with-minimum-effort) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/yulo-dev/lc/tree/master/1648-sell-diminishing-valued-colored-balls) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/yulo-dev/lc/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
@@ -1021,6 +1022,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/yulo-dev/lc/tree/master/0399-evaluate-division) |
 | [0743-network-delay-time](https://github.com/yulo-dev/lc/tree/master/0743-network-delay-time) |
 | [0841-keys-and-rooms](https://github.com/yulo-dev/lc/tree/master/0841-keys-and-rooms) |
+| [1514-path-with-maximum-probability](https://github.com/yulo-dev/lc/tree/master/1514-path-with-maximum-probability) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/yulo-dev/lc/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/yulo-dev/lc/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Topological Sort
@@ -1052,6 +1054,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0912-sort-an-array](https://github.com/yulo-dev/lc/tree/master/0912-sort-an-array) |
 | [0973-k-closest-points-to-origin](https://github.com/yulo-dev/lc/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/yulo-dev/lc/tree/master/1046-last-stone-weight) |
+| [1514-path-with-maximum-probability](https://github.com/yulo-dev/lc/tree/master/1514-path-with-maximum-probability) |
 | [1631-path-with-minimum-effort](https://github.com/yulo-dev/lc/tree/master/1631-path-with-minimum-effort) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/yulo-dev/lc/tree/master/1648-sell-diminishing-valued-colored-balls) |
 | [1851-minimum-interval-to-include-each-query](https://github.com/yulo-dev/lc/tree/master/1851-minimum-interval-to-include-each-query) |
@@ -1129,6 +1132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0399-evaluate-division](https://github.com/yulo-dev/lc/tree/master/0399-evaluate-division) |
 | [0743-network-delay-time](https://github.com/yulo-dev/lc/tree/master/0743-network-delay-time) |
+| [1514-path-with-maximum-probability](https://github.com/yulo-dev/lc/tree/master/1514-path-with-maximum-probability) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/yulo-dev/lc/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Quicksort
 |  |
@@ -1192,6 +1196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/yulo-dev/lc/tree/master/0743-network-delay-time) |
+| [1514-path-with-maximum-probability](https://github.com/yulo-dev/lc/tree/master/1514-path-with-maximum-probability) |
 | [1631-path-with-minimum-effort](https://github.com/yulo-dev/lc/tree/master/1631-path-with-minimum-effort) |
 ## Radix Sort
 |  |
