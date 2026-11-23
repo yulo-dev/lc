@@ -11,10 +11,11 @@ class Solution:
         time = 0
         while queue:
             idx, val = queue.popleft()
+            val -= 1
             time += 1
-
-            if idx == k and val-1 == 0:
+            
+            if idx == k and val == 0:
                 return time
 
-            if val-1 > 0:
-                queue.append((idx, val - 1))
+            if val > 0:
+                queue.append((idx, val))
