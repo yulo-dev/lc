@@ -11,8 +11,7 @@ class Solution:
             graph[start].append((nei, weight))
             graph[nei].append((start, weight))
 
-        max_path = {}
-        max_path[start_node] = 1
+        max_path = {start_node:1}
 
         import heapq
         heap = [(-1, start_node)]
