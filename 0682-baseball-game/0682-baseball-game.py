@@ -1,26 +1,23 @@
 class Solution:
     def calPoints(self, operations: list[str]) -> int:
         
-        stack = []
+        score = []
 
         for op in operations:
             if op == "+":
                 tot = 0
-                num1 = int(stack[-1]) if stack else 0
-                num2 = int(stack[-2]) if stack else 0
-                tot = num1 + num2
-                stack.append(tot)
+                tot = score[-1]  + score[-2] 
+                score.append(tot)
             elif op == "C":
-                stack.pop() 
+                del score[-1] 
             elif op == "D":
-                num = int(stack[-1]) * 2
-                stack.append(num)
+                num = score[-1] * 2
+                score.append(num)
             else:
-                stack.append(int(op))
+                score.append(int(op))
 
         res = 0
-        while stack:
-            num = stack.pop()
-            res += num
+        for s in score:
+            res += s
 
         return res
