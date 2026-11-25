@@ -16,13 +16,21 @@ class Solution:
         if root is None:
             return 0
 
+        print("Enter:", root.val)
+
         left_depth = self.maxDepth(root.left)
         right_depth = self.maxDepth(root.right)
 
+        print("calculate:", root.val)
+
+        # 1.計算經過目前 Node 的 Diameter
         curr_diameter = left_depth + right_depth
 
-        #因为要在 maxDepth 的后序位置操作外部变量，题目最终要的答案是那个外部变量，而不是 maxDepth 的返回值。
-        #所以这种情况下只能新建一个函数。如果题目要的答案恰好是你函数的返回值，那么你才可以直接用原函数递归
+        # 2. 更新整棵 Tree 目前找到的最大 Diameter
+        #The diameter doesn't necessarily pass through the root, 
+        #so I need to consider every node as a potential turning point of the longest path.
         self.maxDiameter = max(self.maxDiameter, curr_diameter)
 
         return 1 + max(left_depth, right_depth)
+
+      
