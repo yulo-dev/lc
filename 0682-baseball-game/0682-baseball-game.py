@@ -10,6 +10,7 @@ class Solution:
                 score.append(tot)
             elif op == "C":
                 del score[-1] 
+                #score.pop() 也可
             elif op == "D":
                 num = score[-1] * 2
                 score.append(num)
