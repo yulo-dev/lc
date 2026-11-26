@@ -1,5 +1,4 @@
 class ListNode:
-
     def __init__(self, key = None, val = None):
         self.key = key
         self.val = val
@@ -10,50 +9,54 @@ class LRUCache:
 
     def __init__(self, capacity: int):
         self.cap = capacity
-        self.map = {} #key:node
+        self.mapping = {}
         self.head = ListNode()
         self.tail = ListNode()
         self.head.next = self.tail
-        self.tail.prev = self.head
+        self.tail.prev = self.head 
 
     def _remove(self, node):
-        node.prev.next = node.next
         node.next.prev = node.prev
+        node.prev.next = node.next
 
     def _add(self, node):
-        nxt = self.head.next
-        self.head.next = node
+        node.next = self.head.next 
         node.prev = self.head
-        node.next = nxt
-        nxt.prev = node
+        self.head.next.prev = node
+        self.head.next = node
 
     def get(self, key: int) -> int:
-        if key in self.map:
-            node = self.map[key]
-            self._remove(node)
-            self._add(node)
-            return node.val
-        else:
+        if key not in self.mapping:
             return -1
+        
+        node = self.mapping[key]
+
+         # 1. 從原本位置移除 node：移除的話兩條線 兩個關係要寫
+        self._remove(node)
+
+        # 2. 插入 head 後面（MRU）: 插入的話四條線 四個關係都要寫
+        self._add(node)
+        
+        return node.val
 
     def put(self, key: int, value: int) -> None:
-        
-        if key in self.map:
-            node = self.map[key]
-            node.val = value
-            self._remove(node)
+        if key in self.mapping:
+            old_node = self.mapping[key] 
+            old_node.val = value
+            self._remove(old_node)
+            self._add(old_node)
+        else:
+            node = ListNode(key, value)
             self._add(node)
-            return
+            self.mapping[key] = node
 
-        new_node = ListNode(key, value)
-        self.map[key] = new_node
-        self._add(new_node)
+        if len(self.mapping) > self.cap:
+            extra_node = self.tail.prev
+            extra_key = extra_node.key
+            del self.mapping[extra_key]
 
-        if len(self.map) > self.cap:
-            lru = self.tail.prev
-            self._remove(lru)
-            del self.map[lru.key] 
-
+            self._remove(extra_node)
+        
 
 # Your LRUCache object will be instantiated and called as such:
 # obj = LRUCache(capacity)
