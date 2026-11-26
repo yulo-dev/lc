@@ -38,25 +38,25 @@ class LRUCache:
         self._add(node)
         
         return node.val
+        
 
     def put(self, key: int, value: int) -> None:
         if key in self.mapping:
-            old_node = self.mapping[key] 
-            old_node.val = value
-            self._remove(old_node)
-            self._add(old_node)
-        else:
-            node = ListNode(key, value)
+            node = self.mapping[key] 
+            node.val = value
+            self._remove(node)
             self._add(node)
-            self.mapping[key] = node
+        else:
+            new_node = ListNode(key, value)
+            self._add(new_node)
+            self.mapping[key] = new_node
 
         if len(self.mapping) > self.cap:
-            extra_node = self.tail.prev
-            extra_key = extra_node.key
-            del self.mapping[extra_key]
+            lru = self.tail.prev
+            self._remove(lru)
+            lru_key = lru.key
+            del self.mapping[lru_key]
 
-            self._remove(extra_node)
-        
 
 # Your LRUCache object will be instantiated and called as such:
 # obj = LRUCache(capacity)
