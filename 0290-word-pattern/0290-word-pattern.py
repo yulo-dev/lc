@@ -1,23 +1,22 @@
 class Solution:
     def wordPattern(self, pattern: str, s: str) -> bool:
-
-        words = s.split()
-        if len(pattern) != len(words):
+        
+        if len(pattern) != len(s.split()):
             return False
 
-        mapping = {}
+        p2ch = {}
+        ch2p = {}
 
-        visited = set()
+        for p, ch in zip(pattern, s.split()):
+            if p not in p2ch:
+                p2ch[p] = ch
+            if p2ch[p] != ch:
+                return False
 
-        for ch, word in zip(pattern, words):
-            if ch in mapping:
-                if mapping[ch] != word:
-                    return False
-            else:
-                if word in visited:
-                    return False
-                mapping[ch] = word
-                visited.add(word)
+            if ch not in ch2p:
+                ch2p[ch] = p
+            if ch2p[ch] != p:
+                return False
 
         return True
-            
+
