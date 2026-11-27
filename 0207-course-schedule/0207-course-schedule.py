@@ -3,18 +3,18 @@ class Solution:
         
         graph = [[] for _ in range(numCourses)]
         in_degree = [0] * numCourses
-
+        
         for course, prereq in prerequisites:
             graph[prereq].append(course)
             in_degree[course] += 1
 
         from collections import deque
-        queue = deque()
-        for i in range(numCourses):
+        queue = deque([])
+        for i in range(len(in_degree)):
             if in_degree[i] == 0:
                 queue.append(i)
 
-        cnt = 0 
+        cnt = 0
         while queue:
             course = queue.popleft()
             cnt += 1
