@@ -683,6 +683,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/yulo-dev/lc/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/yulo-dev/lc/tree/master/0055-jump-game) |
 | [0064-minimum-path-sum](https://github.com/yulo-dev/lc/tree/master/0064-minimum-path-sum) |
+| [0070-climbing-stairs](https://github.com/yulo-dev/lc/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/yulo-dev/lc/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/yulo-dev/lc/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/yulo-dev/lc/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -737,6 +738,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/yulo-dev/lc/tree/master/0050-powx-n) |
 | [0066-plus-one](https://github.com/yulo-dev/lc/tree/master/0066-plus-one) |
 | [0069-sqrtx](https://github.com/yulo-dev/lc/tree/master/0069-sqrtx) |
+| [0070-climbing-stairs](https://github.com/yulo-dev/lc/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/yulo-dev/lc/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/yulo-dev/lc/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/yulo-dev/lc/tree/master/0202-happy-number) |
@@ -1147,6 +1149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/yulo-dev/lc/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/yulo-dev/lc/tree/master/0139-word-break) |
 | [0509-fibonacci-number](https://github.com/yulo-dev/lc/tree/master/0509-fibonacci-number) |
 ## Enumeration
