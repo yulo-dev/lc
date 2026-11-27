@@ -1250,4 +1250,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0069-sqrtx](https://github.com/yulo-dev/lc/tree/master/0069-sqrtx) |
+## Range Minimum/Maximum Query
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/yulo-dev/lc/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
