@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/yulo-dev/lc/tree/master/0287-find-the-duplicate-number) |
 | [0289-game-of-life](https://github.com/yulo-dev/lc/tree/master/0289-game-of-life) |
 | [0303-range-sum-query-immutable](https://github.com/yulo-dev/lc/tree/master/0303-range-sum-query-immutable) |
+| [0322-coin-change](https://github.com/yulo-dev/lc/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/yulo-dev/lc/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/yulo-dev/lc/tree/master/0349-intersection-of-two-arrays) |
 | [0362-design-hit-counter](https://github.com/yulo-dev/lc/tree/master/0362-design-hit-counter) |
@@ -226,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/yulo-dev/lc/tree/master/0226-invert-binary-tree) |
 | [0286-walls-and-gates](https://github.com/yulo-dev/lc/tree/master/0286-walls-and-gates) |
 | [0310-minimum-height-trees](https://github.com/yulo-dev/lc/tree/master/0310-minimum-height-trees) |
+| [0322-coin-change](https://github.com/yulo-dev/lc/tree/master/0322-coin-change) |
 | [0399-evaluate-division](https://github.com/yulo-dev/lc/tree/master/0399-evaluate-division) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/yulo-dev/lc/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0542-01-matrix](https://github.com/yulo-dev/lc/tree/master/0542-01-matrix) |
@@ -686,6 +688,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/yulo-dev/lc/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0139-word-break](https://github.com/yulo-dev/lc/tree/master/0139-word-break) |
 | [0264-ugly-number-ii](https://github.com/yulo-dev/lc/tree/master/0264-ugly-number-ii) |
+| [0322-coin-change](https://github.com/yulo-dev/lc/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/yulo-dev/lc/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/yulo-dev/lc/tree/master/0392-is-subsequence) |
 | [0435-non-overlapping-intervals](https://github.com/yulo-dev/lc/tree/master/0435-non-overlapping-intervals) |
@@ -1258,4 +1261,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/yulo-dev/lc/tree/master/0239-sliding-window-maximum) |
+## Knapsack Problem
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/yulo-dev/lc/tree/master/0322-coin-change) |
+## Complete Knapsack
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/yulo-dev/lc/tree/master/0322-coin-change) |
 <!---LeetCode Topics End-->
