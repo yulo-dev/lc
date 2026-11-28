@@ -413,6 +413,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0752-open-the-lock](https://github.com/yulo-dev/lc/tree/master/0752-open-the-lock) |
 | [0767-reorganize-string](https://github.com/yulo-dev/lc/tree/master/0767-reorganize-string) |
 | [0777-swap-adjacent-in-lr-string](https://github.com/yulo-dev/lc/tree/master/0777-swap-adjacent-in-lr-string) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/yulo-dev/lc/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0981-time-based-key-value-store](https://github.com/yulo-dev/lc/tree/master/0981-time-based-key-value-store) |
 | [1006-vowel-spellchecker](https://github.com/yulo-dev/lc/tree/master/1006-vowel-spellchecker) |
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/yulo-dev/lc/tree/master/1209-remove-all-adjacent-duplicates-in-string-ii) |
@@ -800,6 +801,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/yulo-dev/lc/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/yulo-dev/lc/tree/master/0853-car-fleet) |
 | [0895-maximum-frequency-stack](https://github.com/yulo-dev/lc/tree/master/0895-maximum-frequency-stack) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/yulo-dev/lc/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/yulo-dev/lc/tree/master/1209-remove-all-adjacent-duplicates-in-string-ii) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/yulo-dev/lc/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## Monotonic Stack
@@ -962,6 +964,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/yulo-dev/lc/tree/master/0680-valid-palindrome-ii) |
 | [0767-reorganize-string](https://github.com/yulo-dev/lc/tree/master/0767-reorganize-string) |
 | [0881-boats-to-save-people](https://github.com/yulo-dev/lc/tree/master/0881-boats-to-save-people) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/yulo-dev/lc/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1382-balance-a-binary-search-tree](https://github.com/yulo-dev/lc/tree/master/1382-balance-a-binary-search-tree) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/yulo-dev/lc/tree/master/1648-sell-diminishing-valued-colored-balls) |
 | [1833-maximum-ice-cream-bars](https://github.com/yulo-dev/lc/tree/master/1833-maximum-ice-cream-bars) |
@@ -1197,6 +1200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/yulo-dev/lc/tree/master/0020-valid-parentheses) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/yulo-dev/lc/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/yulo-dev/lc/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## Directed Acyclic Graph
 |  |
