@@ -1,23 +1,18 @@
 class Solution:
-    def maxSubArray(self, nums: List[int]) -> int:
-        #模板一
-        best = nums[0]
-        curr = nums[0]
+    def maxSubArray(self, nums: list[int]) -> int:
+
+        if not nums:
+            return 0
+        
+        if len(nums) == 1:
+            return nums[0]
+        
+        dp = [float("-inf")] * len(nums)
+        dp[0] = nums[0]
+        res = dp[0]
 
         for i in range(1, len(nums)):
-            curr = max(nums[i], curr + nums[i])
-            best = max(best, curr)
+            dp[i] = max(dp[i-1] + nums[i], nums[i]) #要用當前的當作subarray開始 or 延續前面的subarray
+            res = max(res, dp[i])
 
-        return best
-
-        #模板二
-        #best = float("-inf")
-        #curr = 0
-
-        #for x in nums:
-        #    if curr < 0:
-        #        curr = 0
-        #    curr += x
-        #    best = max(best, curr)
-
-        #return best
+        return res
